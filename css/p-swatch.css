@@ -1,0 +1,137 @@
+body{
+	background-color: #ddd;
+}
+.pantone,
+.hex,
+.cmyk{
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.cmyk{
+  opacity: 0.4;
+
+}
+
+
+.swatch{
+	display: flex;
+/*	flex-grow: 1;*/
+/*	width: 700px;*/
+	margin: auto;
+}
+
+.pantone,
+.hex,
+.cmyk{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.ink{
+	width: 60px; 
+	height: 60px;
+	border-radius: 50%;
+	margin-left: -2px;
+}
+
+.colour{
+/*	margin-left: 10px;*/
+/*	outline: 1px solid red;*/
+}
+
+.colour + .colour{
+	margin-left: 10px;
+/*	outline: 1px solid red;*/
+}
+
+
+.main{
+	margin: auto;
+/*	text-align: center;*/
+}
+
+
+.hex-2C2A29
+{
+	background-color: #2C2A29;
+}
+.hex-000000
+{
+	background-color: #000000;
+}
+
+.hex-FFFFFF
+{
+	background-color: #FFFFFF;
+}
+.hex-394A86
+{
+	background-color: #394A86;
+}
+.hex-FFF5E5
+{
+	background-color: #FFF5E5;
+}
+.hex-B4D8E9
+{
+	background-color: #B4D8E9;
+}
+.hex-D5DDE6
+{
+	background-color: #D5DDE6;
+}
+.hex-F9C196
+{
+	background-color: #F9C196;
+}
+.hex-84BC9C
+{
+	background-color: #84BC9C;
+}
+.hex-7bffaa
+{
+	background-color: #7bffaa;
+}
+
+
+
+
+.hex-f0e8db{
+	background-color: #f0e8db;	
+}
+.hex-0d0d0d{
+	background-color: #0d0d0d;	
+}
+.hex-996619{
+	background-color: #996619;	
+}
+.hex-632930{
+	background-color: #632930;	
+}
+.hex-3f5828{
+	background-color: #3f5828;	
+}
+
+
+
+.hex-9eaaad{
+	background-color: #9eaaad;
+}
+.hex-cfd5d6{
+	background-color: #cfd5d6;
+}
+.hex-506031{
+	background-color: #506031;
+}
+.hex-d9e021{
+	background-color: #d9e021;
+}
+.hex-fcee21{
+	background-color: #fcee21;
+}

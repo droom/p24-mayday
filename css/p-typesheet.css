@@ -1,0 +1,23 @@
+body{
+    margin-top: 100px;
+}
+.typesheet{
+  font-family: sans, "Roboto Mono", monospace;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  opacity: 0.8;
+  width: 700px;
+  margin: auto;
+     border-width: 0;
+     border-spacing: 0;
+     white-space: normal;
+}
+
+
+.typesheet tr th{
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
