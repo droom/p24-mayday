@@ -5790,23 +5790,21 @@ cite{
 }
 
 
-body.index dl.credits dt {
+/*body.index dl.credits dt {
   display: inline-block;
   min-width: 45px;
+}*/
+/*body.index li dl dt.project:after{
+	content: counter(projects, decimal-leading-zero)
 }
-
+*/
 
 body.index ul.menu{
 	counter-reset: projects
 }
 
-
 body.index li dl dt.project:after{
 	counter-increment: projects
-}
-
-body.index li dl dt.project:after{
-	content: counter(projects, decimal-leading-zero)
 }
 
 
