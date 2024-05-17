@@ -818,13 +818,18 @@ body.iso main table {
 }
 
 body.iso main .segment+h3 {
-	margin-top: 56px
+	margin-top: 56px;
 }
 
 body.iso main .segment.surface,
 body.iso main .segment.blueprint {
 	margin-top: 28px;
-	margin-bottom: 56px
+/*	margin-bottom: 56px;*/
+}
+
+.band.pager{
+/*	margin-top: 28px;*/
+	margin-top: 56px
 }
 
 body.iso main .segment.blueprint.pad {
