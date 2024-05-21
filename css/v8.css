@@ -5603,21 +5603,6 @@ body.index header h1 {
 
 
 
-/* overrrides */
-
-#top nav .flex li.unit:nth-child(1){
-	flex-basis: content;
-}
-#top nav .flex li.unit:nth-child(2){
-	flex-basis: content;
-}
-
-
-nav .segment.type {
-  padding-top: 28px;
-  padding-bottom: 28px;
-}
-
 
 
 
@@ -5648,7 +5633,6 @@ nav .segment.type {
 		background: url("../img/cover/gr/600.jpg") 12% 72% repeat-x rgba(0, 0, 0, 0.05)
 	}
 }
-
 
 
 /* ih */
@@ -5745,15 +5729,6 @@ nav .segment.type {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* snck */
 .cover-photo.snck {
 	background: url("../img/cover/snck/1800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
@@ -5776,6 +5751,22 @@ nav .segment.type {
 	background: url("../img/cover/lm/1800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
 }
 
+
+
+/* overrrides */
+
+#top nav .flex li.unit:nth-child(1){
+	flex-basis: content;
+}
+#top nav .flex li.unit:nth-child(2){
+	flex-basis: content;
+}
+
+
+nav .segment.type {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
 
 
 header h3.intro{
@@ -5813,8 +5804,6 @@ dd.contact a{
 
 
 body.index ul.menu li dl{
-/*  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-/*  font-size: .8rem;*/
   line-height: 1.15rem !!important;;
 }
 
@@ -5831,14 +5820,12 @@ cite{
 }
 
 
-/*body.index dl.credits dt {
-  display: inline-block;
-  min-width: 45px;
-}*/
-/*body.index li dl dt.project:after{
-	content: counter(projects, decimal-leading-zero)
+ul.skills{
+/*	margin-top: 28px;*/
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
-*/
+
 
 body.index ul.menu{
 	counter-reset: projects
