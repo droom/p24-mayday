@@ -5600,6 +5600,43 @@ body.index header h1 {
 }
 
 
+/* about */
+.cover-photo.about {
+	background: url("../img/cover/about/1600.jpg") 50% 50% repeat-x #e7e7e7
+}
+@media (max-width: 1600px) {
+	.cover-photo.about {
+		background: url("../img/cover/about/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.about {
+		background: url("../img/cover/about/1400.jpg") 50% 30% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.about {
+		background: url("../img/cover/about/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.about {
+		background: url("../img/cover/about/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.about {
+		background: url("../img/cover/about/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.about {
+		background: url("../img/cover/about/600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+
 /* gr */
 .cover-photo.gr {
 	background: url("../img/cover/gr/1600.jpg") 50% 70% repeat-x #e7e7e7
