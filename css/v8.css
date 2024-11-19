@@ -5991,9 +5991,7 @@ body.index ul.menu li dl{
 
 
 
-a.plain.cta{
-	margin-top: 28px;
-}
+
 
 cite{
 	display: block;
@@ -6034,7 +6032,6 @@ body.index li dl dt.project:after{
 	font-weight: 700;
 	font-size: 19px;
 	opacity:0.6;
-/*	background: yellow;*/
 	display: inline-block;
 }
 .menu dl.credits dt.date{
@@ -6091,19 +6088,37 @@ body.about .about{
 }
 
 
-body main p{
+body.about main p{
 	font-size: 1.15rem;
 	line-height: 1.55rem;
-/*	width: 570px;*/
-/*	margin: auto;*/
-/*	border-radius: 10px;*/
 }
 
 
 ul.menu li:active,
 ul.menu li:hover {
 background: rgb(124,203,150);
-background: linear-gradient(218deg, rgba(124,203,150,1) 0%, rgba(102,156,82,1) 100%); 
+  background: linear-gradient(45deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 
+
+}
+
+a.cta {
+  margin-bottom: 28px;
+border-radius: 8px;
+	transition: all 300ms ease;
+	font-weight: 600;
+    background: rgba(173,235,151,1) 100%;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+a.plain.cta{
+	margin-top: 28px;
+}
+
+a.cta:hover {
+    background: rgba(173,235,151,1) 100%;
 }
 
 h3.intro{
@@ -6120,3 +6135,7 @@ dl, dd, dt {
 body.about header h3.intro {
   padding-bottom: 20px;
 }  
+
+body.work.iso .band.head {
+  background: linear-gradient(90deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 
+}
