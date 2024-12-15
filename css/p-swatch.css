@@ -21,8 +21,6 @@ body{
 
 .swatch{
 	display: flex;
-/*	flex-grow: 1;*/
-/*	width: 700px;*/
 	margin: auto;
 }
 
@@ -40,20 +38,12 @@ body{
 	margin-left: -2px;
 }
 
-.colour{
-/*	margin-left: 10px;*/
-/*	outline: 1px solid red;*/
-}
-
 .colour + .colour{
 	margin-left: 10px;
-/*	outline: 1px solid red;*/
 }
-
 
 .main{
 	margin: auto;
-/*	text-align: center;*/
 }
 
 

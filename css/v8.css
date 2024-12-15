@@ -1,4 +1,10 @@
-﻿ul.menu li {
+﻿:root {
+  --greenDark: #80a491;
+  --blueBaby: #81d3eb;
+  --white: #ffffff;
+}
+
+ul.menu li {
 	transition: background ease-out 50ms;
 	border-top: 1px solid rgba(0, 0, 0, 0.14)
 }
@@ -6,6 +12,7 @@
 ul.menu li:active,
 ul.menu li:hover {
 	background-color: #81d3eb;
+	background: linear-gradient(45deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 
 }
 
 ul.menu li a.plain:focus>.segment.type.work,
@@ -2527,8 +2534,17 @@ ul.swatch.cotcc li.colour:nth-child(5) {
 
 
 
+ul.swatch.hivstory li.colour:nth-child(1) {
+	background: #5245FA;
+}
 
+ul.swatch.hivstory li.colour:nth-child(2) {
+	background: #E56BFD;
+}
 
+ul.swatch.hivstory li.colour:nth-child(3) {
+	background: #afa9fc;
+}
 
 
 
@@ -5973,7 +5989,10 @@ body.index header h1 {
 
 
 
-/* overrrides */
+
+/* v9 overrrides to be folded in */
+
+
 
 #top nav .flex li.unit:nth-child(1){
 	flex-basis: content;
@@ -6132,12 +6151,7 @@ body.about main p{
 }
 
 
-ul.menu li:active,
-ul.menu li:hover {
-background: rgb(124,203,150);
-  background: linear-gradient(45deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 
 
-}
 
 a.cta {
   margin-bottom: 28px;
@@ -6149,25 +6163,20 @@ border-radius: 8px;
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-
+a.cta:hover {
+    background: rgba(173,235,151,1) 100%;
+}
 
 a.plain.cta{
 	margin-top: 28px;
 }
 
-a.cta:hover {
-    background: rgba(173,235,151,1) 100%;
-}
 
 h3.intro{
  background: rgb(29,170,76);
 background: linear-gradient(18deg, rgba(29,170,76,1) 0%, rgba(255,117,127,1) 100%); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-dl, dd, dt {
-  vertical-align: unset;
 }
 
 body.about header h3.intro {
