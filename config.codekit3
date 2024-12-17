@@ -12123,6 +12123,14 @@
       "oAP" : "\/dist\/konami\/coin.wav",
       "oF" : 0
     },
+    "\/dist\/profile.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/profile.html",
+      "oF" : 0
+    },
     "\/dist\/prospect.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -12211,13 +12219,57 @@
       "oAP" : "\/dist\/work-rice.html",
       "oF" : 0
     },
-    "\/src\/about.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
+    "\/src\/bugs\/Screenshot 2024-12-17 at 00.57.15.png" : {
+      "ft" : 32768,
+      "iS" : 161716,
       "oA" : 0,
-      "oAP" : "\/dist\/about.html",
-      "oF" : 2
+      "oAP" : "\/src\/bugs\/Screenshot 2024-12-17 at 00.57.15.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/src\/bugs\/Screenshot 2024-12-17 at 01.02.40.png" : {
+      "ft" : 32768,
+      "iS" : 256824,
+      "oA" : 0,
+      "oAP" : "\/src\/bugs\/Screenshot 2024-12-17 at 01.02.40.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/src\/bugs\/Screenshot 2024-12-17 at 01.02.48.png" : {
+      "ft" : 32768,
+      "iS" : 246312,
+      "oA" : 0,
+      "oAP" : "\/src\/bugs\/Screenshot 2024-12-17 at 01.02.48.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/src\/bugs\/Screenshot 2024-12-17 at 01.02.53.png" : {
+      "ft" : 32768,
+      "iS" : 204069,
+      "oA" : 0,
+      "oAP" : "\/src\/bugs\/Screenshot 2024-12-17 at 01.02.53.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/src\/index.kit" : {
       "cB" : 0,
@@ -12227,45 +12279,87 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 2
     },
-    "\/src\/partials\/_cards.html" : {
+    "\/src\/partials\/_cards.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/src\/partials\/_cards.html",
       "oF" : 0
     },
-    "\/src\/partials\/_discovery.html" : {
+    "\/src\/partials\/_discovery.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/src\/partials\/_discovery.html",
       "oF" : 0
     },
-    "\/src\/partials\/_links.html" : {
+    "\/src\/partials\/_head.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_head.html",
+      "oF" : 0
+    },
+    "\/src\/partials\/_links.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
       "oAP" : "\/src\/partials\/_links.html",
       "oF" : 0
     },
-    "\/src\/partials\/_swatch.html" : {
+    "\/src\/partials\/_swatch.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/src\/partials\/_swatch.html",
       "oF" : 0
     },
-    "\/src\/partials\/_typesheet.html" : {
+    "\/src\/partials\/_typesheet.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/src\/partials\/_typesheet.html",
       "oF" : 0
+    },
+    "\/src\/profile.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/profile.html",
+      "oF" : 2
+    },
+    "\/src\/scss\/main.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/css\/main.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/src\/scss\/partials\/_covers.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_covers.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
     },
     "\/src\/scss\/partials\/_discovery.css" : {
       "aP" : 1,
@@ -12347,7 +12441,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dist\/css\/v8.css",
       "oF" : 2,
       "oS" : 0,

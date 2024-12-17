@@ -1,0 +1,344 @@
+/* cover */
+
+.cover-photo {
+	min-height: 350px
+}
+
+.cover-photo dl.credits {
+	opacity: .5
+}
+
+
+
+/* gr */
+.cover-photo.gr {
+	background: url("../img/cover/gr/1600.jpg") 50% 70% repeat-x #e7e7e7
+}
+@media (max-width: 1600px) {
+	.cover-photo.gr {
+		background: url("../img/cover/gr/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.gr {
+		background: url("../img/cover/gr/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.gr {
+		background: url("../img/cover/gr/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.gr {
+		background: url("../img/cover/gr/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.gr {
+		background: url("../img/cover/gr/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.gr {
+		background: url("../img/cover/gr/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+
+
+/* gatc */
+.cover-photo.gatc {
+	background: url("../img/cover/gatc/1600.png") 50% 40% repeat-x #e7e7e7
+}
+@media (max-width: 1600px) {
+	.cover-photo.gatc {
+		background: url("../img/cover/gatc/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.gatc {
+		background: url("../img/cover/gatc/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.gatc {
+		background: url("../img/cover/gatc/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.gatc {
+		background: url("../img/cover/gatc/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.gatc {
+		background: url("../img/cover/gatc/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.gatc {
+		background: url("../img/cover/gatc/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+
+
+/* gatc */
+.cover-photo.fo {
+	background: url("../img/cover/fo/1800.jpg") 50% 52% repeat-x rgba(0, 0, 0, 0.05)
+}
+
+@media (max-width: 1600px) {
+	.cover-photo.fo {
+		background: url("../img/cover/fo/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.fo {
+		background: url("../img/cover/fo/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.fo {
+		background: url("../img/cover/fo/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.fo {
+		background: url("../img/cover/fo/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.fo {
+		background: url("../img/cover/fo/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.fo {
+		background: url("../img/cover/fo/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+/* goget */
+.cover-photo.gg {
+	background: url("../img/cover/gg/1800.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05)
+}
+
+@media (max-width: 1600px) {
+	.cover-photo.gg {
+		background: url("../img/cover/gg/1600.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.gg {
+		background: url("../img/cover/gg/1400.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.gg {
+		background: url("../img/cover/gg/1200.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.gg {
+		background: url("../img/cover/gg/1000.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.gg {
+		background: url("../img/cover/gg/800.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.gg {
+		background: url("../img/cover/gg/600.jpg") 12% 10% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+/* protection approaches */
+.cover-photo.pa {
+	background: url("../img/cover/pa/1600.jpg") 100% 20% repeat-x rgba(0, 0, 0, 0.05)
+}
+
+@media (max-width: 1600px) {
+	.cover-photo.pa {
+		background: url("../img/cover/pa/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.pa {
+		background: url("../img/cover/pa/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.pa {
+		background: url("../img/cover/pa/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.pa {
+		background: url("../img/cover/pa/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.pa {
+		background: url("../img/cover/pa/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.pa {
+		background: url("../img/cover/pa/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+
+/* cotcc */
+.cover-photo.cotcc {
+	background: url("../img/cover/cotcc/1800.jpg") 50% 40% repeat-x rgba(0, 0, 0, 0.05)
+}
+
+@media (max-width: 1600px) {
+	.cover-photo.cotcc {
+		background: url("../img/cover/cotcc/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.cotcc {
+		background: url("../img/cover/cotcc/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.cotcc {
+		background: url("../img/cover/cotcc/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.cotcc {
+		background: url("../img/cover/cotcc/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.cotcc {
+		background: url("../img/cover/cotcc/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.cotcc {
+		background: url("../img/cover/cotcc/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+/* ih */
+.cover-photo.ih {
+	background: url("../img/cover/ih/1800.jpg") 50% 10% repeat-x #e7e7e7
+}
+@media (max-width: 1600px) {
+	.cover-photo.ih {
+		background: url("../img/cover/ih/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.ih {
+		background: url("../img/cover/ih/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.ih {
+		background: url("../img/cover/ih/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.ih {
+		background: url("../img/cover/ih/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.ih {
+		background: url("../img/cover/ih/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.ih {
+		background: url("../img/cover/ih/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+/* idu */
+.cover-photo.idu {
+	background: url("../img/cover/idu/1800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+}
+@media (max-width: 1600px) {
+	.cover-photo.idu {
+		background: url("../img/cover/idu/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.idu {
+		background: url("../img/cover/idu/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.idu {
+		background: url("../img/cover/idu/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.idu {
+		background: url("../img/cover/idu/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.idu {
+		background: url("../img/cover/idu/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.idu {
+		background: url("../img/cover/idu/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+
+
+
+/* hivstory */
+.cover-photo.hivstory {
+	background: url("../img/cover/hivstory/1800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+}
+@media (max-width: 1600px) {
+	.cover-photo.hivstory {
+		background: url("../img/cover/hivstory/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1400px) {
+	.cover-photo.hivstory {
+		background: url("../img/cover/hivstory/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1200px) {
+	.cover-photo.hivstory {
+		background: url("../img/cover/hivstory/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 1000px) {
+	.cover-photo.hivstory {
+		background: url("../img/cover/hivstory/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 800px) {
+	.cover-photo.hivstory {
+		background: url("../img/cover/hivstory/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
+@media (max-width: 600px) {
+	.cover-photo.hivstory {
+		background: url("../img/cover/hivstory/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05)
+	}
+}
