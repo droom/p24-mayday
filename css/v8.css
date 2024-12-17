@@ -69,223 +69,9 @@ ul.menu li.disable:hover {
 	}
 }
 
-ul.menu.tile {
-	display: flex;
-	flex-wrap: wrap;
-	border-top: 1px solid rgba(0, 0, 0, 0.14)
-}
-
-ul.menu.tile li {
-	flex-basis: calc(100%/3);
-	max-width: calc(100%/3);
-	align-self: flex-start;
-	flex-grow: 1;
-	border-left: 1px solid rgba(0, 0, 0, 0.14);
-	border-top: 1px solid rgba(0, 0, 0, 0.14)
-}
-
-ul.menu.tile li:nth-child(3n+1) {
-	border-left: none
-}
-
-ul.menu.tile li:nth-child(1),
-ul.menu.tile li:nth-child(2),
-ul.menu.tile li:nth-child(3) {
-	border-top: none
-}
-
-ul.menu.tile li a.plain:hover>.segment.type.work dl.credits {
-	background: #fff
-}
-
-ul.menu.tile li a.plain:focus>.segment.type.work,
-ul.menu.tile li a.plain:hover>.segment.type.work {
-	background-position: 50% 50%;
-	background-size: cover
-}
-
-ul.menu.tile li a.plain:focus>.segment.type.work dl.credits,
-ul.menu.tile li a.plain:hover>.segment.type.work dl.credits {
-	opacity: 1
-}
-
-ul.menu.tile li a.plain .segment.work {
-	min-height: 300px;
-	background: none;
-	background-position: 50% 50%;
-	background-size: cover;
-	position: relative
-}
-
-
-ul.menu.tile li .segment.work {
-	min-height: 300px;
-	background: none;
-	background-position: 50% 50%;
-	position: relative
-}
 
 
 
-ul.menu.tile li a.plain .segment.work.ih {
-	background-image: url("../img/cover/ih-cover-600.jpg")
-}
-
-ul.menu.tile li a.plain .segment.work.gg {
-	background-image: url("../img/cover/gg-cover-600.jpg")
-}
-
-ul.menu.tile li a.plain .segment.work.gr {
-	background-image: url("../img/cover/gr-cover-600.jpg")
-}
-
-ul.menu.tile li a.plain .segment.work.fo {
-	background-image: url("../img/cover/fo-cover-600.jpg")
-}
-
-ul.menu.tile li .segment.work.ih {
-	background-image: url("../img/cover/ih-cover-600.jpg")
-}
-
-ul.menu.tile li .segment.work.gg {
-	background-image: url("../img/cover/gg-cover-600.jpg")
-}
-
-ul.menu.tile li .segment.work.gr {
-	background-image: url("../img/cover/gr-cover-600.jpg")
-}
-
-ul.menu.tile li .segment.work.fo {
-	background-image: url("../img/cover/fo-cover-600.jpg")
-}
-
-ul.menu.tile li .segment.work.blank {
-	background-image: url("../img/cover/blank.svg");
-	background-size: 100%;
-	background-position: 0 0;
-	background-opacity: .7;
-	position: relative
-}
-
-ul.menu.tile li .segment.work dl.credits {
-	background: #f1f1f1;
-	padding: 10px;
-	position: absolute;
-	bottom: 0;
-	margin: 0 0 26px 0;
-	transition: 200ms ease background
-}
-
-@media (min-width: 1118px) {
-	ul.menu.tile li {
-		flex-basis: calc(100%/4);
-		max-width: calc(100%/4);
-		align-self: flex-start;
-		flex-grow: 1;
-		border-left: 1px solid rgba(0, 0, 0, 0.14);
-		border-top: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(1),
-	ul.menu.tile li:nth-child(2),
-	ul.menu.tile li:nth-child(3),
-	ul.menu.tile li:nth-child(4) {
-		border-top: none
-	}
-
-	ul.menu.tile li:nth-child(1n+1) {
-		border-left: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(2n+1) {
-		border-left: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(3n+1) {
-		border-left: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(4n+1) {
-		border-left: none
-	}
-
-	ul.menu.tile li.disable {
-		display: none
-	}
-}
-
-@media (max-width: 800px) {
-	ul.menu.tile li {
-		flex-basis: calc(100%/2);
-		max-width: calc(100%/2);
-		align-self: flex-start;
-		flex-grow: 1
-	}
-
-	ul.menu.tile li:nth-child(1),
-	ul.menu.tile li:nth-child(2) {
-		border-top: none
-	}
-
-	ul.menu.tile li:nth-child(3),
-	ul.menu.tile li:nth-child(4) {
-		border-top: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(2),
-	ul.menu.tile li:nth-child(4) {
-		border-left: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(1),
-	ul.menu.tile li:nth-child(3) {
-		border-left: none
-	}
-
-	ul.menu.tile li.disable {
-		display: none
-	}
-
-	ul.menu.tile li a.plain .segment.work dl.credits {
-		margin: 0 0 26px -10px
-	}
-}
-
-@media (max-width: 500px) {
-	ul.menu.tile li {
-		flex-basis: 100%;
-		max-width: 100%;
-		align-self: flex-start;
-		flex-grow: 1
-	}
-
-	ul.menu.tile li:nth-child(1) {
-		border-top: none
-	}
-
-	ul.menu.tile li:nth-child(2),
-	ul.menu.tile li:nth-child(3),
-	ul.menu.tile li:nth-child(4) {
-		border-top: 1px solid rgba(0, 0, 0, 0.14)
-	}
-
-	ul.menu.tile li:nth-child(1),
-	ul.menu.tile li:nth-child(2),
-	ul.menu.tile li:nth-child(3),
-	ul.menu.tile li:nth-child(4) {
-		border-left: none
-	}
-
-	ul.menu.tile li.disable {
-		display: none
-	}
-
-	ul.menu.tile li a.plain .segment.work dl.credits {
-		max-width: 200px;
-		margin: 0 0 26px -15px;
-		padding: inherit
-	}
-}
 
 a.menu-btn-img {
 	transition: 100ms ease-out all;
@@ -791,7 +577,9 @@ ol.ref {
 	}
 }
 
-body.iso main p {
+body.iso main p,
+body.about main p 
+ {
 	margin-top: 28px;
 	margin-bottom: 28px
 }
@@ -1035,15 +823,22 @@ dl,
 dd,
 dt,
 label,
-figcaption,
 small,
 label,
 sup,
 cite {
 	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
-	line-height: 1.28rem
+	line-height: 1.28rem;
 }
+
+figcaption
+ {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.1rem;
+}
+
 
 @media (max-width: 500px) {
 	ul.menu li dl.credits dd.project {
@@ -6113,6 +5908,15 @@ body.index li dl dt.project:after{
 }
 
 
+.segment.surface.split{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+
+
 body.index ul.menu .segment p{
 	padding: 0;
 	margin-left: 74px;
@@ -6134,23 +5938,15 @@ ul.menu li:hover .index-tiles img{
 
 body.about figure{
 	width: 100%;
-	width: 550px;
+	width: 650px;
 	margin: 50px auto 70px;
 
 }
-body.about .about{
-	width: 550px;
+body.about figure img.about{
+	width: 100%
 	margin: auto;
 	border-radius: 10px;
 }
-
-
-body.about main p{
-	font-size: 1.15rem;
-	line-height: 1.55rem;
-}
-
-
 
 
 a.cta {
@@ -6171,12 +5967,11 @@ a.plain.cta{
 	margin-top: 28px;
 }
 
-
 h3.intro{
  background: rgb(29,170,76);
-background: linear-gradient(18deg, rgba(29,170,76,1) 0%, rgba(255,117,127,1) 100%); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ background: linear-gradient(66deg, rgb(89, 166, 106) 0%, rgb(133, 209, 178) 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 
 body.about header h3.intro {
