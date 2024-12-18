@@ -1,0 +1,265 @@
+
+
+// KONAMI
+
+html.cssanimations .flash {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 1s;
+	animation-name: flash-out;
+	pointer-events: none;
+	z-index: 99999999
+}
+
+@keyframes flash-out {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-webkit-keyframes flash-out {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-moz-keyframes flash-out {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-o-keyframes flash-out {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes flash-out {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+html.konami div {
+	outline: 1px solid #2e4dd2
+}
+
+html.konami .inline,
+html.konami .inline.dark {
+	background: none;
+	border: none;
+	text-decoration: underline
+}
+
+html.konami .hand {
+	outline: none
+}
+
+html.konami .hand svg {
+	outline: none
+}
+
+html.konami body,
+html.konami .band.head {
+	background: repeat #fff url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSIjRjZGNkY2IiBkPSJNMCAwaDh2OEgwek04IDhoOHY4SDh6Ii8+PC9zdmc+")
+}
+
+html.konami body #top,
+html.konami .band.head #top {
+	background: none
+}
+
+html.konami .band.ref {
+	background: none
+}
+
+html.konami body {
+	color: #2e4dd2
+}
+
+html.konami body .plain.cta {
+	outline: 2px solid #2e4dd2;
+	background-color: rgba(255, 255, 0, 0.15);
+	color: #2e4dd2
+}
+
+html.konami body .plain.cta:hover {
+	background-color: rgba(255, 255, 0, 0.45)
+}
+
+html.konami body a.menu-btn-img {
+	opacity: 1
+}
+
+html.konami body a.menu-btn-img:hover {
+	opacity: 1
+}
+
+html.konami body a.menu-btn-img .unit {
+	outline: none
+}
+
+html.konami body a.menu-btn-img .unit .tile svg,
+html.konami body a.menu-btn-img .unit .list svg {
+	fill: #2e4dd2
+}
+
+html.konami body .dark dt,
+html.konami body .dark dd,
+html.konami body .dark p,
+html.konami body .dark a,
+html.konami body .dark small,
+html.konami body .dark h1,
+html.konami body .dark h2,
+html.konami body .dark h3,
+html.konami body .dark h4 {
+	color: #2e4dd2
+}
+
+html.konami body table.issues {
+	color: #2e4dd2
+}
+
+html.konami body table.issues td,
+html.konami body table.issues th {
+	border-color: #2e4dd2
+}
+
+html.konami body .segment.blueprint {
+	background: none
+}
+
+html.konami body .ih.reflow.before div,
+html.konami body .ih.reflow.before .cell.nav,
+html.konami body .ih.reflow.before .cell.colour,
+html.konami body .ih.reflow.before .cell.stock,
+html.konami body .ih.reflow.before .cell.cycle,
+html.konami body .ih.reflow.before .cell.image,
+html.konami body .ih.reflow.before .cell.stats,
+html.konami body .ih.reflow.before .region,
+html.konami body .ih.reflow.before .tab,
+html.konami body .ih.reflow.before .region,
+html.konami body .ih.reflow.after div,
+html.konami body .ih.reflow.after .cell.nav,
+html.konami body .ih.reflow.after .cell.colour,
+html.konami body .ih.reflow.after .cell.stock,
+html.konami body .ih.reflow.after .cell.cycle,
+html.konami body .ih.reflow.after .cell.image,
+html.konami body .ih.reflow.after .cell.stats,
+html.konami body .ih.reflow.after .region,
+html.konami body .ih.reflow.after .tab,
+html.konami body .ih.reflow.after .region {
+	outline: 0
+}
+
+html.konami body .gg.sitemap .row,
+html.konami body .gg.sitemap .row .unit {
+	outline: none
+}
+
+html.konami body .gg.sitemap .row .unit.joiner .inner,
+html.konami body .segment.type.relative.mast {
+	background: repeat #fff url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSIjRjZGNkY2IiBkPSJNMCAwaDh2OEgwek04IDhoOHY4SDh6Ii8+PC9zdmc+")
+}
+
+html.konami body .pager a:nth-child(1) {
+	border-right: 1px dotted #2e4dd2
+}
+
+html.konami body a,
+html.konami body .accent {
+	color: #2e4dd2;
+	border-bottom-color: #2e4dd2
+}
+
+html.konami body a.inline {
+	border: none;
+	background: none;
+	text-decoration: underline
+}
+
+html.konami body a.plain.view.btn,
+html.konami body a.plain.view.btn .unit,
+html.konami body a.plain.view.btn .unit .row,
+html.konami body a.plain.view.btn .unit .row .cell {
+	outline: none
+}
+
+html.konami body a.plain.view.btn .unit .row .cell {
+	border: solid 1px #fff;
+	background: #2e4dd2
+}
+
+html.konami body .jacket {
+	background: none
+}
+
+html.konami body ::selection,
+html.konami body pre ::selection {
+	background-color: rgba(255, 255, 0, 0.3)
+}
+
+html.konami body a.move.move-return:hover,
+html.konami body a.move.move-left:hover,
+html.konami body a.move.move-right:hover {
+	background-color: rgba(255, 255, 0, 0.15)
+}
+
+html.konami body .band.hr.relative.pager .segment.type a:hover {
+	background-color: rgba(255, 255, 0, 0.15)
+}
+
+html.konami body ul.menu.tile li .segment.work.blank {
+	background-image: url("../img/cover/blank-konami.svg")
+}
+
+html.konami body ul.menu li.disable:active,
+html.konami body ul.menu li.disable:hover {
+	background: none
+}
+
+html.konami body ul.menu li {
+	border-top: 1px solid #2e4dd2
+}
+
+html.konami body ul.menu li:active,
+html.konami body ul.menu li:hover {
+	background-color: rgba(255, 255, 0, 0.15)
+}
+
+html.konami body ul.menu li:first-child {
+	border-top: none
+}
+
+html.konami body ul.menu li a.plain .segment.work {
+	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjBweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSIwIDAgNjAgNTYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYwIDU2IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMyRjRFRDIiIGQ9Ik02MCwyOC4xMTRMMjkuMDksNTZsLTAuMDYxLTAuMDc0bC0wLjAzMSwwLjAyOWwtMS40NTUtMS43ODlsLTIuMjU2LTIuNjc2bDAuMDQxLTAuMDM5bC0wLjA0MS0wLjA1OA0KCWwyMy4wNzItMjAuNDJIMHYtNi4zNDNoNDcuNzY3TDI1LjI4Nyw0LjgzNGwwLjE2Ni0wLjIxMWwtMC4xNjYtMC4xNDVMMjkuMDksMGwzMC45MDYsMjguMDE1djAuMSIvPg0KPC9zdmc+DQo=")
+}
+

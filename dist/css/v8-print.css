@@ -2,7 +2,7 @@ body {
   background: none;
 }
 body::before {
-  content: "Printed from [www.droom.io], the portfolio of Digital Designer Chris Droom";
+  content: "Printed from [chrisdroom.co.uk], the portfolio of Digital Designer Chris Droom";
   background: #eee;
   display: block;
   padding: 1em;
@@ -10,7 +10,7 @@ body::before {
   line-height: 14px;
 }
 body::after {
-  content: "Printed from [www.droom.io], the portfolio of Digital Designer Chris Droom";
+  content: "Printed from [chrisdroom.co.uk], the portfolio of Digital Designer Chris Droom";
   background: #eee;
   display: block;
   padding: 1em;

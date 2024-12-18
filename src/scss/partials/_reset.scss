@@ -1,0 +1,62 @@
+body,
+html {
+	box-sizing: border-box
+}
+
+* {
+	box-sizing: inherit
+}
+
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+nav,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+small,
+ul,
+ol,
+li,
+dt,
+dl,
+dd,
+figure,
+figcaption {
+	padding: 0;
+	margin: 0
+}
+
+figure,
+header,
+ul.swatch,
+.diagram.gg.singular {
+	line-height: 0
+}
+
+
+.reset {
+	margin: 0;
+	padding: 0
+}
+
+.reset li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}

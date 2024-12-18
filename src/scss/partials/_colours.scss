@@ -1,0 +1,65 @@
+:root {
+  --greenDark: #80a491;
+  --blueBaby: #81d3eb;
+  --white: #ffffff;
+}
+
+body {
+	color: rgba(0, 0, 0, 0.8);
+	background: #f1f1f1
+}
+
+::selection,
+pre ::selection {
+	background-color: rgba(129, 211, 235, 0.7);
+}
+
+.dark dt,
+.dark dd,
+.dark p,
+.dark a,
+.dark small,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4 {
+	color: rgba(0, 0, 0, 0.8)
+}
+
+.light dt,
+.light dd,
+.light p,
+.light a,
+.light small,
+.light h1,
+.light h2,
+.light h3,
+.light h4 {
+	color: #fff
+}
+
+.accent {
+	color: rgba(0, 0, 0, 0.8);
+	opacity: .4
+}
+
+.segment.surface label,
+.segment.surface ul,
+.segment.surface ol,
+.segment.surface li {
+	color: #2e4dd2
+}
+
+.segment.blueprint hgroup,
+.segment.blueprint label,
+.segment.blueprint figure figcaption,
+.segment.blueprint figure figcaption a,
+.segment.blueprint ul li,
+.segment.blueprint ol li,
+.segment.blueprint span {
+	color: #2e4dd2
+}
+
+body.work.iso .band.head {
+	background: #81d3eb
+}

@@ -1,0 +1,38 @@
+main {
+	z-index: 0
+}
+
+main table,
+main h2,
+main h3,
+main p {
+	z-index: 1
+}
+
+.pager a {
+	z-index: 1
+}
+
+.pager ul.page li.ghost {
+	z-index: 2
+}
+
+a.pan {
+	z-index: 10
+}
+
+#head a {
+	z-index: 996
+}
+
+#head nav ol li {
+	z-index: 997;
+}
+
+#top {
+	z-index: 998;
+}
+
+#top ol li {
+	z-index: 999;
+}

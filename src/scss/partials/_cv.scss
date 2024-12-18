@@ -1,0 +1,65 @@
+body.cv main {
+	margin-bottom: 28px
+}
+
+body.cv main hr {
+	margin-top: 28px;
+	margin-bottom: 28px;
+	border: none;
+	border-top: 1px solid rgba(0, 0, 0, 0.14);
+	height: 1px
+}
+
+body.cv main dl.job+p {
+	margin-top: 28px
+}
+
+body.cv main dl.job dt.hide,
+body.cv main dl.job dd.hide {
+	display: none
+}
+
+body.cv main p+ul.skills {
+	margin-top: 28px
+}
+
+body.cv main ul.skills li {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.05rem;
+	line-height: 1.58rem
+}
+
+body.cv main ul.skills,
+body.cv main dl.job {
+	margin: auto;
+	max-width: 710px;
+	padding-left: 28px;
+	padding-right: 28px
+}
+
+@media (max-width: 500px) {
+
+	body.cv main ul.skills,
+	body.cv main dl.job {
+		padding-left: 14px;
+		padding-right: 14px
+	}
+
+	body.cv main ul.skills {
+		margin-left: 14px
+	}
+}
+
+
+@media (max-width: 500px) {
+
+	body.cv main ul.index,
+	body.cv main dl.job {
+		padding-left: 14px;
+		padding-right: 14px
+	}
+
+	body.cv main ul.index {
+		margin-left: 14px
+	}
+}

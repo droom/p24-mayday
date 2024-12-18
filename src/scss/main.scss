@@ -1,2 +1,12 @@
-@use "v8.scss";
+@use "partials/_reset.scss";
 @use "partials/_covers.scss";
+@use "partials/_links.scss";
+@use "partials/_colours.scss";
+@use "partials/_type.scss";
+@use "partials/_zindex.scss";
+@use "partials/_swatch.scss";
+@use "partials/_lists.scss";
+@use "partials/_konami.scss";
+
+
+@use "v8.scss";

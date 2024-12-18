@@ -1,0 +1,218 @@
+a.menu-btn-img {
+	transition: 100ms ease-out all;
+	border: none;
+	background: none;
+	user-select: none;
+	outline: none;
+	width: 15px;
+	height: 15px;
+	display: block;
+	line-height: 0;
+	opacity: .5
+}
+
+a.menu-btn-img:active,
+a.menu-btn-img:focus,
+a.menu-btn-img:hover {
+	cursor: pointer;
+	background: none;
+	user-select: none;
+	outline: none
+}
+
+a.menu-btn-img:hover {
+	opacity: .8
+}
+
+a.menu-btn-img .unit {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	display: block;
+	transition: 215ms ease-out all;
+	-webkit-transform-origin: center center;
+	-webkit-transform: rotate(90deg);
+	-ms-transform-origin: center center;
+	-ms-transform: rotate(90deg);
+	transform-origin: center center;
+	transform: rotate(90deg)
+}
+
+a.menu-btn-img .unit .tile,
+a.menu-btn-img .unit .list {
+	background: none;
+	user-select: none;
+	outline: 0;
+	will-change: transform;
+	position: absolute;
+	transition: 215ms ease-out all;
+	top: 0;
+	left: 0;
+	width: 15px;
+	height: 15px
+}
+
+a.menu-btn-img .unit .tile svg,
+a.menu-btn-img .unit .list svg {
+	width: 15px;
+	height: 15px;
+	fill: #333 !important
+}
+
+a.menu-btn-img .unit .tile {
+	opacity: 1
+}
+
+a.menu-btn-img .unit .list {
+	opacity: 0
+}
+
+a.menu-btn-img .unit.rotate {
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg)
+}
+
+a.menu-btn-img .unit.rotate .tile {
+	opacity: 0
+}
+
+a.menu-btn-img .unit.rotate .list {
+	opacity: 1
+}
+
+
+html a.inline,
+html figure figcaption a.inline {
+	border-bottom: #81d3eb solid .14em
+}
+
+html a.inline.dark,
+html figure figcaption a.inline.dark {
+	border-bottom: rgba(0, 0, 0, 0.8) solid .14em
+}
+
+html.cssgradients span.inline,
+html.cssgradients a.inline {
+	border: none;
+	background-image: -linear-gradient(top, transparent 85%, #81d3eb 0, #81d3eb 95%, transparent 0);
+	background-image: -moz-linear-gradient(top, transparent 85%, #81d3eb 0, #81d3eb 95%, transparent 0);
+	background-image: -webkit-linear-gradient(top, transparent 85%, #81d3eb 0, #81d3eb 95%, transparent 0)
+}
+
+html.cssgradients span.inline.dark,
+html.cssgradients a.inline.dark {
+	border: none;
+	background-image: -linear-gradient(transparent 88%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 97%, transparent 0);
+	background-image: -moz-linear-gradient(transparent 88%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 97%, transparent 0);
+	background-image: -webkit-linear-gradient(transparent 88%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 97%, transparent 0)
+}
+
+html.cssgradients figure figcaption a.inline {
+	border: none;
+	background-image: -linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0);
+	background-image: -moz-linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0);
+	background-image: -webkit-linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0)
+}
+
+a {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+	border-bottom: rgba(0, 0, 0, 0.8) solid .14em;
+	outline: 0
+}
+
+a.cta {
+	display: inline-block;
+	background: #ff0;
+	padding: 14px 20px;
+	border-bottom: none;
+	border-radius: 2px;
+  margin-bottom: 28px;
+	border-radius: 8px;
+	transition: all 300ms ease;
+	font-weight: 600;
+	background: rgba(173,235,151,1) 100%;
+	--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+a.cta:hover {
+	background: #fff;
+	background: rgba(173,235,151,1) 100%;
+}
+
+a.plain.cta{
+	margin-top: 28px;
+}
+
+
+a.move {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	border: none
+}
+
+a.move.move-left,
+a.move.move-return,
+a.move.move-top {
+	left: 0
+}
+
+a.move.move-return,
+a.move.move-top {
+	width: 100%
+}
+
+a.move.move-left,
+a.move.move-right {
+	width: 50%
+}
+
+a.move.move-left:hover,
+a.move.move-right:hover {
+	background: none
+}
+
+a.move.move-left:hover {
+	cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSIzNy4zMzQiIHZpZXdCb3g9Ijc4LjA2NiA5My41MjEgNDAgMzcuMzM0Ij48cGF0aCBmaWxsPSIjMkMyMjI1IiBkPSJNNzguMDY2IDExMi4xMWwyMC42MDgtMTguNTkuMDQuMDUyLjAyLS4wMi45NyAxLjE5NCAxLjUwNSAxLjc4My0uMDMuMDI3LjAzLjAzNy0xNS4zODQgMTMuNjEyaDMyLjI0djQuMjNIODYuMjJsMTQuOTkgMTMuMi0uMTEyLjEzNy4xMS4wOTctMi41MzQgMi45ODUtMjAuNjA2LTE4LjY3NXYtLjA3Ii8+PC9zdmc+"), w-resize
+}
+
+a.move.move-right {
+	right: 0
+}
+
+a.move.move-right:hover {
+	cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSIzNy4zMzQiIHZpZXdCb3g9Ijc4LjA2NiA5My41MjIgNDAgMzcuMzM0Ij48cGF0aCBmaWxsPSIjMkMyMjI1IiBkPSJNMTE4LjA2NiAxMTIuMjY3bC0yMC42MDYgMTguNTktLjA0LS4wNS0uMDIuMDE4LS45NzItMS4xOTMtMS41MDQtMS43OC4wMy0uMDI3LS4wMy0uMDQgMTUuMzgzLTEzLjYxaC0zMi4yNHYtNC4yM2gzMS44NDZsLTE0Ljk5LTEzLjIuMTEtLjE0LS4xMS0uMDk4IDIuNTM3LTIuOTg1IDIwLjYwNCAxOC42Nzd2LjA2OCIvPjwvc3ZnPg=="), e-resize
+}
+
+a.move.move-return {
+	right: 0
+}
+
+a.move.move-return:hover {
+	cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOS41MDEiIGhlaWdodD0iMjcuMjY1IiB2aWV3Qm94PSIwIDAgMjkuNTAxIDI3LjI2NSI+PHBhdGggZmlsbD0iIzJDMjIyNSIgZD0iTTEwLjAyNSAyNS4yOFY4LjYzN2w2LjYxIDcuMjEuMDE3LS4wMTUuMDEzLjAxNS44NjYtLjcwNC41OC0uNDU0LS4wMDgtLjAxLjAyNC0uMDJMOS4xMDIgNWgtLjAzNkwwIDE0LjY1NmwxLjQ1IDEuMTg4LjA0OC0uMDUuMDY2LjA1IDYuNDEtNy4wMjJ2MTguNDQzaDIuMDUiLz48L3N2Zz4="), n-resize
+}
+
+a.move.move-top {
+	right: 0
+}
+
+a.move.move-top:hover {
+	cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOC4xMjUiIGhlaWdodD0iMjUuODU5IiB2aWV3Qm94PSIwIDEuNDA2IDE4LjEyNSAyNS44NTkiPjxwYXRoIGZpbGw9IiMyQzIyMjUiIGQ9Ik0xMC4wMjUgMjUuMjhWOC42MzZsNi42MSA3LjIxLjAxNy0uMDE0LjAxMy4wMTQuODY3LS43MDMuNTgtLjQ1NC0uMDEtLjAxLjAyMy0uMDJMOS4xMDIgNWgtLjAzNkwwIDE0LjY1NmwxLjQ1IDEuMTg4LjA0OC0uMDUuMDY2LjA1IDYuNDEtNy4wMjJ2MTguNDQzaDIuMDVtOC4xLTIzLjgwN1YxLjQwNkgwdjIuMDUyIi8+PC9zdmc+"), n-resize
+}
+
+
+.band.hr.relative.pager .segment.type a:hover {
+	background: rgba(255, 255, 255, 0.3)
+}
+
+.ghost {
+	pointer-events: none
+}
+
+.target {
+	pointer-events: auto
+}

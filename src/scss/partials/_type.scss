@@ -1,0 +1,255 @@
+html,
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.05rem;
+	line-height: 1.58rem
+}
+
+h1,
+.h1 {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	margin-left: -0.045em;
+	font-size: 44px;
+	line-height: 48px
+}
+
+@media (max-width: 500px) {
+
+	h1,
+	.h1 {
+		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 40px
+	}
+}
+
+h2,
+.h2 {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px
+}
+
+@media (max-width: 500px) {
+
+	h2,
+	.h2 {
+		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 28px
+	}
+}
+
+h3,
+.h3 {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 19px
+}
+
+h5,
+.h5 {
+	opacity: .8
+}
+
+h6,
+.h6 {
+	opacity: .6
+}
+
+nav,
+nav ol li,
+nav ul li {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 19px
+}
+
+hgroup,
+.hgroup {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px
+}
+
+table,
+th,
+td,
+p {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.05rem;
+	line-height: 1.58rem
+}
+
+footer .flex .unit {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.28rem
+}
+
+@media (max-width: 500px) {
+
+	table,
+	th,
+	td {
+		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: .8rem;
+		line-height: 1.28rem
+	}
+}
+
+ol li,
+ul li,
+dl,
+dd,
+dt,
+label,
+small,
+label,
+sup,
+cite {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.28rem;
+}
+
+figcaption
+ {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.1rem;
+}
+
+
+dl.feed dt {
+	font-family: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
+	letter-spacing: -0.05em
+}
+
+@media (max-width: 500px) {
+	ul.menu li dl.credits dd.project {
+		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: .8rem;
+		line-height: 1.28rem
+	}
+}
+
+ul.menu.tile li .segment.work dl.credits dd.project.h3 {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.28rem
+}
+
+dl,
+dd,
+dt {
+	vertical-align: top
+}
+
+dl.credits dl {
+	font-weight: 400
+}
+
+dl.credits dt {
+	font-weight: 700
+}
+
+@media (max-width: 500px) {
+
+	body main h2,
+	body main h3 {
+		text-align: left
+	}
+}
+
+figure figcaption {
+	text-align: left
+}
+
+nav ol li a {
+	padding: 3px 0 1px 0
+}
+
+.entity {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	vertical-align: bottom;
+	text-rendering: optimizeLegibility;
+}
+
+.slash {
+	padding: 0 .15em
+}
+
+.align-l {
+	text-align: left
+}
+
+.align-r {
+	text-align: right
+}
+
+.align-c {
+	text-align: center
+}
+
+.ndash {
+	position: relative;
+	top: -0.09em;
+	padding: 0 .1em
+}
+
+nav .scope {
+	display: inline
+}
+
+.scope {
+	display: block
+}
+
+.br {
+	display: block
+}
+
+.prise {
+	letter-spacing: .055em
+}
+
+.prise-small {
+	letter-spacing: .03em
+}
+
+.caps {
+	text-transform: uppercase
+}
+
+.break {
+	word-break: break-word
+}
