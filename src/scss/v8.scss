@@ -498,8 +498,8 @@ header {
 
 @media (max-width: 500px) {
 	header {
-		padding-top: 14px;
-		padding-bottom: 14px
+		padding-top: 8px;
+		padding-bottom: 14px;
 	}
 }
 
@@ -5435,6 +5435,7 @@ body.iso.cv h3,
 header h3.intro{
 	font-size: 28px;
 	line-height: 35px;
+	padding-top: 0;
 	padding-bottom: 45px;
 }
 
@@ -5447,13 +5448,6 @@ nav .segment.type {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-
-header {
-  padding-top: 24px;
-  padding-bottom: 28px;
-}
-
 
 ul.menu li .segment.type.work {
   padding-top: 15px;
