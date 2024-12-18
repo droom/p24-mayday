@@ -5234,6 +5234,41 @@ body.work.iso .band.head {
   opacity: 0.5;
 }
 
+/* hivstory */
+.cover-photo.hivstory {
+  background: url("../img/cover/hivstory/1800.jpg") 60% 20% repeat-x rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 1600px) {
+  .cover-photo.hivstory {
+    background: url("../img/cover/hivstory/1600.jpg") 20% 20% repeat-x rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 1400px) {
+  .cover-photo.hivstory {
+    background: url("../img/cover/hivstory/1400.jpg") 50% 20% repeat-x rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 1200px) {
+  .cover-photo.hivstory {
+    background: url("../img/cover/hivstory/1200.jpg") 50% 10% repeat-x rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 1000px) {
+  .cover-photo.hivstory {
+    background: url("../img/cover/hivstory/1000.jpg") 10% 25% repeat-x rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 800px) {
+  .cover-photo.hivstory {
+    background: url("../img/cover/hivstory/800.jpg") 70% 15% repeat-x rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 600px) {
+  .cover-photo.hivstory {
+    background: url("../img/cover/hivstory/600.jpg") 80% 20% repeat-x rgba(0, 0, 0, 0.05);
+  }
+}
 /* gr */
 .cover-photo.gr {
   background: url("../img/cover/gr/1600.jpg") 50% 70% repeat-x #e7e7e7;
@@ -5512,40 +5547,5 @@ body.work.iso .band.head {
 @media (max-width: 600px) {
   .cover-photo.idu {
     background: url("../img/cover/idu/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05);
-  }
-}
-/* hivstory */
-.cover-photo.hivstory {
-  background: url("../img/cover/hivstory/1800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05);
-}
-
-@media (max-width: 1600px) {
-  .cover-photo.hivstory {
-    background: url("../img/cover/hivstory/1600.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05);
-  }
-}
-@media (max-width: 1400px) {
-  .cover-photo.hivstory {
-    background: url("../img/cover/hivstory/1400.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05);
-  }
-}
-@media (max-width: 1200px) {
-  .cover-photo.hivstory {
-    background: url("../img/cover/hivstory/1200.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05);
-  }
-}
-@media (max-width: 1000px) {
-  .cover-photo.hivstory {
-    background: url("../img/cover/hivstory/1000.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05);
-  }
-}
-@media (max-width: 800px) {
-  .cover-photo.hivstory {
-    background: url("../img/cover/hivstory/800.jpg") 50% 50% repeat-x rgba(0, 0, 0, 0.05);
-  }
-}
-@media (max-width: 600px) {
-  .cover-photo.hivstory {
-    background: url("../img/cover/hivstory/600.jpg") 12% 50% repeat-x rgba(0, 0, 0, 0.05);
   }
 }

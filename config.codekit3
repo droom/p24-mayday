@@ -1594,7 +1594,7 @@
       "oAP" : "\/dist\/img\/cover\/hivstory\/800.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1607,7 +1607,7 @@
       "oAP" : "\/dist\/img\/cover\/hivstory\/1000.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1620,7 +1620,7 @@
       "oAP" : "\/dist\/img\/cover\/hivstory\/1200.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1646,7 +1646,7 @@
       "oAP" : "\/dist\/img\/cover\/hivstory\/1600.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1659,20 +1659,7 @@
       "oAP" : "\/dist\/img\/cover\/hivstory\/1800.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/cover\/hivstory\/event-211.jpg" : {
-      "ft" : 16384,
-      "iS" : 1599705,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/cover\/hivstory\/event-211.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
