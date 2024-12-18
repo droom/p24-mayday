@@ -480,10 +480,16 @@ header h1 + a.menu-btn-img {
 }
 
 header {
-  padding-top: 28px;
+  padding-top: 20px;
   padding-bottom: 28px;
 }
 
+@media (max-width: 800px) {
+  header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
 @media (max-width: 500px) {
   header {
     padding-top: 8px;
@@ -498,7 +504,12 @@ nav .segment.type.ghost {
 @media (max-width: 500px) {
   nav .segment.type.ghost {
     padding-top: 15px !important;
-    padding-bottom: 14px;
+    padding-bottom: 14px !important;
+  }
+}
+@media (max-width: 500px) {
+  nav .segment.type.ghost li {
+    font-size: 13px;
   }
 }
 footer .segment.type {

@@ -475,25 +475,32 @@ a.pan {
 }
 
 #head nav ol li {
-	z-index: 997
+	z-index: 997;
 }
 
 #top {
-	z-index: 998
+	z-index: 998;
 }
 
 #top ol li {
-	z-index: 999
+	z-index: 999;
 }
 
 header h1+dl.credits,
 header h1+a.menu-btn-img {
-	margin-top: 112px
+	margin-top: 112px;
 }
 
 header {
-	padding-top: 28px;
-	padding-bottom: 28px
+	padding-top: 20px;
+	padding-bottom: 28px;
+}
+
+@media (max-width: 800px) {
+	header {
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -511,13 +518,22 @@ nav .segment.type.ghost {
 @media (max-width: 500px) {
 	nav .segment.type.ghost {
 		padding-top: 15px !important;
-		padding-bottom: 14px
+		padding-bottom: 14px !important;
 	}
 }
 
+
+@media (max-width: 500px) {
+	nav .segment.type.ghost li{
+		font-size: 13px;
+	}
+}
+
+
+
 footer .segment.type {
 	padding-top: 28px;
-	padding-bottom: 14px
+	padding-bottom: 14px;
 }
 
 footer .segment.type dl.feed {
