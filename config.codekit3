@@ -342,6 +342,18 @@
       "oAP" : "\/dist\/brand\/favicon\/site.webmanifest",
       "oF" : 0
     },
+    "\/dist\/css\/main.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/css\/main-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dist\/css\/v8-print.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -12295,6 +12307,14 @@
       "oAP" : "\/src\/partials\/_discovery.html",
       "oF" : 0
     },
+    "\/src\/partials\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_footer.html",
+      "oF" : 0
+    },
     "\/src\/partials\/_head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -12303,12 +12323,36 @@
       "oAP" : "\/src\/partials\/_head.html",
       "oF" : 0
     },
+    "\/src\/partials\/_js.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_js.html",
+      "oF" : 0
+    },
     "\/src\/partials\/_links.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/src\/partials\/_links.html",
+      "oF" : 0
+    },
+    "\/src\/partials\/_pager.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_pager.html",
+      "oF" : 0
+    },
+    "\/src\/partials\/_return.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_return.html",
       "oF" : 0
     },
     "\/src\/partials\/_swatch.kit" : {
