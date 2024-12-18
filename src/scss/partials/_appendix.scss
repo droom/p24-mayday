@@ -1,0 +1,48 @@
+
+body.appendix main {
+	margin-bottom: 28px
+}
+
+body.appendix main li.main {
+	padding-top: 28px;
+	padding-bottom: 28px
+}
+
+body.appendix main dl.job {
+	padding-bottom: 14px;
+	opacity: .5
+}
+
+body.appendix main dl.job dd {
+	margin-right: .6em
+}
+
+body.appendix main dl.job dt,
+body.appendix main dl.job dd {
+	display: inline
+}
+
+body.appendix main dl.job dt.hide,
+body.appendix main dl.job dd.hide {
+	display: none
+}
+
+body.appendix main ul.index li ul li {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.28rem;
+	margin-left: 20px
+}
+
+body.appendix main ul.index li ul li:last-child {
+	margin-bottom: .5em
+}
+
+body.appendix main ul.index,
+body.appendix main dl.job {
+	margin: auto;
+	max-width: 710px;
+	padding-left: 28px;
+	padding-right: 28px
+}
+

@@ -1,12 +1,25 @@
 @use "partials/_reset.scss";
 @use "partials/_covers.scss";
 @use "partials/_links.scss";
-@use "partials/_colours.scss";
+@use "partials/_colour.scss";
 @use "partials/_type.scss";
+@use "partials/_spacing.scss";
 @use "partials/_zindex.scss";
 @use "partials/_swatch.scss";
-@use "partials/_lists.scss";
+@use "partials/_counter.scss";
+@use "partials/_list.scss";
+@use "partials/_list-projects.scss";
+@use "partials/_pager.scss";
+@use "partials/_border.scss";
+@use "partials/_svg.scss";
+@use "partials/_related.scss";
 @use "partials/_konami.scss";
+@use "partials/_component-hand";
+@use "partials/_component-slick.scss";
+@use "partials/_component-table.scss";
 
+@use "partials/_p-goget.scss";
+@use "partials/_p-ideahouse.scss";
+@use "partials/_p-givereceipt";
 
 @use "v8.scss";

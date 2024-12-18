@@ -1,0 +1,44 @@
+nav ol li.border,
+footer ol li.border {
+	border-right: 1px solid rgba(0, 0, 0, 0.14)
+}
+
+ul.menu li {
+	border-top: 1px solid rgba(0, 0, 0, 0.14)
+}
+
+ul.menu li:last-child {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.14)
+}
+
+.segment.border section {
+	border-bottom: .1em solid rgba(0, 0, 0, 0.3)
+}
+
+.band.hr {
+	border-top: 1px solid rgba(0, 0, 0, 0.14)
+}
+
+.pager {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.14)
+}
+
+.pager a:nth-child(1) {
+	border-right: 1px solid rgba(0, 0, 0, 0.14)
+}
+
+figure figcaption.border {
+	border-top: 1px solid #2e4dd2
+}
+
+.thin {
+	border: 1px solid #2e4dd2
+}
+
+.thick {
+	border: 3px solid #2e4dd2
+}
+
+.soft {
+	border-radius: .15em
+}

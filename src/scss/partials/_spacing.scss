@@ -1,0 +1,329 @@
+:root {
+--spacer0: 4px;
+--spacer1: 8px;
+--spacer2: 16px;
+--spacer3: 20px;
+--spacer4: 24px;
+--spacer5: 28px;
+--spacer6: 32px;
+--spacer7: 36px;
+--spacer8: 40px;
+--spacer9: 48px;
+--spacer10: 52px;
+--spacer11: 56px;
+
+--spacerA: 28px;
+--spacerB: 14px;
+}
+
+
+
+body main p,
+body main h2,
+body main h3,
+body main table,
+body main hgroup,
+body main figcaption,
+body main blockquote,
+body main section.diagram.gg.singular .modules {
+	padding-left: var(--spacerA);
+	padding-right: var(--spacerA);
+}
+
+.segment.swatch,
+.segment.type,
+.segment.blueprint.pad {
+	padding-left: var(--spacerA);
+	padding-right: var(--spacerA);
+}
+
+.segment.swatch.chart,
+.segment.type.chart,
+.segment.blueprint.pad.chart {
+	padding-left: 9.3333333333px;
+	padding-right: 9.3333333333px
+}
+
+.segment.swatch.chart hgroup,
+.segment.swatch.chart figcaption,
+.segment.type.chart hgroup,
+.segment.type.chart figcaption,
+.segment.blueprint.pad.chart hgroup,
+.segment.blueprint.pad.chart figcaption {
+	padding-left: 18.6666666667px;
+	padding-right: 18.6666666667px
+}
+
+.segment.swatch hgroup,
+.segment.swatch figcaption,
+.segment.type hgroup,
+.segment.type figcaption,
+.segment.blueprint.pad hgroup,
+.segment.blueprint.pad figcaption {
+	padding-left: 0;
+	padding-right: 0
+}
+
+
+@media (max-width: 500px) {
+
+	body main h2,
+	body main h3,
+	body main p,
+	body main table,
+	body main hgroup,
+	body main figcaption,
+	body main section.diagram.gg.sitemap,
+	body main section.diagram.gg.singular .modules {
+		padding-left: var(--spacerB);
+		padding-right: var(--spacerB);
+	}
+
+	.segment.type,
+	.segment.code,
+	.segment.blueprint.pad {
+		padding-left: var(--spacerB);
+		padding-right: var(--spacerB);
+	}
+
+	.segment.type.chart,
+	.segment.code.chart,
+	.segment.blueprint.pad.chart {
+		padding-left: var(--spacerB);
+		padding-right: var(--spacerB);
+	}
+
+	.segment.type.chart hgroup,
+	.segment.type.chart figcaption,
+	.segment.code.chart hgroup,
+	.segment.code.chart figcaption,
+	.segment.blueprint.pad.chart hgroup,
+	.segment.blueprint.pad.chart figcaption {
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	.segment.type hgroup,
+	.segment.type figcaption,
+	.segment.code hgroup,
+	.segment.code figcaption,
+	.segment.blueprint.pad hgroup,
+	.segment.blueprint.pad figcaption {
+		padding: 0
+	}
+
+	.segment ol.ref {
+		padding-left: 14px
+	}
+}
+
+
+header h1+dl.credits{
+	margin-top: 112px;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: var(--spacerA);
+}
+
+@media (max-width: 800px) {
+	header {
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
+}
+
+@media (max-width: 500px) {
+	header {
+		padding-top: 8px;
+		padding-bottom: 14px;
+	}
+}
+
+
+
+nav .segment.type.ghost {
+	padding-top: var(--spacerA);
+	padding-bottom: var(--spacerA);
+}
+
+@media (max-width: 500px) {
+	nav .segment.type.ghost {
+		padding-top: 15px !important;
+		padding-bottom: 14px !important;
+	}
+}
+
+
+
+footer .segment.type {
+	padding-top: var(--spacerA);
+	padding-bottom: 14px;
+}
+
+footer .segment.type dl.feed {
+	padding-top: 14px;
+	padding-bottom: 14px
+}
+
+@media (max-width: 500px) {
+	footer .segment.type {
+		padding-top: 14px;
+		padding-bottom: 14px
+	}
+
+	footer .segment.type dl.feed {
+		padding-top: 0;
+		padding-bottom: 14px
+	}
+}
+
+.band.js.hr {
+	padding-top: 14px;
+	padding-bottom: 14px
+}
+
+.cover-photo dl.credits {
+	padding-top: 14px
+}
+
+.cover-aside aside.project {
+	padding-top: 14px
+}
+
+ol.ref {
+	padding-top: var(--spacerA);
+	padding-bottom: 42px
+}
+
+.pager nav ol.page li {
+	padding-top: var(--spacerA);
+	padding-bottom: var(--spacerA);
+}
+
+.pager nav ol.page li label {
+	padding-bottom: 4.6666666667px
+}
+
+@media (max-width: 500px) {
+	.pager nav ol.page li {
+		padding-top: 14px
+	}
+
+	.pager nav ol.page li label {
+		padding-bottom: 3.5px
+	}
+}
+
+body.iso main p,
+body.profile main p 
+ {
+	margin-top: var(--spacerA);
+	margin-bottom: var(--spacerA);
+}
+
+body.iso main p+p {
+	margin-top: 0
+}
+
+body.iso main p+h3 {
+	margin-top: 56px
+}
+
+body.iso main p+.segment.surface,
+body.iso main p+.segment.blueprint {
+	margin-top: 56px
+}
+
+body.iso main h2 {
+	margin-top: 56px;
+	margin-bottom: 56px
+}
+
+body.iso main h3 {
+	margin-top: var(--spacerA);
+	margin-bottom: var(--spacerA);
+}
+
+body.iso main table {
+	margin-top: 56px;
+	margin-bottom: 84px
+}
+
+body.iso main .segment+h3 {
+	margin-top: 56px;
+}
+
+body.iso main .segment.surface,
+body.iso main .segment.blueprint {
+	margin-top: var(--spacerA);
+}
+
+.band.pager{
+	margin-top: 56px
+}
+
+body.iso main .segment.blueprint.pad {
+	padding-top: var(--spacerA);
+}
+
+body.iso main .segment.blueprint.pad hgroup,
+body.iso main .segment.blueprint.pad .hgroup {
+	margin-bottom: 56px
+}
+
+body.iso main .segment.blueprint figure figcaption {
+	margin-top: var(--spacerA);
+	margin-bottom: var(--spacerA);
+}
+
+body.iso main .segment.blueprint hgroup,
+body.iso main .segment.blueprint .hgroup {
+	margin-bottom: var(--spacerA);
+}
+
+body.iso main .segment figure figcaption {
+	margin-top: 14px;
+	margin-bottom: var(--spacerA);
+}
+
+body.iso main .segment.swatch {
+	margin-bottom: 56px
+}
+
+@media (max-width: 500px) {
+	body.iso main table {
+		margin-top: var(--spacerA);
+		margin-bottom: 56px
+	}
+
+	body.iso main h2 {
+		margin-top: 56px;
+		margin-bottom: var(--spacerA);
+	}
+
+	body.iso main .segment.blueprint.pad {
+		padding-top: 14px;
+		padding-bottom: 14px
+	}
+}
+
+
+ul.menu{
+	margin-bottom: 28px;
+}
+
+
+ul.menu li .segment.type.work {
+	padding-top: var(--spacerA);
+	padding-bottom: var(--spacerA);
+}
+
+
+@media (max-width: 500px) {
+	ul.menu li .segment.type.work {
+		padding-top: 14px;
+		padding-bottom: 42px
+	}
+}

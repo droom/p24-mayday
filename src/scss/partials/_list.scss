@@ -1,0 +1,33 @@
+
+dl.credits {
+	display: inline-block;
+	min-width: 310px
+}
+
+dl.credits dd {
+	display: inline;
+	margin: 0
+}
+
+dl.credits dd+dd {
+	display: block;
+	margin-left: 5.45555em
+}
+
+dl.credits dd:after {
+	display: block;
+	content: ""
+}
+
+dl.credits dt {
+	display: inline-block;
+	min-width: 5.15555555em
+}
+
+dl.credits dt.hide {
+	display: none
+}
+
+dl.credits dd.block {
+	display: block
+}

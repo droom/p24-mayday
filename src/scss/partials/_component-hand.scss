@@ -1,0 +1,134 @@
+
+
+@-webkit-keyframes wiggle {
+	0% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+
+	25% {
+		transform: rotate3d(1, 0, 0, 40deg) perspective(1000px)
+	}
+
+	100% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+}
+
+@-moz-keyframes wiggle {
+	0% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+
+	25% {
+		transform: rotate3d(1, 0, 0, 40deg) perspective(1000px)
+	}
+
+	100% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+}
+
+@-o-keyframes wiggle {
+	0% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+
+	25% {
+		transform: rotate3d(1, 0, 0, 40deg) perspective(1000px)
+	}
+
+	100% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+}
+
+@keyframes wiggle {
+	0% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+
+	25% {
+		transform: rotate3d(1, 0, 0, 40deg) perspective(1000px)
+	}
+
+	100% {
+		transform: rotate3d(1, 0, 0, 0deg) perspective(1000px)
+	}
+}
+
+.interactive {
+	position: relative
+}
+
+.interactive hgroup {
+	margin-right: 35px
+}
+
+.interactive .hand {
+	position: absolute
+}
+
+.interactive .hand .finger {
+	transform-origin: 50% bottom
+}
+
+.interactive .hand:hover .finger {
+	animation-fill-mode: forwards;
+	animation-iteration-count: 2;
+	animation-timing-function: ease;
+	animation-duration: 900ms;
+	animation-name: wiggle
+}
+
+.interactive .hand:hover .finger.up {
+	opacity: 0
+}
+
+.interactive .hand:hover:after {
+	opacity: 1
+}
+
+.interactive .hand:after {
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .8rem;
+	line-height: 1.28rem;
+	text-transform: uppercase;
+	content: attr(data-balloon);
+	display: flex;
+	white-space: nowrap;
+	margin: -33px -130px;
+	color: #2e4dd2;
+	transition: all ease 300ms;
+	opacity: 0
+}
+
+.interactive .hand.play .finger {
+	animation-fill-mode: forwards;
+	animation-iteration-count: 2;
+	animation-timing-function: ease;
+	animation-duration: 900ms;
+	animation-name: wiggle
+}
+
+.interactive .hand.play .finger.up {
+	opacity: 0
+}
+
+.interactive .hand {
+	width: 30px;
+	top: 26px;
+	right: 28px
+}
+
+@media (max-width: 500px) {
+	.interactive .hand {
+		width: 20px;
+		top: 16px;
+		right: 16px
+	}
+
+	.interactive .hand:after,
+	.interactive .hand:hover:after {
+		opacity: 0
+	}
+}

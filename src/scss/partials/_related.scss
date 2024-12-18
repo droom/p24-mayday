@@ -1,0 +1,66 @@
+
+.related {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 8px;
+	grid-row-gap: 8px
+}
+
+.related .card {
+	height: 198px;
+	background: #e2e2e2
+}
+
+.related .card.article {
+	border: 1px solid #7effc7
+}
+
+.related .card.article:hover {
+	background: #7effc7
+}
+
+.related .card.codepen {
+	border: 1px solid #ffe374
+}
+
+.related .card.codepen:hover {
+	background: #ffe374
+}
+
+.related .card.study {
+	border: 1px solid #81d3eb
+}
+
+.related .card.study:hover {
+	background: #81d3eb
+}
+
+.related .card .mast {
+	padding: 6px 10px
+}
+
+.related .card .mast label {
+	opacity: .4
+}
+
+.related .card .mast label+h4 {
+	padding-top: 8px
+}
+
+.related .card .intro {
+	padding: 8px 10px 15px 8px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 17px
+}
+
+.related .card .intro,
+.related .card .img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 99px;
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid rgba(0, 0, 0, 0.12)
+}

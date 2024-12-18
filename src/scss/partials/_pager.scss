@@ -1,0 +1,26 @@
+.pager ol.page {
+	overflow: hidden;
+	width: 100%
+}
+
+.pager ol.page li {
+	max-width: 50%
+}
+
+.pager ol.page li:nth-child(1) {
+	padding-right: 28px
+}
+
+.pager ol.page li:nth-child(2) {
+	padding-left: 28px
+}
+
+@media (max-width: 500px) {
+	.pager ol.page li:nth-child(1) {
+		padding-right: 14px
+	}
+
+	.pager ol.page li:nth-child(2) {
+		padding-left: 14px
+	}
+}

@@ -1,0 +1,167 @@
+
+table.issues {
+	border-spacing: 0;
+	margin: auto;
+	max-width: 710px
+}
+
+table.issues thead tr td.icon,
+table.issues tbody tr td.icon,
+table.issues tfoot tr td.icon {
+	width: 5%;
+	text-align: center
+}
+
+table.issues thead tr td.issue,
+table.issues tbody tr td.issue,
+table.issues tfoot tr td.issue {
+	width: 65%
+}
+
+table.issues thead tr td,
+table.issues thead tr th,
+table.issues tbody tr td,
+table.issues tbody tr th,
+table.issues tfoot tr td,
+table.issues tfoot tr th {
+	padding: .6rem 1rem;
+	width: calc(100%/3);
+	font-weight: 400;
+	text-align: left;
+	vertical-align: top
+}
+
+table.issues thead tr td.top,
+table.issues thead tr th.top,
+table.issues tbody tr td.top,
+table.issues tbody tr th.top,
+table.issues tfoot tr td.top,
+table.issues tfoot tr th.top {
+	border-top: 1px solid rgba(0, 0, 0, 0.8)
+}
+
+table.issues thead tr td.left,
+table.issues thead tr th.left,
+table.issues tbody tr td.left,
+table.issues tbody tr th.left,
+table.issues tfoot tr td.left,
+table.issues tfoot tr th.left {
+	border-left: 1px solid rgba(0, 0, 0, 0.8)
+}
+
+table.issues thead tr td.right,
+table.issues thead tr th.right,
+table.issues tbody tr td.right,
+table.issues tbody tr th.right,
+table.issues tfoot tr td.right,
+table.issues tfoot tr th.right {
+	border-right: 1px solid rgba(0, 0, 0, 0.8)
+}
+
+table.issues thead tr td.bottom,
+table.issues thead tr th.bottom,
+table.issues tbody tr td.bottom,
+table.issues tbody tr th.bottom,
+table.issues tfoot tr td.bottom,
+table.issues tfoot tr th.bottom {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8)
+}
+
+table.issues thead tr:last-child,
+table.issues tbody tr:last-child,
+table.issues tfoot tr:last-child {
+	border-bottom: none
+}
+
+table.issues tbody tr td:nth-child(2),
+table.issues tbody tr th:nth-child(2),
+table.issues tfoot tr td:nth-child(2),
+table.issues tfoot tr th:nth-child(2) {
+	padding-left: 0
+}
+
+table.issues tfoot tr td {
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.04)
+}
+
+@media (max-width: 500px) {
+	table.issues {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	table.issues thead tr td.issue,
+	table.issues tbody tr td.issue,
+	table.issues tfoot tr td.issue {
+		width: 65%
+	}
+
+	table.issues thead tr td,
+	table.issues thead tr th,
+	table.issues tbody tr td,
+	table.issues tbody tr th,
+	table.issues tfoot tr td,
+	table.issues tfoot tr th {
+		text-align: left
+	}
+
+	table.issues thead tr td:nth-child(1).top,
+	table.issues thead tr td:nth-child(1).left,
+	table.issues thead tr td:nth-child(1).right,
+	table.issues thead tr td:nth-child(1).bottom,
+	table.issues thead tr th:nth-child(1).top,
+	table.issues thead tr th:nth-child(1).left,
+	table.issues thead tr th:nth-child(1).right,
+	table.issues thead tr th:nth-child(1).bottom,
+	table.issues tbody tr td:nth-child(1).top,
+	table.issues tbody tr td:nth-child(1).left,
+	table.issues tbody tr td:nth-child(1).right,
+	table.issues tbody tr td:nth-child(1).bottom,
+	table.issues tbody tr th:nth-child(1).top,
+	table.issues tbody tr th:nth-child(1).left,
+	table.issues tbody tr th:nth-child(1).right,
+	table.issues tbody tr th:nth-child(1).bottom,
+	table.issues tfoot tr td:nth-child(1).top,
+	table.issues tfoot tr td:nth-child(1).left,
+	table.issues tfoot tr td:nth-child(1).right,
+	table.issues tfoot tr td:nth-child(1).bottom,
+	table.issues tfoot tr th:nth-child(1).top,
+	table.issues tfoot tr th:nth-child(1).left,
+	table.issues tfoot tr th:nth-child(1).right,
+	table.issues tfoot tr th:nth-child(1).bottom {
+		border-left: none;
+		padding-left: 14px
+	}
+
+	table.issues thead tr td:last-child.top,
+	table.issues thead tr td:last-child.left,
+	table.issues thead tr td:last-child.right,
+	table.issues thead tr td:last-child.bottom,
+	table.issues thead tr th:last-child.top,
+	table.issues thead tr th:last-child.left,
+	table.issues thead tr th:last-child.right,
+	table.issues thead tr th:last-child.bottom,
+	table.issues tbody tr td:last-child.top,
+	table.issues tbody tr td:last-child.left,
+	table.issues tbody tr td:last-child.right,
+	table.issues tbody tr td:last-child.bottom,
+	table.issues tbody tr th:last-child.top,
+	table.issues tbody tr th:last-child.left,
+	table.issues tbody tr th:last-child.right,
+	table.issues tbody tr th:last-child.bottom,
+	table.issues tfoot tr td:last-child.top,
+	table.issues tfoot tr td:last-child.left,
+	table.issues tfoot tr td:last-child.right,
+	table.issues tfoot tr td:last-child.bottom,
+	table.issues tfoot tr th:last-child.top,
+	table.issues tfoot tr th:last-child.left,
+	table.issues tfoot tr th:last-child.right,
+	table.issues tfoot tr th:last-child.bottom {
+		border-right: none;
+		padding-right: 14px
+	}
+}

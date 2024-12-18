@@ -1,0 +1,21 @@
+body.work.iso main,
+body.article.iso main {
+	counter-reset: ref cards
+}
+
+sup {
+	counter-increment: ref
+}
+
+sup:before {
+	content: "[" counter(ref) "]"
+}
+
+figcaption {
+	counter-increment: cards
+}
+
+figcaption:before {
+	content: "fig. " counter(cards);
+	display: block
+}
