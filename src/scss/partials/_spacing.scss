@@ -12,6 +12,7 @@
 --spacer10: 52px;
 --spacer11: 56px;
 
+--spacerC: 56px;
 --spacerA: 28px;
 --spacerB: 14px;
 }
@@ -113,7 +114,7 @@ body main section.diagram.gg.singular .modules {
 	}
 
 	.segment ol.ref {
-		padding-left: 14px
+		padding-left: var(--spacerB);
 	}
 }
 
@@ -129,15 +130,15 @@ header {
 
 @media (max-width: 800px) {
 	header {
-		padding-top: 14px;
-		padding-bottom: 14px;
+		padding-top: var(--spacerB);
+		padding-bottom: var(--spacerB);
 	}
 }
 
 @media (max-width: 500px) {
 	header {
 		padding-top: 8px;
-		padding-bottom: 14px;
+		padding-bottom: var(--spacerB);
 	}
 }
 
@@ -151,7 +152,7 @@ nav .segment.type.ghost {
 @media (max-width: 500px) {
 	nav .segment.type.ghost {
 		padding-top: 15px !important;
-		padding-bottom: 14px !important;
+		padding-bottom: var(--spacerB) !important;
 	}
 }
 
@@ -159,37 +160,37 @@ nav .segment.type.ghost {
 
 footer .segment.type {
 	padding-top: var(--spacerA);
-	padding-bottom: 14px;
+	padding-bottom: var(--spacerB);
 }
 
 footer .segment.type dl.feed {
-	padding-top: 14px;
-	padding-bottom: 14px
+	padding-top: var(--spacerB);
+	padding-bottom: var(--spacerB);
 }
 
 @media (max-width: 500px) {
 	footer .segment.type {
-		padding-top: 14px;
-		padding-bottom: 14px
+		padding-top: var(--spacerB);
+		padding-bottom: var(--spacerB);
 	}
 
 	footer .segment.type dl.feed {
 		padding-top: 0;
-		padding-bottom: 14px
+		padding-bottom: var(--spacerB);
 	}
 }
 
 .band.js.hr {
-	padding-top: 14px;
-	padding-bottom: 14px
+	padding-top: var(--spacerB);
+	padding-bottom: var(--spacerB);
 }
 
 .cover-photo dl.credits {
-	padding-top: 14px
+	padding-top: var(--spacerB);
 }
 
 .cover-aside aside.project {
-	padding-top: 14px
+	padding-top: var(--spacerB);
 }
 
 ol.ref {
@@ -208,7 +209,7 @@ ol.ref {
 
 @media (max-width: 500px) {
 	.pager nav ol.page li {
-		padding-top: 14px
+		padding-top: var(--spacerB);
 	}
 
 	.pager nav ol.page li label {
@@ -228,17 +229,17 @@ body.iso main p+p {
 }
 
 body.iso main p+h3 {
-	margin-top: 56px
+	margin-top: var(--spacerC);
 }
 
 body.iso main p+.segment.surface,
 body.iso main p+.segment.blueprint {
-	margin-top: 56px
+	margin-top: var(--spacerC);
 }
 
 body.iso main h2 {
-	margin-top: 56px;
-	margin-bottom: 56px
+	margin-top: var(--spacerC);
+	margin-bottom: var(--spacerC);
 }
 
 body.iso main h3 {
@@ -247,12 +248,12 @@ body.iso main h3 {
 }
 
 body.iso main table {
-	margin-top: 56px;
+	margin-top: var(--spacerC);
 	margin-bottom: 84px
 }
 
 body.iso main .segment+h3 {
-	margin-top: 56px;
+	margin-top: var(--spacerC);
 }
 
 body.iso main .segment.surface,
@@ -261,7 +262,7 @@ body.iso main .segment.blueprint {
 }
 
 .band.pager{
-	margin-top: 56px
+	margin-top: var(--spacerC);
 }
 
 body.iso main .segment.blueprint.pad {
@@ -270,7 +271,7 @@ body.iso main .segment.blueprint.pad {
 
 body.iso main .segment.blueprint.pad hgroup,
 body.iso main .segment.blueprint.pad .hgroup {
-	margin-bottom: 56px
+	margin-bottom: var(--spacerC);
 }
 
 body.iso main .segment.blueprint figure figcaption {
@@ -284,28 +285,28 @@ body.iso main .segment.blueprint .hgroup {
 }
 
 body.iso main .segment figure figcaption {
-	margin-top: 14px;
+	margin-top: var(--spacerB);
 	margin-bottom: var(--spacerA);
 }
 
 body.iso main .segment.swatch {
-	margin-bottom: 56px
+	margin-bottom: var(--spacerC);
 }
 
 @media (max-width: 500px) {
 	body.iso main table {
 		margin-top: var(--spacerA);
-		margin-bottom: 56px
+		margin-bottom: var(--spacerC);
 	}
 
 	body.iso main h2 {
-		margin-top: 56px;
+		margin-top: var(--spacerC);
 		margin-bottom: var(--spacerA);
 	}
 
 	body.iso main .segment.blueprint.pad {
-		padding-top: 14px;
-		padding-bottom: 14px
+		padding-top: var(--spacerB);
+		padding-bottom: var(--spacerB);
 	}
 }
 
@@ -323,7 +324,7 @@ ul.menu li .segment.type.work {
 
 @media (max-width: 500px) {
 	ul.menu li .segment.type.work {
-		padding-top: 14px;
+		padding-top: var(--spacerB);
 		padding-bottom: 42px
 	}
 }

@@ -60,7 +60,6 @@ ul.swatch,
   list-style: none;
 }
 
-/* cover */
 .cover-photo {
   min-height: 350px;
 }
@@ -504,7 +503,6 @@ a {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   border-bottom: rgba(0, 0, 0, 0.8) solid 0.14em;
-  outline: 0;
 }
 
 a.cta {
@@ -588,15 +586,11 @@ a.move.move-top:hover {
 }
 
 .band.hr.relative.pager .segment.type a:hover {
-  background: linear-gradient(90deg, rgb(124, 203, 150) 0%, rgb(173, 235, 151) 100%);
-  background: rgb(173, 235, 151) 100%;
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+  background: linear-gradient(90deg, rgba(124, 203, 150, 0.5) 0%, rgba(173, 235, 151, 0.4) 100%);
 }
 
-.band.hr.relative.pager .segment.type ol li {
-  z-index: 99;
+.band.hr.relative.pager .segment.type a:hover:nth-child(2) {
+  background: linear-gradient(90deg, rgba(173, 235, 151, 0.4) 0%, rgba(124, 203, 150, 0.5) 100%);
 }
 
 .ghost {
@@ -931,6 +925,7 @@ nav .scope {
   --spacer9: 48px;
   --spacer10: 52px;
   --spacer11: 56px;
+  --spacerC: 56px;
   --spacerA: 28px;
   --spacerB: 14px;
 }
@@ -1023,7 +1018,7 @@ body main section.diagram.gg.singular .modules {
     padding: 0;
   }
   .segment ol.ref {
-    padding-left: 14px;
+    padding-left: var(--spacerB);
   }
 }
 header h1 + dl.credits {
@@ -1037,14 +1032,14 @@ header {
 
 @media (max-width: 800px) {
   header {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: var(--spacerB);
+    padding-bottom: var(--spacerB);
   }
 }
 @media (max-width: 500px) {
   header {
     padding-top: 8px;
-    padding-bottom: 14px;
+    padding-bottom: var(--spacerB);
   }
 }
 nav .segment.type.ghost {
@@ -1055,40 +1050,40 @@ nav .segment.type.ghost {
 @media (max-width: 500px) {
   nav .segment.type.ghost {
     padding-top: 15px !important;
-    padding-bottom: 14px !important;
+    padding-bottom: var(--spacerB) !important;
   }
 }
 footer .segment.type {
   padding-top: var(--spacerA);
-  padding-bottom: 14px;
+  padding-bottom: var(--spacerB);
 }
 
 footer .segment.type dl.feed {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: var(--spacerB);
+  padding-bottom: var(--spacerB);
 }
 
 @media (max-width: 500px) {
   footer .segment.type {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: var(--spacerB);
+    padding-bottom: var(--spacerB);
   }
   footer .segment.type dl.feed {
     padding-top: 0;
-    padding-bottom: 14px;
+    padding-bottom: var(--spacerB);
   }
 }
 .band.js.hr {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: var(--spacerB);
+  padding-bottom: var(--spacerB);
 }
 
 .cover-photo dl.credits {
-  padding-top: 14px;
+  padding-top: var(--spacerB);
 }
 
 .cover-aside aside.project {
-  padding-top: 14px;
+  padding-top: var(--spacerB);
 }
 
 ol.ref {
@@ -1107,7 +1102,7 @@ ol.ref {
 
 @media (max-width: 500px) {
   .pager nav ol.page li {
-    padding-top: 14px;
+    padding-top: var(--spacerB);
   }
   .pager nav ol.page li label {
     padding-bottom: 3.5px;
@@ -1124,17 +1119,17 @@ body.iso main p + p {
 }
 
 body.iso main p + h3 {
-  margin-top: 56px;
+  margin-top: var(--spacerC);
 }
 
 body.iso main p + .segment.surface,
 body.iso main p + .segment.blueprint {
-  margin-top: 56px;
+  margin-top: var(--spacerC);
 }
 
 body.iso main h2 {
-  margin-top: 56px;
-  margin-bottom: 56px;
+  margin-top: var(--spacerC);
+  margin-bottom: var(--spacerC);
 }
 
 body.iso main h3 {
@@ -1143,12 +1138,12 @@ body.iso main h3 {
 }
 
 body.iso main table {
-  margin-top: 56px;
+  margin-top: var(--spacerC);
   margin-bottom: 84px;
 }
 
 body.iso main .segment + h3 {
-  margin-top: 56px;
+  margin-top: var(--spacerC);
 }
 
 body.iso main .segment.surface,
@@ -1157,7 +1152,7 @@ body.iso main .segment.blueprint {
 }
 
 .band.pager {
-  margin-top: 56px;
+  margin-top: var(--spacerC);
 }
 
 body.iso main .segment.blueprint.pad {
@@ -1166,7 +1161,7 @@ body.iso main .segment.blueprint.pad {
 
 body.iso main .segment.blueprint.pad hgroup,
 body.iso main .segment.blueprint.pad .hgroup {
-  margin-bottom: 56px;
+  margin-bottom: var(--spacerC);
 }
 
 body.iso main .segment.blueprint figure figcaption {
@@ -1180,26 +1175,26 @@ body.iso main .segment.blueprint .hgroup {
 }
 
 body.iso main .segment figure figcaption {
-  margin-top: 14px;
+  margin-top: var(--spacerB);
   margin-bottom: var(--spacerA);
 }
 
 body.iso main .segment.swatch {
-  margin-bottom: 56px;
+  margin-bottom: var(--spacerC);
 }
 
 @media (max-width: 500px) {
   body.iso main table {
     margin-top: var(--spacerA);
-    margin-bottom: 56px;
+    margin-bottom: var(--spacerC);
   }
   body.iso main h2 {
-    margin-top: 56px;
+    margin-top: var(--spacerC);
     margin-bottom: var(--spacerA);
   }
   body.iso main .segment.blueprint.pad {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: var(--spacerB);
+    padding-bottom: var(--spacerB);
   }
 }
 ul.menu {
@@ -1213,7 +1208,7 @@ ul.menu li .segment.type.work {
 
 @media (max-width: 500px) {
   ul.menu li .segment.type.work {
-    padding-top: 14px;
+    padding-top: var(--spacerB);
     padding-bottom: 42px;
   }
 }
@@ -1258,6 +1253,10 @@ a.pan {
 
 #top ol li {
   z-index: 999;
+}
+
+.band.hr.relative.pager .segment.type ol li {
+  z-index: 99;
 }
 
 body {
@@ -5422,14 +5421,25 @@ html.js .band.js.hr {
   flex-basis: content;
 }
 
-body.iso.cv h3,
 header h3.intro {
-  font-size: 28px;
-  line-height: 35px;
+  font-size: 35px;
+  line-height: 42px;
   padding-top: 0;
   padding-bottom: 45px;
 }
 
+@media (max-width: 750px) {
+  header h3.intro {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 500px) {
+  header h3.intro {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
 nav .segment.type.ghost {
   padding-top: 20px;
   padding-bottom: 20px;

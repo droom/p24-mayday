@@ -478,20 +478,31 @@ html.js .band.js.hr {
 }
 
 
-// nav .segment.type {
-//   padding-top: 28px;
-//   padding-bottom: 28px;
-// }
 
-
-
-body.iso.cv h3,
 header h3.intro{
-	font-size: 28px;
-	line-height: 35px;
+	font-size: 35px;
+	line-height: 42px;
 	padding-top: 0;
 	padding-bottom: 45px;
 }
+
+@media (max-width: 750px) {
+	header h3.intro{
+		font-size: 30px;
+		line-height: 36px;
+	}
+}
+
+@media (max-width: 500px) {
+	header h3.intro{
+		font-size: 26px;
+		line-height: 32px;
+	}
+}
+
+
+
+
 
 nav .segment.type.ghost {
   padding-top: 20px;
