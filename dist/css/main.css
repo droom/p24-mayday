@@ -525,7 +525,6 @@ a.cta {
 
 a.cta:hover {
   background: #fff;
-  background: rgb(173, 235, 151) 100%;
 }
 
 a.plain.cta {
@@ -589,7 +588,15 @@ a.move.move-top:hover {
 }
 
 .band.hr.relative.pager .segment.type a:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(90deg, rgb(124, 203, 150) 0%, rgb(173, 235, 151) 100%);
+  background: rgb(173, 235, 151) 100%;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+}
+
+.band.hr.relative.pager .segment.type ol li {
+  z-index: 99;
 }
 
 .ghost {
