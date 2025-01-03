@@ -23,3 +23,56 @@
 @use "partials/_p-givereceipt";
 
 @use "v8.scss";
+
+
+
+.menu li .segment.work.grid{
+	display: grid;
+	grid-gap: 7px;
+	grid-template-columns: 65px 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.menu li .segment.work.grid img{
+	width: 100%;
+	border-radius: 8px;
+}
+
+.menu li .segment.work.grid .thumb-1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin-top: 20px;
+}
+
+.menu li .segment.work.grid .thumb-2{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	margin-top: 20px;
+}
+
+
+.menu li .segment.work.grid dl.project{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	// margin-top: -5px;
+
+}
+
+ul.menu li dd.date{
+	margin-top: 5px;	
+}
+
+
+dt.hide{
+	display: none;
+}
+
+.faint{
+	opacity: 0.5;
+}
