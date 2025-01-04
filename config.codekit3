@@ -489,59 +489,6 @@
       "oAP" : "\/dist\/download\/droom-cv-2024.pdf",
       "oF" : 0
     },
-    "\/dist\/img\/codepen\/amiga.gif" : {
-      "ft" : 4194304,
-      "iS" : 877593,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/codepen\/amiga.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/codepen\/outpost-amiga.gif" : {
-      "ft" : 4194304,
-      "iS" : 44553,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/codepen\/outpost-amiga.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/codepen\/outpost-clockwerk-1.gif" : {
-      "ft" : 4194304,
-      "iS" : 164506,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/codepen\/outpost-clockwerk-1.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/codepen\/outpost-sixleaves.gif" : {
-      "ft" : 4194304,
-      "iS" : 14628,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/codepen\/outpost-sixleaves.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/codepen\/outpost-wim.jpg" : {
-      "ft" : 16384,
-      "iS" : 5857,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/codepen\/outpost-wim.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/dist\/img\/components\/.BridgeCache" : {
       "cB" : 0,
       "ft" : 8192,
@@ -719,31 +666,11 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/dist\/img\/components\/europe.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/img\/components\/europe.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/dist\/img\/components\/eye.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/dist\/img\/components\/eye.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/img\/components\/globe.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/img\/components\/globe.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
