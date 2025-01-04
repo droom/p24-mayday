@@ -112,7 +112,7 @@
     },
     "\/dist\/brand\/favicon\/032.png" : {
       "ft" : 32768,
-      "iS" : 1323,
+      "iS" : 1360,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/032.png",
       "oF" : 0,
@@ -125,7 +125,7 @@
     },
     "\/dist\/brand\/favicon\/036.png" : {
       "ft" : 32768,
-      "iS" : 1521,
+      "iS" : 1590,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/036.png",
       "oF" : 0,
@@ -138,7 +138,7 @@
     },
     "\/dist\/brand\/favicon\/048.png" : {
       "ft" : 32768,
-      "iS" : 2106,
+      "iS" : 2356,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/048.png",
       "oF" : 0,
@@ -151,7 +151,7 @@
     },
     "\/dist\/brand\/favicon\/057.png" : {
       "ft" : 32768,
-      "iS" : 2667,
+      "iS" : 2943,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/057.png",
       "oF" : 0,
@@ -164,7 +164,7 @@
     },
     "\/dist\/brand\/favicon\/060.png" : {
       "ft" : 32768,
-      "iS" : 2879,
+      "iS" : 3084,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/060.png",
       "oF" : 0,
@@ -177,7 +177,7 @@
     },
     "\/dist\/brand\/favicon\/070.png" : {
       "ft" : 32768,
-      "iS" : 3432,
+      "iS" : 3800,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/070.png",
       "oF" : 0,
@@ -190,7 +190,7 @@
     },
     "\/dist\/brand\/favicon\/072.png" : {
       "ft" : 32768,
-      "iS" : 3552,
+      "iS" : 3839,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/072.png",
       "oF" : 0,
@@ -203,7 +203,7 @@
     },
     "\/dist\/brand\/favicon\/076.png" : {
       "ft" : 32768,
-      "iS" : 3811,
+      "iS" : 4145,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/076.png",
       "oF" : 0,
@@ -216,7 +216,7 @@
     },
     "\/dist\/brand\/favicon\/096.png" : {
       "ft" : 32768,
-      "iS" : 4872,
+      "iS" : 5597,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/096.png",
       "oF" : 0,
@@ -229,7 +229,7 @@
     },
     "\/dist\/brand\/favicon\/114.png" : {
       "ft" : 32768,
-      "iS" : 5759,
+      "iS" : 6598,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/114.png",
       "oF" : 0,
@@ -242,7 +242,7 @@
     },
     "\/dist\/brand\/favicon\/120.png" : {
       "ft" : 32768,
-      "iS" : 6131,
+      "iS" : 7065,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/120.png",
       "oF" : 0,
@@ -255,7 +255,7 @@
     },
     "\/dist\/brand\/favicon\/144.png" : {
       "ft" : 32768,
-      "iS" : 7179,
+      "iS" : 8424,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/144.png",
       "oF" : 0,
@@ -268,7 +268,7 @@
     },
     "\/dist\/brand\/favicon\/152.png" : {
       "ft" : 32768,
-      "iS" : 7616,
+      "iS" : 8877,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/152.png",
       "oF" : 0,
@@ -281,7 +281,7 @@
     },
     "\/dist\/brand\/favicon\/180.png" : {
       "ft" : 32768,
-      "iS" : 8984,
+      "iS" : 10957,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/180.png",
       "oF" : 0,
@@ -294,7 +294,7 @@
     },
     "\/dist\/brand\/favicon\/192.png" : {
       "ft" : 32768,
-      "iS" : 9305,
+      "iS" : 11272,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/192.png",
       "oF" : 0,
@@ -307,7 +307,7 @@
     },
     "\/dist\/brand\/favicon\/310.png" : {
       "ft" : 32768,
-      "iS" : 12883,
+      "iS" : 16714,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/310.png",
       "oF" : 0,
@@ -318,19 +318,9 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/brand\/favicon\/310x150.gif" : {
-      "ft" : 4194304,
-      "iS" : 15376,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/310x150.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
     "\/dist\/brand\/favicon\/500.png" : {
       "ft" : 32768,
-      "iS" : 21038,
+      "iS" : 26836,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/500.png",
       "oF" : 0,
@@ -343,7 +333,7 @@
     },
     "\/dist\/brand\/favicon\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 16028,
+      "iS" : 18057,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/android-chrome-192x192.png",
       "oF" : 0,
@@ -356,7 +346,7 @@
     },
     "\/dist\/brand\/favicon\/android-chrome-512x512.png" : {
       "ft" : 32768,
-      "iS" : 61947,
+      "iS" : 56724,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/android-chrome-512x512.png",
       "oF" : 0,
@@ -369,7 +359,7 @@
     },
     "\/dist\/brand\/favicon\/apple-touch-icon.png" : {
       "ft" : 32768,
-      "iS" : 15041,
+      "iS" : 16343,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/apple-touch-icon.png",
       "oF" : 0,
@@ -11531,196 +11521,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/016.gif" : {
-      "ft" : 4194304,
-      "iS" : 1079,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/016.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/032.gif" : {
-      "ft" : 4194304,
-      "iS" : 1789,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/032.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/036.gif" : {
-      "ft" : 4194304,
-      "iS" : 2006,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/036.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/048.gif" : {
-      "ft" : 4194304,
-      "iS" : 2698,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/048.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/057.gif" : {
-      "ft" : 4194304,
-      "iS" : 3250,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/057.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/060.gif" : {
-      "ft" : 4194304,
-      "iS" : 3488,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/060.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/070.gif" : {
-      "ft" : 4194304,
-      "iS" : 4211,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/070.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/072.gif" : {
-      "ft" : 4194304,
-      "iS" : 4283,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/072.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/076.gif" : {
-      "ft" : 4194304,
-      "iS" : 4602,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/076.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/096.gif" : {
-      "ft" : 4194304,
-      "iS" : 6120,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/096.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/114.gif" : {
-      "ft" : 4194304,
-      "iS" : 7866,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/114.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/120.gif" : {
-      "ft" : 4194304,
-      "iS" : 8332,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/120.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/144.gif" : {
-      "ft" : 4194304,
-      "iS" : 10629,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/144.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/152.gif" : {
-      "ft" : 4194304,
-      "iS" : 11322,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/152.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/180.gif" : {
-      "ft" : 4194304,
-      "iS" : 14386,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/180.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/192.gif" : {
-      "ft" : 4194304,
-      "iS" : 15438,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/192.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/310.gif" : {
-      "ft" : 4194304,
-      "iS" : 29236,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/310.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/310x150.gif" : {
-      "ft" : 4194304,
-      "iS" : 15376,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/310x150.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/dist\/img\/touch\/500.gif" : {
-      "ft" : 4194304,
-      "iS" : 53814,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/touch\/500.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/dist\/index.html" : {
