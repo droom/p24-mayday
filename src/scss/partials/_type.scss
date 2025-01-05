@@ -1,60 +1,55 @@
 html,
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'gt pressura trial ext md', 'gt sectra display trial', 'heldane text medium', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Heldane Text', 'gt sectra display trial', 'heldane text medium', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.05rem;
-	line-height: 1.58rem
+	line-height: 1.58rem;
 }
 
 h1,
 .h1 {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 44px;
 	font-style: normal;
 	font-weight: 700;
+	line-height: 48px;
 	margin-left: -0.045em;
-	font-size: 44px;
-	line-height: 48px
 }
 
 @media (max-width: 500px) {
-
 	h1,
 	.h1 {
-		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-style: normal;
 		font-weight: 700;
 		font-size: 32px;
-		line-height: 40px
+		line-height: 40px;
 	}
 }
 
 h2,
 .h2 {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
-	line-height: 40px
+	line-height: 40px;
 }
 
 @media (max-width: 500px) {
 
 	h2,
 	.h2 {
-		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 22px;
 		font-style: normal;
 		font-weight: 600;
-		font-size: 22px;
-		line-height: 28px
+		line-height: 28px;
 	}
 }
 
 h3,
 .h3 {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 22px;
-	line-height: 28px
+	line-height: 28px;
 }
 
 h4,
@@ -63,7 +58,7 @@ h5,
 .h5,
 h6,
 .h6 {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
@@ -83,7 +78,7 @@ h6,
 nav,
 nav ol li,
 nav ul li {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
@@ -92,7 +87,7 @@ nav ul li {
 
 hgroup,
 .hgroup {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -103,13 +98,13 @@ table,
 th,
 td,
 p {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.05rem;
 	line-height: 1.58rem
 }
 
 footer .flex .unit {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
 	line-height: 1.28rem
 }
@@ -119,7 +114,7 @@ footer .flex .unit {
 	table,
 	th,
 	td {
-		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: .8rem;
 		line-height: 1.28rem
 	}
@@ -135,14 +130,14 @@ small,
 label,
 sup,
 cite {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
 	line-height: 1.28rem;
 }
 
 figcaption
  {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
 	line-height: 1.1rem;
 }
@@ -155,14 +150,14 @@ dl.feed dt {
 
 @media (max-width: 500px) {
 	ul.menu li dl.credits dd.project {
-		font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: .8rem;
 		line-height: 1.28rem
 	}
 }
 
 ul.menu.tile li .segment.work dl.credits dd.project.h3 {
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
 	line-height: 1.28rem
 }

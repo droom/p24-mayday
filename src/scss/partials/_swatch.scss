@@ -1,269 +1,67 @@
-body{
-	background-color: #ddd;
-}
-.pantone,
-.hex,
-.cmyk{
-  font-family: "Roboto Mono", monospace;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 15px;
-  opacity: 0.7;
-  text-transform: uppercase;
-}
-
-.cmyk{
-  opacity: 0.4;
-
-}
-
-
-.swatch{
+ul.swatch{
 	display: flex;
 	margin: auto;
 }
-
-.pantone,
-.hex,
-.cmyk{
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-
-.ink{
-	width: 60px; 
-	height: 60px;
-	border-radius: 50%;
-	margin-left: -2px;
-}
-
-.colour + .colour{
-	margin-left: 10px;
-}
-
-.main{
-	margin: auto;
-}
-
-
 
 ul.swatch li.colour {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	display: inline-block
+	display: inline-block;
 }
 
-ul.swatch li.colour.outline {
-	border: #ddd 1px solid
+ul.swatch li.colour span{
+	display: none;
 }
 
 ul.swatch li.colour+li.colour {
-	margin-left: -10px
+	margin-left: -10px;
 }
 
-
-span.hex {
-	display: none
+ul.swatch li.colour.outline {
+	border: #ddd 1px solid;
+}
+ 
+ul.swatch-3{
+	width: 100px;
+}
+ul.swatch-4{
+	width: 130px;
+}
+ul.swatch-5{
+	width: 160px;
 }
 
-span.hex:before {
-	content: "#"
-}
+ul.swatch.fo li.colour:nth-child(1) { background: #154b0d }
+ul.swatch.fo li.colour:nth-child(2) { background: #C14D4D }
+ul.swatch.fo li.colour:nth-child(3) { background: #fcf9f9 }
 
+ul.swatch.gr li.colour:nth-child(1) { background: #95ffe1 }
+ul.swatch.gr li.colour:nth-child(2) { background: #222222 }
+ul.swatch.gr li.colour:nth-child(3) { background: #ffffff }
 
-.hex-2C2A29
-{
-	background-color: #2C2A29;
-}
-.hex-000000
-{
-	background-color: #000000;
-}
+ul.swatch.hivstory li.colour:nth-child(1) { background: #5245FA }
+ul.swatch.hivstory li.colour:nth-child(2) {	background: #E56BFD }
+ul.swatch.hivstory li.colour:nth-child(3) {	background: #afa9fc }
 
-.hex-FFFFFF
-{
-	background-color: #FFFFFF;
-}
-.hex-394A86
-{
-	background-color: #394A86;
-}
-.hex-FFF5E5
-{
-	background-color: #FFF5E5;
-}
-.hex-B4D8E9
-{
-	background-color: #B4D8E9;
-}
-.hex-D5DDE6
-{
-	background-color: #D5DDE6;
-}
-.hex-F9C196
-{
-	background-color: #F9C196;
-}
-.hex-84BC9C
-{
-	background-color: #84BC9C;
-}
-.hex-7bffaa
-{
-	background-color: #7bffaa;
-}
+ul.swatch.ideahouse li.colour:nth-child(1) { background: #f4c95b }
+ul.swatch.ideahouse li.colour:nth-child(2) { background: #60af74 }
+ul.swatch.ideahouse li.colour:nth-child(3) { background: #5ec5e2 }
+ul.swatch.ideahouse li.colour:nth-child(4) { background: #ffffff }
 
+ul.swatch.goget li.colour:nth-child(1) { background: #00b4ad }
+ul.swatch.goget li.colour:nth-child(2) { background: #ffc611 }
+ul.swatch.goget li.colour:nth-child(3) { background: #23262f }
+ul.swatch.goget li.colour:nth-child(4) { background: #ffffff }
 
+ul.swatch.gatc li.colour:nth-child(1) { background: #9FAAAE }
+ul.swatch.gatc li.colour:nth-child(2) { background: #CFD4D7 }
+ul.swatch.gatc li.colour:nth-child(3) { background: #506031 }
+ul.swatch.gatc li.colour:nth-child(4) { background: #D9E021 }
+ul.swatch.gatc li.colour:nth-child(5) { background: #FDEE21 }
 
-
-.hex-f0e8db{
-	background-color: #f0e8db;	
-}
-.hex-0d0d0d{
-	background-color: #0d0d0d;	
-}
-.hex-996619{
-	background-color: #996619;	
-}
-.hex-632930{
-	background-color: #632930;	
-}
-.hex-3f5828{
-	background-color: #3f5828;	
-}
-
-
-
-.hex-9eaaad{
-	background-color: #9eaaad;
-}
-.hex-cfd5d6{
-	background-color: #cfd5d6;
-}
-.hex-506031{
-	background-color: #506031;
-}
-.hex-d9e021{
-	background-color: #d9e021;
-}
-.hex-fcee21{
-	background-color: #fcee21;
-}
-
-
-
-ul.fo li.colour:nth-child(1) {
-	background: #154b0d
-}
-
-ul.fo li.colour:nth-child(2) {
-	background: #C14D4D
-}
-
-ul.fo li.colour:nth-child(3) {
-	background: #fcf9f9
-}
-
-ul.ideahouse li.colour:nth-child(1) {
-	background: #f4c95b
-}
-
-ul.ideahouse li.colour:nth-child(2) {
-	background: #60af74
-}
-
-ul.ideahouse li.colour:nth-child(3) {
-	background: #5ec5e2
-}
-
-ul.ideahouse li.colour:nth-child(4) {
-	background: #fff
-}
-
-ul.gr li.colour:nth-child(1) {
-	background: #95ffe1
-}
-
-ul.gr li.colour:nth-child(2) {
-	background: #222
-}
-
-ul.gr li.colour:nth-child(3) {
-	background: #fff
-}
-
-ul.goget li.colour:nth-child(1) {
-	background: #00b4ad
-}
-
-ul.goget li.colour:nth-child(2) {
-	background: #ffc611
-}
-
-ul.goget li.colour:nth-child(3) {
-	background: #23262f
-}
-
-ul.goget li.colour:nth-child(4) {
-	background: #fff
-}
-
-
-ul.swatch.gatc li.colour:nth-child(1) {
-	background: #9FAAAE
-}
-
-ul.swatch.gatc li.colour:nth-child(2) {
-	background: #CFD4D7
-}
-
-ul.swatch.gatc li.colour:nth-child(3) {
-	background: #506031
-}
-
-ul.swatch.gatc li.colour:nth-child(4) {
-	background: #D9E021
-}
-
-ul.swatch.gatc li.colour:nth-child(5) {
-	background: #FDEE21
-}
-
-
-
-ul.swatch.cotcc li.colour:nth-child(1) {
-	background: #f0e8db
-}
-
-ul.swatch.cotcc li.colour:nth-child(2) {
-	background: #0d0d0d
-}
-
-ul.swatch.cotcc li.colour:nth-child(3) {
-	background: #996619
-}
-
-ul.swatch.cotcc li.colour:nth-child(4) {
-	background: #632930
-}
-
-ul.swatch.cotcc li.colour:nth-child(5) {
-	background: #3f5828
-}
-
-
-
-ul.swatch.hivstory li.colour:nth-child(1) {
-	background: #5245FA;
-}
-
-ul.swatch.hivstory li.colour:nth-child(2) {
-	background: #E56BFD;
-}
-
-ul.swatch.hivstory li.colour:nth-child(3) {
-	background: #afa9fc;
-}
-
+ul.swatch.cotcc li.colour:nth-child(1) { background: #f0e8db }
+ul.swatch.cotcc li.colour:nth-child(2) { background: #0d0d0d }
+ul.swatch.cotcc li.colour:nth-child(3) { background: #996619 }
+ul.swatch.cotcc li.colour:nth-child(4) { background: #632930 }
+ul.swatch.cotcc li.colour:nth-child(5) { background: #3f5828 }

@@ -669,25 +669,24 @@ body.work.iso .band.head {
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "gt pressura trial ext md", "gt sectra display trial", "heldane text medium", -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Heldane Text", "gt sectra display trial", "heldane text medium", -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.05rem;
   line-height: 1.58rem;
 }
 
 h1,
 .h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  margin-left: -0.045em;
-  font-size: 44px;
   line-height: 48px;
+  margin-left: -0.045em;
 }
 
 @media (max-width: 500px) {
   h1,
   .h1 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -696,26 +695,23 @@ h1,
 }
 h2,
 .h2 {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
   line-height: 40px;
 }
 
 @media (max-width: 500px) {
   h2,
   .h2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
     line-height: 28px;
   }
 }
 h3,
 .h3 {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -728,7 +724,6 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -748,7 +743,6 @@ h6,
 nav,
 nav ol li,
 nav ul li {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -757,7 +751,6 @@ nav ul li {
 
 hgroup,
 .hgroup {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -768,13 +761,11 @@ table,
 th,
 td,
 p {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.05rem;
   line-height: 1.58rem;
 }
 
 footer .flex .unit {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
   line-height: 1.28rem;
 }
@@ -783,7 +774,6 @@ footer .flex .unit {
   table,
   th,
   td {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1.28rem;
   }
@@ -798,13 +788,11 @@ small,
 label,
 sup,
 cite {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
   line-height: 1.28rem;
 }
 
 figcaption {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
   line-height: 1.1rem;
 }
@@ -816,13 +804,11 @@ dl.feed dt {
 
 @media (max-width: 500px) {
   ul.menu li dl.credits dd.project {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 0.8rem;
     line-height: 1.28rem;
   }
 }
 ul.menu.tile li .segment.work dl.credits dd.project.h3 {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
   line-height: 1.28rem;
 }
@@ -1259,50 +1245,8 @@ a.pan {
   z-index: 99;
 }
 
-body {
-  background-color: #ddd;
-}
-
-.pantone,
-.hex,
-.cmyk {
-  font-family: "Roboto Mono", monospace;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 15px;
-  opacity: 0.7;
-  text-transform: uppercase;
-}
-
-.cmyk {
-  opacity: 0.4;
-}
-
-.swatch {
+ul.swatch {
   display: flex;
-  margin: auto;
-}
-
-.pantone,
-.hex,
-.cmyk {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.ink {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-left: -2px;
-}
-
-.colour + .colour {
-  margin-left: 10px;
-}
-
-.main {
   margin: auto;
 }
 
@@ -1313,156 +1257,96 @@ ul.swatch li.colour {
   display: inline-block;
 }
 
-ul.swatch li.colour.outline {
-  border: #ddd 1px solid;
+ul.swatch li.colour span {
+  display: none;
 }
 
 ul.swatch li.colour + li.colour {
   margin-left: -10px;
 }
 
-span.hex {
-  display: none;
+ul.swatch li.colour.outline {
+  border: #ddd 1px solid;
 }
 
-span.hex:before {
-  content: "#";
+ul.swatch-3 {
+  width: 100px;
 }
 
-.hex-2C2A29 {
-  background-color: #2C2A29;
+ul.swatch-4 {
+  width: 130px;
 }
 
-.hex-000000 {
-  background-color: #000000;
+ul.swatch-5 {
+  width: 160px;
 }
 
-.hex-FFFFFF {
-  background-color: #FFFFFF;
-}
-
-.hex-394A86 {
-  background-color: #394A86;
-}
-
-.hex-FFF5E5 {
-  background-color: #FFF5E5;
-}
-
-.hex-B4D8E9 {
-  background-color: #B4D8E9;
-}
-
-.hex-D5DDE6 {
-  background-color: #D5DDE6;
-}
-
-.hex-F9C196 {
-  background-color: #F9C196;
-}
-
-.hex-84BC9C {
-  background-color: #84BC9C;
-}
-
-.hex-7bffaa {
-  background-color: #7bffaa;
-}
-
-.hex-f0e8db {
-  background-color: #f0e8db;
-}
-
-.hex-0d0d0d {
-  background-color: #0d0d0d;
-}
-
-.hex-996619 {
-  background-color: #996619;
-}
-
-.hex-632930 {
-  background-color: #632930;
-}
-
-.hex-3f5828 {
-  background-color: #3f5828;
-}
-
-.hex-9eaaad {
-  background-color: #9eaaad;
-}
-
-.hex-cfd5d6 {
-  background-color: #cfd5d6;
-}
-
-.hex-506031 {
-  background-color: #506031;
-}
-
-.hex-d9e021 {
-  background-color: #d9e021;
-}
-
-.hex-fcee21 {
-  background-color: #fcee21;
-}
-
-ul.fo li.colour:nth-child(1) {
+ul.swatch.fo li.colour:nth-child(1) {
   background: #154b0d;
 }
 
-ul.fo li.colour:nth-child(2) {
+ul.swatch.fo li.colour:nth-child(2) {
   background: #C14D4D;
 }
 
-ul.fo li.colour:nth-child(3) {
+ul.swatch.fo li.colour:nth-child(3) {
   background: #fcf9f9;
 }
 
-ul.ideahouse li.colour:nth-child(1) {
-  background: #f4c95b;
-}
-
-ul.ideahouse li.colour:nth-child(2) {
-  background: #60af74;
-}
-
-ul.ideahouse li.colour:nth-child(3) {
-  background: #5ec5e2;
-}
-
-ul.ideahouse li.colour:nth-child(4) {
-  background: #fff;
-}
-
-ul.gr li.colour:nth-child(1) {
+ul.swatch.gr li.colour:nth-child(1) {
   background: #95ffe1;
 }
 
-ul.gr li.colour:nth-child(2) {
-  background: #222;
+ul.swatch.gr li.colour:nth-child(2) {
+  background: #222222;
 }
 
-ul.gr li.colour:nth-child(3) {
-  background: #fff;
+ul.swatch.gr li.colour:nth-child(3) {
+  background: #ffffff;
 }
 
-ul.goget li.colour:nth-child(1) {
+ul.swatch.hivstory li.colour:nth-child(1) {
+  background: #5245FA;
+}
+
+ul.swatch.hivstory li.colour:nth-child(2) {
+  background: #E56BFD;
+}
+
+ul.swatch.hivstory li.colour:nth-child(3) {
+  background: #afa9fc;
+}
+
+ul.swatch.ideahouse li.colour:nth-child(1) {
+  background: #f4c95b;
+}
+
+ul.swatch.ideahouse li.colour:nth-child(2) {
+  background: #60af74;
+}
+
+ul.swatch.ideahouse li.colour:nth-child(3) {
+  background: #5ec5e2;
+}
+
+ul.swatch.ideahouse li.colour:nth-child(4) {
+  background: #ffffff;
+}
+
+ul.swatch.goget li.colour:nth-child(1) {
   background: #00b4ad;
 }
 
-ul.goget li.colour:nth-child(2) {
+ul.swatch.goget li.colour:nth-child(2) {
   background: #ffc611;
 }
 
-ul.goget li.colour:nth-child(3) {
+ul.swatch.goget li.colour:nth-child(3) {
   background: #23262f;
 }
 
-ul.goget li.colour:nth-child(4) {
-  background: #fff;
+ul.swatch.goget li.colour:nth-child(4) {
+  background: #ffffff;
 }
 
 ul.swatch.gatc li.colour:nth-child(1) {
@@ -1503,18 +1387,6 @@ ul.swatch.cotcc li.colour:nth-child(4) {
 
 ul.swatch.cotcc li.colour:nth-child(5) {
   background: #3f5828;
-}
-
-ul.swatch.hivstory li.colour:nth-child(1) {
-  background: #5245FA;
-}
-
-ul.swatch.hivstory li.colour:nth-child(2) {
-  background: #E56BFD;
-}
-
-ul.swatch.hivstory li.colour:nth-child(3) {
-  background: #afa9fc;
 }
 
 body.work.iso main,
