@@ -12383,16 +12383,17 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_grads.css" : {
-      "aP" : 1,
+    "\/src\/scss\/partials\/_grads.scss" : {
+      "aP" : 0,
       "bl" : 0,
-      "ci" : 0,
       "co" : 0,
-      "ft" : 16,
+      "ec" : 1,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_grads-min.css",
+      "oAP" : "\/src\/scss\/partials\/_grads.css",
       "oF" : 0,
+      "oS" : 0,
       "pg" : 0
     },
     "\/src\/scss\/partials\/_images.scss" : {

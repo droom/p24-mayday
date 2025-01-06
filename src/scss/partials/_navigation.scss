@@ -12,3 +12,23 @@ nav ol li{
 nav ol li:nth-child(2) {
 	float: right;
 }
+
+
+nav .segment.type.ghost {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav .segment.type {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+#top nav .flex li.unit:nth-child(1){
+	flex-basis: content;
+}
+#top nav .flex li.unit:nth-child(2){
+	flex-basis: content;
+}

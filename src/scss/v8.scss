@@ -66,8 +66,6 @@ html.multiplebgs .segment.blueprint {
 	background-color: rgba(0, 0, 0, 0.04)
 }
 
-
-
 html.flexbox .flex {
 	display: flex;
 	margin: auto
@@ -451,57 +449,7 @@ html.js .band.js.hr {
 /* v9 overrrides to be folded in */
 
 
-#top nav .flex li.unit:nth-child(1){
-	flex-basis: content;
-}
-#top nav .flex li.unit:nth-child(2){
-	flex-basis: content;
-}
 
-
-
-.intro{
-	font-size: 35px;
-	line-height: 42px;
-	padding-top: 0;
-	padding-bottom: 45px;
-}
-
-@media (max-width: 750px) {
-	.intro{
-		font-size: 30px;
-		line-height: 36px;
-	}
-}
-
-@media (max-width: 500px) {
-	.intro{
-		font-size: 26px;
-		line-height: 32px;
-	}
-}
-
-
-.grad{
- background: rgb(29,170,76);
- background: linear-gradient(66deg, rgb(89, 166, 106) 0%, rgb(133, 209, 178) 100%);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
-
-
-
-
-
-nav .segment.type.ghost {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-nav .segment.type {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 ul.menu li .segment.type.work {
   padding-top: 15px;
@@ -518,13 +466,6 @@ body.index ul.menu li dl{
   line-height: 1.15rem !important;;
 }
 
-
-
-cite{
-	display: block;
-	font-style: normal;
-	padding-top: 5px;
-}
 
 
 // ul.skills{
@@ -621,8 +562,3 @@ body.profile figure img{
 }
 
 
-
-
-body.work.iso .band.head {
-  background: linear-gradient(90deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 
-}
