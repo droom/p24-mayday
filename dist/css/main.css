@@ -1896,6 +1896,14 @@ nav .segment.type {
   flex-basis: content;
 }
 
+body.first .pager ol li:nth-child(1) {
+  visibility: hidden;
+}
+
+body.first .pager a.move-left {
+  visibility: hidden;
+}
+
 .related {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

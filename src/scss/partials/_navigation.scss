@@ -32,3 +32,13 @@ nav .segment.type {
 #top nav .flex li.unit:nth-child(2){
 	flex-basis: content;
 }
+
+
+
+body.first .pager ol li:nth-child(1){
+	visibility: hidden;
+}
+
+body.first .pager a.move-left{
+	visibility: hidden;
+}
