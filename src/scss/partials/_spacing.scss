@@ -1,16 +1,17 @@
 :root {
---spacer0: 4px;
---spacer1: 8px;
---spacer2: 16px;
---spacer3: 20px;
---spacer4: 24px;
---spacer5: 28px;
---spacer6: 32px;
---spacer7: 36px;
---spacer8: 40px;
---spacer9: 48px;
---spacer10: 52px;
---spacer11: 56px;
+--spacer1: 4px;
+--spacer2: 8px;
+--spacer3: 12px;
+--spacer4: 16px;
+--spacer5: 20px;
+--spacer6: 24px;
+--spacer7: 28px;
+--spacer8: 32px;
+--spacer9: 36px;
+--spacer10: 40px;
+--spacer11: 48px;
+--spacer12: 52px;
+// --spacer12: 56px;
 
 --spacerC: 56px;
 --spacerA: 28px;
@@ -41,8 +42,10 @@ body main section.diagram.gg.singular .modules {
 .segment.swatch.chart,
 .segment.type.chart,
 .segment.blueprint.pad.chart {
-	padding-left: 9.3333333333px;
-	padding-right: 9.3333333333px
+	// padding-left: 9.3333333333px;
+	// padding-right: 9.3333333333px;
+	padding-left: 10px;
+	padding-left: 10px;
 }
 
 .segment.swatch.chart hgroup,
@@ -51,8 +54,11 @@ body main section.diagram.gg.singular .modules {
 .segment.type.chart figcaption,
 .segment.blueprint.pad.chart hgroup,
 .segment.blueprint.pad.chart figcaption {
-	padding-left: 18.6666666667px;
-	padding-right: 18.6666666667px
+	// padding-left: 18.6666666667px;
+	// padding-right: 18.6666666667px;
+	padding-left: 18px;
+	padding-left: 18px;
+
 }
 
 .segment.swatch hgroup,
@@ -180,23 +186,9 @@ footer .segment.type dl.feed {
 	}
 }
 
-.band.js.hr {
-	padding-top: var(--spacerB);
-	padding-bottom: var(--spacerB);
-}
 
-.cover-photo dl.credits {
-	padding-top: var(--spacerB);
-}
 
-.cover-aside aside.project {
-	padding-top: var(--spacerB);
-}
-
-ol.ref {
-	padding-top: var(--spacerA);
-	padding-bottom: 42px
-}
+// PAGER
 
 .pager nav ol.page li {
 	padding-top: var(--spacerA);
@@ -216,6 +208,8 @@ ol.ref {
 		padding-bottom: 3.5px
 	}
 }
+
+
 
 body.iso main p,
 body.profile main p 
@@ -311,6 +305,8 @@ body.iso main .segment.swatch {
 }
 
 
+// MENU
+
 ul.menu{
 	margin-bottom: 28px;
 }
@@ -327,4 +323,33 @@ ul.menu li .segment.type.work {
 		padding-top: var(--spacerB);
 		padding-bottom: 42px
 	}
+}
+
+
+
+
+blockquote + cite{
+	// background: yellow;
+	padding-top: var(--spacer5);
+}
+
+
+
+
+.band.js.hr {
+	padding-top: var(--spacerB);
+	padding-bottom: var(--spacerB);
+}
+
+.cover-photo dl.credits {
+	padding-top: var(--spacerB);
+}
+
+.cover-aside aside.project {
+	padding-top: var(--spacerB);
+}
+
+ol.ref {
+	padding-top: var(--spacerA);
+	padding-bottom: 42px
 }

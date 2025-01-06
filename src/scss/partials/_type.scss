@@ -1,7 +1,13 @@
+:root {
+--stackA: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+--stackB: "Heldane Text Medium", sans-serif;
+--stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
+
+}
+
 html,
 body {
-	font-family: 'gt pressura trial ext md', 'gt sectra display trial', 'heldane text medium', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-family: 'Heldane Text', 'gt sectra display trial', 'heldane text medium', -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--stackB);
 	font-size: 1.05rem;
 	line-height: 1.58rem;
 }
@@ -58,27 +64,17 @@ h5,
 .h5,
 h6,
 .h6 {
-	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
 	line-height: 19px
 }
 
-h5,
-.h5 {
-	opacity: .8
-}
 
-h6,
-.h6 {
-	opacity: .6
-}
 
 nav,
 nav ol li,
 nav ul li {
-	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
@@ -87,7 +83,6 @@ nav ul li {
 
 hgroup,
 .hgroup {
-	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -98,23 +93,19 @@ table,
 th,
 td,
 p {
-	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.05rem;
 	line-height: 1.58rem
 }
 
 footer .flex .unit {
-	// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
 	line-height: 1.28rem
 }
 
 @media (max-width: 500px) {
-
 	table,
 	th,
 	td {
-		// font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: .8rem;
 		line-height: 1.28rem
 	}
@@ -130,66 +121,61 @@ small,
 label,
 sup,
 cite {
-	//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--stackA);
 	font-size: .8rem;
 	line-height: 1.28rem;
 }
 
-figcaption
- {
-	//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+figcaption{
 	font-size: .8rem;
 	line-height: 1.1rem;
 }
 
 
 dl.feed dt {
-	font-family: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
+	font-family: var(--stackB);
 	letter-spacing: -0.05em
 }
 
 @media (max-width: 500px) {
 	ul.menu li dl.credits dd.project {
-		//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: .8rem;
 		line-height: 1.28rem
 	}
 }
 
 ul.menu.tile li .segment.work dl.credits dd.project.h3 {
-	//font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: .8rem;
-	line-height: 1.28rem
+	line-height: 1.28rem;
 }
 
 dl,
 dd,
 dt {
-	vertical-align: top
+	vertical-align: top;
 }
 
 dl.credits dl {
-	font-weight: 400
+	font-weight: 400;
 }
 
 dl.credits dt {
-	font-weight: 700
+	font-weight: 700;
 }
 
 @media (max-width: 500px) {
-
 	body main h2,
 	body main h3 {
-		text-align: left
+		text-align: left;
 	}
 }
 
 figure figcaption {
-	text-align: left
+	text-align: left;
 }
 
 nav ol li a {
-	padding: 3px 0 1px 0
+	padding: 3px 0 1px 0;
 }
 
 .entity {
@@ -212,7 +198,8 @@ nav ol li a {
 }
 
 .align-c {
-	text-align: center
+	text-align: center;
+	margin: auto;
 }
 
 .ndash {

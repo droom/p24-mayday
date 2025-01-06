@@ -3,6 +3,7 @@
 @use "partials/_links.scss";
 @use "partials/_colour.scss";
 @use "partials/_type.scss";
+@use "partials/_type-breakpoints.scss";
 @use "partials/_spacing.scss";
 @use "partials/_zindex.scss";
 @use "partials/_swatch.scss";
@@ -11,63 +12,19 @@
 @use "partials/_list-projects.scss";
 @use "partials/_pager.scss";
 @use "partials/_border.scss";
+@use "partials/_images.scss";
 @use "partials/_svg.scss";
+@use "partials/_menu.scss";
+@use "partials/_navigation.scss";
 @use "partials/_related.scss";
 @use "partials/_konami.scss";
 @use "partials/_component-hand";
 @use "partials/_component-slick.scss";
 @use "partials/_component-table.scss";
-
 @use "partials/_p-goget.scss";
 @use "partials/_p-ideahouse.scss";
 @use "partials/_p-givereceipt";
-
 @use "v8.scss";
-
-
-
-.menu li .segment.work.grid{
-	display: grid;
-	grid-gap: 7px;
-	grid-template-columns: 65px 1fr 1fr 1fr;
-	grid-template-rows: auto;
-}
-
-.menu li .segment.work.grid img{
-	width: 100%;
-	border-radius: 8px;
-}
-
-.menu li .segment.work.grid .thumb-1{
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	margin-top: 20px;
-}
-
-.menu li .segment.work.grid .thumb-2{
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	margin-top: 20px;
-}
-
-
-.menu li .segment.work.grid dl.project{
-	grid-column-start: 2;
-	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	// margin-top: -5px;
-
-}
-
-ul.menu li dd.date{
-	margin-top: 5px;	
-}
-
 
 dt.hide{
 	display: none;
@@ -75,12 +32,4 @@ dt.hide{
 
 .faint{
 	opacity: 0.5;
-}
-
-.screen{
-	mix-blend-mode: screen;
-}
-
-.multiply{
-	mix-blend-mode: multiply;
 }

@@ -5074,8 +5074,7 @@ nav .segment.type {
   padding-bottom: 28px;
 }
 
-body.iso.cv h3,
-header h3.intro {
+.intro {
   font-size: 28px;
   line-height: 35px;
   padding-bottom: 45px;

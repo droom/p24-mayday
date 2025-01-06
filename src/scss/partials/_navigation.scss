@@ -1,0 +1,14 @@
+nav ol{
+	display: block;
+	width: 100%;
+}
+
+nav ol li{
+	width: 50%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+nav ol li:nth-child(2) {
+	float: right;
+}
