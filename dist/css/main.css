@@ -4913,24 +4913,6 @@ section.breadcrumb hr {
     display: none;
   }
 }
-nav ol,
-footer ol {
-  display: block;
-  width: 100%;
-}
-
-nav ol li,
-footer ol li {
-  width: 50%;
-  vertical-align: top;
-  display: inline-block;
-}
-
-nav ol li:nth-child(2),
-footer ol li:nth-child(2) {
-  float: right;
-}
-
 .relative {
   position: relative;
 }

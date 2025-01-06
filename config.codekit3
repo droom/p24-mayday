@@ -11804,6 +11804,14 @@
       "oAP" : "\/dist\/work-rice.html",
       "oF" : 0
     },
+    "\/src\/archive\/work-givereceipt.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/archive\/work-givereceipt.html",
+      "oF" : 2
+    },
     "\/src\/bugs\/_css _backdrop _filter\/backdrop-filter-01.jpg" : {
       "ft" : 16384,
       "iS" : 54996,
@@ -12183,6 +12191,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/src\/partials\/_links.html",
+      "oF" : 0
+    },
+    "\/src\/partials\/_nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_nav.html",
       "oF" : 0
     },
     "\/src\/partials\/_pager.kit" : {
@@ -12691,14 +12707,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/work-gatc.html",
-      "oF" : 2
-    },
-    "\/src\/work-givereceipt.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/work-givereceipt.html",
       "oF" : 2
     },
     "\/src\/work-goget.kit" : {
