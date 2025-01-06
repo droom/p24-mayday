@@ -12,8 +12,7 @@ body {
 	line-height: 1.58rem;
 }
 
-h1,
-.h1 {
+h1, .h1 {
 	font-size: 44px;
 	font-style: normal;
 	font-weight: 700;
@@ -22,8 +21,7 @@ h1,
 }
 
 @media (max-width: 500px) {
-	h1,
-	.h1 {
+	h1,	.h1 {
 		font-style: normal;
 		font-weight: 700;
 		font-size: 32px;
@@ -31,8 +29,7 @@ h1,
 	}
 }
 
-h2,
-.h2 {
+h2, .h2 {
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
@@ -41,8 +38,7 @@ h2,
 
 @media (max-width: 500px) {
 
-	h2,
-	.h2 {
+	h2,	.h2 {
 		font-size: 22px;
 		font-style: normal;
 		font-weight: 600;
@@ -50,20 +46,15 @@ h2,
 	}
 }
 
-h3,
-.h3 {
+h3, .h3 {
+	font-family: var(--stackB);	
 	font-style: normal;
 	font-weight: 600;
 	font-size: 22px;
 	line-height: 28px;
 }
 
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
+h4, .h4, h5, .h5, h6, .h6 {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;
