@@ -1,0 +1,65 @@
+:root {
+--stackA: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+--stackB: "Heldane Text Medium", sans-serif;
+--stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
+
+}
+
+html,
+body {
+	font-family: var(--stackB);
+}
+
+h1, .h1 {
+}
+
+h2, .h2 {
+}
+
+h3, .h3 {
+	font-family: var(--stackB);	
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+}
+
+
+nav,
+nav ol li,
+nav ul li {
+}
+
+hgroup, .hgroup {
+}
+
+table,
+th,
+td,
+p {
+}
+
+ol li,
+ul li,
+dl,
+dd,
+dt,
+label,
+small,
+label,
+sup,
+cite {
+	font-family: var(--stackA);
+}
+
+figcaption, .figcaption{
+	font-family: var(--stackA);
+}
+
+dl.feed dt {
+	font-family: var(--stackB);
+}
+
+
+.entity {
+	font-family: Arial, Helvetica, sans-serif;
+}

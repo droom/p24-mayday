@@ -1,13 +1,5 @@
-:root {
---stackA: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
---stackB: "Heldane Text Medium", sans-serif;
---stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
-
-}
-
 html,
 body {
-	font-family: var(--stackB);
 	font-size: 1.05rem;
 	line-height: 1.58rem;
 }
@@ -47,7 +39,6 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-family: var(--stackB);	
 	font-style: normal;
 	font-weight: 600;
 	font-size: 22px;
@@ -82,7 +73,6 @@ h4, .h4, h5, .h5, h6, .h6 {
 		line-height: 32px;
 	}
 }
-
 
 
 nav,
@@ -134,7 +124,6 @@ small,
 label,
 sup,
 cite {
-	font-family: var(--stackA);
 	font-size: .8rem;
 	line-height: 1.28rem;
 }
@@ -146,7 +135,6 @@ figcaption{
 
 
 dl.feed dt {
-	font-family: var(--stackB);
 	letter-spacing: -0.05em
 }
 
@@ -200,7 +188,6 @@ cite{
 
 
 .entity {
-	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	vertical-align: bottom;
 	text-rendering: optimizeLegibility;
