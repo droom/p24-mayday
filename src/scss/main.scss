@@ -3,22 +3,27 @@
 @use "partials/_links.scss";
 @use "partials/_colour.scss";
 
-@use "partials/_type.scss";
+@use "partials/_type-includes.scss";
 @use "partials/_type-stacks.scss";
 @use "partials/_type-breakpoints.scss";
+@use "partials/_type.scss";
 
 @use "partials/_spacing.scss";
 @use "partials/_zindex.scss";
 @use "partials/_swatch.scss";
 @use "partials/_counter.scss";
 @use "partials/_list.scss";
-@use "partials/_list-projects.scss";
+
+
 @use "partials/_pager.scss";
 @use "partials/_grads.scss";
 @use "partials/_border.scss";
 @use "partials/_images.scss";
 @use "partials/_svg.scss";
+
 @use "partials/_menu.scss";
+@use "partials/_menu-animation.scss";
+
 @use "partials/_navigation.scss";
 @use "partials/_related.scss";
 @use "partials/_konami.scss";

@@ -21,13 +21,6 @@ h4,
 h5,
 h6,
 nav,
-nav,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
 p,
 small,
 ul,
@@ -467,12 +460,12 @@ a.menu-btn-img .unit.rotate .list {
 }
 
 html a.inline,
-html figure figcaption a.inline {
+html .figcaption a.inline {
   border-bottom: #81d3eb solid 0.14em;
 }
 
 html a.inline.dark,
-html figure figcaption a.inline.dark {
+html .figcaption a.inline.dark {
   border-bottom: rgba(0, 0, 0, 0.8) solid 0.14em;
 }
 
@@ -492,7 +485,7 @@ html.cssgradients a.inline.dark {
   background-image: -webkit-linear-gradient(transparent 88%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 97%, transparent 0);
 }
 
-html.cssgradients figure figcaption a.inline {
+html.cssgradients .figcaption a.inline {
   border: none;
   background-image: -linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0);
   background-image: -moz-linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0);
@@ -655,8 +648,8 @@ pre ::selection {
 
 .segment.blueprint hgroup,
 .segment.blueprint label,
-.segment.blueprint figure figcaption,
-.segment.blueprint figure figcaption a,
+.segment.blueprint .figcaption,
+.segment.blueprint .figcaption a,
 .segment.blueprint ul li,
 .segment.blueprint ol li,
 .segment.blueprint span {
@@ -667,62 +660,126 @@ body.work.iso .band.head {
   background: #81d3eb;
 }
 
+@font-face {
+  font-family: "HeldaneText-Medium";
+  src: url(../fonts/HeldaneText-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-MediumItalic";
+  src: url(../fonts/HeldaneText-MediumItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-Regular";
+  src: url(../fonts/HeldaneText-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-RegularItalic";
+  src: url(../fonts/HeldaneText-RegularItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-Bold";
+  src: url(../fonts/HeldaneText-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-BoldItalic";
+  src: url(../fonts/HeldaneText-BoldItalic.woff2) format("woff2");
+}
+:root {
+  --stackA: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --stackB: "Heldane Text Medium", sans-serif;
+  --stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "HeldaneText-Regular", monospace;
+  font-family: "HeldaneText-RegularItalic", monospace;
+}
+
+.intro {
+  font-family: "HeldaneText-Medium", monospace;
+}
+
+table,
+th,
+td,
+p,
+ol,
+ul,
+dl,
+dd,
+dt,
+label,
+small,
+label,
+sup,
+cite {
+  font-family: var(--stackA);
+}
+
+.figcaption {
+  font-family: var(--stackA);
+}
+
+dl.feed dt {
+  font-family: var(--stackB);
+}
+
+.entity {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 html,
 body {
   font-size: 1.05rem;
   line-height: 1.58rem;
 }
 
-h1, .h1 {
-  font-size: 44px;
+.h1, .h2, .h3, .h4, .h5, .h6, .intro, .nav {
   font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-  margin-left: -0.045em;
-}
-
-@media (max-width: 500px) {
-  h1, .h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-  }
-}
-h2, .h2 {
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-}
-
-@media (max-width: 500px) {
-  h2, .h2 {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
-  }
-}
-h3, .h3 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
-}
-
-h4, .h4, h5, .h5, h6, .h6 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 19px;
+  font-weight: normal;
 }
 
 .intro {
   font-size: 35px;
   line-height: 42px;
-  padding-top: 0;
   padding-bottom: 45px;
+}
+
+.h1 {
+  font-size: 44px;
+  line-height: 48px;
+}
+
+@media (max-width: 500px) {
+  .h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media (max-width: 500px) {
+  .h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.h4, .h5, .h6 {
+  font-size: 15px;
+  line-height: 19px;
 }
 
 @media (max-width: 750px) {
@@ -746,6 +803,13 @@ nav ul li {
   line-height: 19px;
 }
 
+.nav {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+}
+
 hgroup,
 .hgroup {
   font-style: normal;
@@ -758,8 +822,9 @@ table,
 th,
 td,
 p {
-  font-size: 1.05rem;
-  line-height: 1.58rem;
+  line-height: 1.7rem;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 footer .flex .unit {
@@ -789,7 +854,7 @@ cite {
   line-height: 1.28rem;
 }
 
-figcaption {
+.figcaption {
   font-size: 0.8rem;
   line-height: 1.1rem;
 }
@@ -829,10 +894,6 @@ dl.credits dt {
     text-align: left;
   }
 }
-figure figcaption {
-  text-align: left;
-}
-
 nav ol li a {
   padding: 3px 0 1px 0;
 }
@@ -900,44 +961,8 @@ nav .scope {
   word-break: break-word;
 }
 
-:root {
-  --stackA: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --stackB: "Heldane Text Medium", sans-serif;
-  --stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
-}
-
-html,
-body {
-  font-family: var(--stackB);
-}
-
-h3, .h3 {
-  font-family: var(--stackB);
-}
-
-ol li,
-ul li,
-dl,
-dd,
-dt,
-label,
-small,
-label,
-sup,
-cite {
-  font-family: var(--stackA);
-}
-
-figcaption, .figcaption {
-  font-family: var(--stackA);
-}
-
-dl.feed dt {
-  font-family: var(--stackB);
-}
-
-.entity {
-  font-family: Arial, Helvetica, sans-serif;
+.h1 {
+  margin-left: -0.045em;
 }
 
 :root {
@@ -963,7 +988,7 @@ body main h2,
 body main h3,
 body main table,
 body main hgroup,
-body main figcaption,
+body main .figcaption,
 body main blockquote,
 body main section.diagram.gg.singular .modules {
   padding-left: var(--spacerA);
@@ -985,21 +1010,21 @@ body main section.diagram.gg.singular .modules {
 }
 
 .segment.swatch.chart hgroup,
-.segment.swatch.chart figcaption,
+.segment.swatch.chart .figcaption,
 .segment.type.chart hgroup,
-.segment.type.chart figcaption,
+.segment.type.chart .figcaption,
 .segment.blueprint.pad.chart hgroup,
-.segment.blueprint.pad.chart figcaption {
+.segment.blueprint.pad.chart .figcaption {
   padding-left: 18px;
   padding-left: 18px;
 }
 
 .segment.swatch hgroup,
-.segment.swatch figcaption,
+.segment.swatch .figcaption,
 .segment.type hgroup,
-.segment.type figcaption,
+.segment.type .figcaption,
 .segment.blueprint.pad hgroup,
-.segment.blueprint.pad figcaption {
+.segment.blueprint.pad .figcaption {
   padding-left: 0;
   padding-right: 0;
 }
@@ -1010,7 +1035,7 @@ body main section.diagram.gg.singular .modules {
   body main p,
   body main table,
   body main hgroup,
-  body main figcaption,
+  body main .figcaption,
   body main section.diagram.gg.sitemap,
   body main section.diagram.gg.singular .modules {
     padding-left: var(--spacerB);
@@ -1029,32 +1054,36 @@ body main section.diagram.gg.singular .modules {
     padding-right: var(--spacerB);
   }
   .segment.type.chart hgroup,
-  .segment.type.chart figcaption,
+  .segment.type.chart .figcaption,
   .segment.code.chart hgroup,
-  .segment.code.chart figcaption,
+  .segment.code.chart .figcaption,
   .segment.blueprint.pad.chart hgroup,
-  .segment.blueprint.pad.chart figcaption {
+  .segment.blueprint.pad.chart .figcaption {
     padding-left: 0;
     padding-right: 0;
   }
   .segment.type hgroup,
-  .segment.type figcaption,
+  .segment.type .figcaption,
   .segment.code hgroup,
-  .segment.code figcaption,
+  .segment.code .figcaption,
   .segment.blueprint.pad hgroup,
-  .segment.blueprint.pad figcaption {
+  .segment.blueprint.pad .figcaption {
     padding: 0;
   }
   .segment ol.ref {
     padding-left: var(--spacerB);
   }
 }
-header h1 + dl.credits {
-  margin-top: 112px;
+.intro {
+  padding-bottom: var(--spacer11);
+}
+
+header .h1 + dl.credits {
+  margin-top: calc(var(--spacer11) * 2);
 }
 
 header {
-  padding-top: 20px;
+  padding-top: var(--spacer5);
   padding-bottom: var(--spacerA);
 }
 
@@ -1174,7 +1203,7 @@ body.iso main .segment.blueprint.pad .hgroup {
   margin-bottom: var(--spacerC);
 }
 
-body.iso main .segment.blueprint figure figcaption {
+body.iso main .segment.blueprint figure .figcaption {
   margin-top: var(--spacerA);
   margin-bottom: var(--spacerA);
 }
@@ -1184,7 +1213,7 @@ body.iso main .segment.blueprint .hgroup {
   margin-bottom: var(--spacerA);
 }
 
-body.iso main .segment figure figcaption {
+body.iso main .segment figure .figcaption {
   margin-top: var(--spacerB);
   margin-bottom: var(--spacerA);
 }
@@ -1208,7 +1237,7 @@ body.iso main .segment.swatch {
   }
 }
 ul.menu {
-  margin-bottom: 28px;
+  margin-bottom: var(--spacer7);
 }
 
 ul.menu li .segment.type.work {
@@ -1222,7 +1251,7 @@ ul.menu li .segment.type.work {
     padding-bottom: 42px;
   }
 }
-blockquote + cite {
+.blockquote + .citation {
   padding-top: var(--spacer5);
 }
 
@@ -1448,11 +1477,11 @@ sup:before {
   content: "[" counter(ref) "]";
 }
 
-figcaption {
+.figcaption {
   counter-increment: cards;
 }
 
-figcaption:before {
+.figcaption:before {
   content: "fig. " counter(cards);
   display: block;
 }
@@ -1490,8 +1519,36 @@ dl.credits dd.block {
   display: block;
 }
 
-ul.menu li {
-  transition: background ease-out 50ms;
+.pager ol.page {
+  overflow: hidden;
+  width: 100%;
+}
+
+.pager ol.page li {
+  max-width: 50%;
+}
+
+.pager ol.page li:nth-child(1) {
+  padding-right: 28px;
+}
+
+.pager ol.page li:nth-child(2) {
+  padding-left: 28px;
+}
+
+@media (max-width: 500px) {
+  .pager ol.page li:nth-child(1) {
+    padding-right: 14px;
+  }
+  .pager ol.page li:nth-child(2) {
+    padding-left: 14px;
+  }
+}
+.grad {
+  background: rgb(29, 170, 76);
+  background: linear-gradient(66deg, rgb(89, 166, 106) 0%, rgb(133, 209, 178) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 ul.menu li:active,
@@ -1500,9 +1557,83 @@ ul.menu li:hover {
   background: linear-gradient(45deg, rgb(124, 203, 150) 0%, rgb(173, 235, 151) 100%);
 }
 
+body.work.iso .band.head {
+  background: linear-gradient(90deg, rgb(124, 203, 150) 0%, rgb(173, 235, 151) 100%);
+}
+
+nav ol li.border,
+footer ol li.border {
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+ul.menu li {
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+ul.menu li:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.segment.border section {
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.3);
+}
+
+.band.hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.pager {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.pager a:nth-child(1) {
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.figcaption.border {
+  border-top: 1px solid #2e4dd2;
+}
+
+.thin {
+  border: 1px solid #2e4dd2;
+}
+
+.thick {
+  border: 3px solid #2e4dd2;
+}
+
+.soft {
+  border-radius: 0.15em;
+}
+
+.multiply {
+  mix-blend-mode: multiply;
+}
+
+svg.liner.horizontal {
+  height: 20px;
+}
+
+svg.liner.vertical {
+  height: 20px;
+}
+
+svg.liner {
+  width: 100%;
+  height: 100%;
+}
+
+svg#defs {
+  display: none;
+}
+
+ul.menu li {
+  transition: background ease-out 50ms;
+}
+
 ul.menu li a.plain:focus > .segment.type.work,
 ul.menu li a.plain:hover > .segment.type.work {
-  background-position: 100% 17px;
+  background-position: 98% 17px;
   background-size: 28px;
   background-repeat: no-repeat;
   background-opacity: 0.5;
@@ -1512,11 +1643,15 @@ ul.menu li a.plain .segment.work {
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjBweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSI2OC4wNjYgNzQuODU1IDYwIDU2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDY4LjA2NiA3NC44NTUgNjAgNTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBvbHlnb24gZmlsbD0iIzJDMjIyNSIgcG9pbnRzPSIxMjguMDY2LDEwMi45NzEgOTcuMTU3LDEzMC44NTUgOTcuMDk1LDEzMC43ODEgOTcuMDY1LDEzMC44MDggOTUuNjA5LDEyOS4wMTkgOTMuMzUzLDEyNi4zNDUgDQoJCTkzLjM5NywxMjYuMzA1IDkzLjM1MywxMjYuMjQ4IDExNi40MjcsMTA1LjgyOSA2OC4wNjYsMTA1LjgyOSA2OC4wNjYsOTkuNDg2IDExNS44MzQsOTkuNDg2IDkzLjM1Myw3OS42ODggOTMuNTIsNzkuNDc4IA0KCQk5My4zNTMsNzkuMzMzIDk3LjE1Nyw3NC44NTUgMTI4LjA2NCwxMDIuODY5IDEyOC4wNjQsMTAyLjk3MSAxMjguMDY2LDEwMi45NzEgCSIvPg0KPC9nPg0KPC9zdmc+DQo=");
   background-repeat: no-repeat;
   background-size: 28px;
-  background-position: 97% 17px;
-  background-opacity: 1;
+  background-position: 95% 17px;
   transition: 300ms background-position ease, 300ms opacity ease;
 }
 
+@media (max-width: 700px) {
+  ul.menu li a.plain .segment.work {
+    background-image: none;
+  }
+}
 @media (max-width: 500px) {
   ul.menu li a.plain:focus > .segment.type.work,
   ul.menu li a.plain:hover > .segment.type.work,
@@ -1535,6 +1670,45 @@ ul.menu li a.plain .segment.work {
     display: inline;
   }
 }
+ul.menu li .segment.work.grid {
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: 65px 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+ul.menu li .segment.work.grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+ul.menu li .segment.work.grid .thumb-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 20px;
+}
+
+ul.menu li .segment.work.grid .thumb-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 20px;
+}
+
+ul.menu li .segment.work.grid dl.project {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+ul.menu li dd.date {
+  margin-top: 5px;
+}
+
 body,
 header,
 footer,
@@ -1742,147 +1916,6 @@ a {
     animation-delay: 250ms;
   }
 }
-.pager ol.page {
-  overflow: hidden;
-  width: 100%;
-}
-
-.pager ol.page li {
-  max-width: 50%;
-}
-
-.pager ol.page li:nth-child(1) {
-  padding-right: 28px;
-}
-
-.pager ol.page li:nth-child(2) {
-  padding-left: 28px;
-}
-
-@media (max-width: 500px) {
-  .pager ol.page li:nth-child(1) {
-    padding-right: 14px;
-  }
-  .pager ol.page li:nth-child(2) {
-    padding-left: 14px;
-  }
-}
-.grad {
-  background: rgb(29, 170, 76);
-  background: linear-gradient(66deg, rgb(89, 166, 106) 0%, rgb(133, 209, 178) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-body.work.iso .band.head {
-  background: linear-gradient(90deg, rgb(124, 203, 150) 0%, rgb(173, 235, 151) 100%);
-}
-
-nav ol li.border,
-footer ol li.border {
-  border-right: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-ul.menu li {
-  border-top: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-ul.menu li:last-child {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-.segment.border section {
-  border-bottom: 0.1em solid rgba(0, 0, 0, 0.3);
-}
-
-.band.hr {
-  border-top: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-.pager {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-.pager a:nth-child(1) {
-  border-right: 1px solid rgba(0, 0, 0, 0.14);
-}
-
-figure figcaption.border {
-  border-top: 1px solid #2e4dd2;
-}
-
-.thin {
-  border: 1px solid #2e4dd2;
-}
-
-.thick {
-  border: 3px solid #2e4dd2;
-}
-
-.soft {
-  border-radius: 0.15em;
-}
-
-.multiply {
-  mix-blend-mode: multiply;
-}
-
-svg.liner.horizontal {
-  height: 20px;
-}
-
-svg.liner.vertical {
-  height: 20px;
-}
-
-svg.liner {
-  width: 100%;
-  height: 100%;
-}
-
-svg#defs {
-  display: none;
-}
-
-ul.menu li .segment.work.grid {
-  display: grid;
-  grid-gap: 7px;
-  grid-template-columns: 65px 1fr 1fr 1fr;
-  grid-template-rows: auto;
-}
-
-ul.menu li .segment.work.grid img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-ul.menu li .segment.work.grid .thumb-1 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  margin-top: 20px;
-}
-
-ul.menu li .segment.work.grid .thumb-2 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  margin-top: 20px;
-}
-
-ul.menu li .segment.work.grid dl.project {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-ul.menu li dd.date {
-  margin-top: 5px;
-}
-
 nav ol {
   display: block;
   width: 100%;
@@ -2365,7 +2398,7 @@ html.konami body ul.menu li a.plain .segment.work {
   margin: 100px auto;
 }
 
-figcaption .slick-slide {
+.figcaption .slick-slide {
   margin: 0px;
 }
 
@@ -5158,7 +5191,7 @@ img.blend {
 }
 
 .band.notice {
-  background: repeating-linear-gradient(-45deg, #2199e7, #2199e7 1px, #f1f1f1 1px, #f1f1f1 30px);
+  background: repeating-linear-gradient(-45deg, #2199e7, #2199e7 1px, #f1f1f1 1px, #f1f1f1 20px);
 }
 
 #top {

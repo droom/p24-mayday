@@ -25,7 +25,7 @@ body main h2,
 body main h3,
 body main table,
 body main hgroup,
-body main figcaption,
+body main .figcaption,
 body main blockquote,
 body main section.diagram.gg.singular .modules {
 	padding-left: var(--spacerA);
@@ -49,11 +49,11 @@ body main section.diagram.gg.singular .modules {
 }
 
 .segment.swatch.chart hgroup,
-.segment.swatch.chart figcaption,
+.segment.swatch.chart .figcaption,
 .segment.type.chart hgroup,
-.segment.type.chart figcaption,
+.segment.type.chart .figcaption,
 .segment.blueprint.pad.chart hgroup,
-.segment.blueprint.pad.chart figcaption {
+.segment.blueprint.pad.chart .figcaption {
 	// padding-left: 18.6666666667px;
 	// padding-right: 18.6666666667px;
 	padding-left: 18px;
@@ -62,11 +62,11 @@ body main section.diagram.gg.singular .modules {
 }
 
 .segment.swatch hgroup,
-.segment.swatch figcaption,
+.segment.swatch .figcaption,
 .segment.type hgroup,
-.segment.type figcaption,
+.segment.type .figcaption,
 .segment.blueprint.pad hgroup,
-.segment.blueprint.pad figcaption {
+.segment.blueprint.pad .figcaption {
 	padding-left: 0;
 	padding-right: 0
 }
@@ -79,7 +79,7 @@ body main section.diagram.gg.singular .modules {
 	body main p,
 	body main table,
 	body main hgroup,
-	body main figcaption,
+	body main .figcaption,
 	body main section.diagram.gg.sitemap,
 	body main section.diagram.gg.singular .modules {
 		padding-left: var(--spacerB);
@@ -101,21 +101,21 @@ body main section.diagram.gg.singular .modules {
 	}
 
 	.segment.type.chart hgroup,
-	.segment.type.chart figcaption,
+	.segment.type.chart .figcaption,
 	.segment.code.chart hgroup,
-	.segment.code.chart figcaption,
+	.segment.code.chart .figcaption,
 	.segment.blueprint.pad.chart hgroup,
-	.segment.blueprint.pad.chart figcaption {
+	.segment.blueprint.pad.chart .figcaption {
 		padding-left: 0;
 		padding-right: 0
 	}
 
 	.segment.type hgroup,
-	.segment.type figcaption,
+	.segment.type .figcaption,
 	.segment.code hgroup,
-	.segment.code figcaption,
+	.segment.code .figcaption,
 	.segment.blueprint.pad hgroup,
-	.segment.blueprint.pad figcaption {
+	.segment.blueprint.pad .figcaption {
 		padding: 0
 	}
 
@@ -125,12 +125,19 @@ body main section.diagram.gg.singular .modules {
 }
 
 
-header h1+dl.credits{
-	margin-top: 112px;
+
+.intro{
+	// padding-bottom: var(--spacer10);
+	padding-bottom: var(--spacer11);
+}
+
+
+header .h1 + dl.credits{
+	margin-top: calc(var(--spacer11)*2);
 }
 
 header {
-	padding-top: 20px;
+	padding-top: var(--spacer5);
 	padding-bottom: var(--spacerA);
 }
 
@@ -268,7 +275,7 @@ body.iso main .segment.blueprint.pad .hgroup {
 	margin-bottom: var(--spacerC);
 }
 
-body.iso main .segment.blueprint figure figcaption {
+body.iso main .segment.blueprint figure .figcaption {
 	margin-top: var(--spacerA);
 	margin-bottom: var(--spacerA);
 }
@@ -278,7 +285,7 @@ body.iso main .segment.blueprint .hgroup {
 	margin-bottom: var(--spacerA);
 }
 
-body.iso main .segment figure figcaption {
+body.iso main .segment figure .figcaption {
 	margin-top: var(--spacerB);
 	margin-bottom: var(--spacerA);
 }
@@ -308,7 +315,7 @@ body.iso main .segment.swatch {
 // MENU
 
 ul.menu{
-	margin-bottom: 28px;
+	margin-bottom: var(--spacer7);
 }
 
 
@@ -316,8 +323,6 @@ ul.menu li .segment.type.work {
 	padding-top: var(--spacerA);
 	padding-bottom: var(--spacerA);
 }
-
-
 @media (max-width: 500px) {
 	ul.menu li .segment.type.work {
 		padding-top: var(--spacerB);
@@ -328,7 +333,7 @@ ul.menu li .segment.type.work {
 
 
 
-blockquote + cite{
+.blockquote + .citation{
 	// background: yellow;
 	padding-top: var(--spacer5);
 }

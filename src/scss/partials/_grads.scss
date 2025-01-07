@@ -5,6 +5,11 @@
  -webkit-text-fill-color: transparent;
 }
 
+ul.menu li:active,
+ul.menu li:hover {
+  background-color: #81d3eb;
+  background: linear-gradient(45deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 
+}
 
 body.work.iso .band.head {
   background: linear-gradient(90deg, rgba(124,203,150,1) 0%, rgba(173,235,151,1) 100%); 

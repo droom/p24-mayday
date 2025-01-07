@@ -4,61 +4,53 @@ body {
 	line-height: 1.58rem;
 }
 
-h1, .h1 {
-	font-size: 44px;
+.h1, .h2, .h3, .h4, .h5, .h6, .intro, .nav {
 	font-style: normal;
-	font-weight: 700;
-	line-height: 48px;
-	margin-left: -0.045em;
-}
-
-@media (max-width: 500px) {
-	h1,	.h1 {
-		font-style: normal;
-		font-weight: 700;
-		font-size: 32px;
-		line-height: 40px;
-	}
-}
-
-h2, .h2 {
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 40px;
-}
-
-@media (max-width: 500px) {
-
-	h2,	.h2 {
-		font-size: 22px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 28px;
-	}
-}
-
-h3, .h3 {
-	font-style: normal;
-	font-weight: 600;
-	font-size: 22px;
-	line-height: 28px;
-}
-
-h4, .h4, h5, .h5, h6, .h6 {
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 19px
+	font-weight: normal;
 }
 
 
 .intro{
 	font-size: 35px;
 	line-height: 42px;
-	padding-top: 0;
 	padding-bottom: 45px;
 }
+
+
+
+.h1 {
+	font-size: 44px;
+	line-height: 48px;
+}
+@media (max-width: 500px) {
+	.h1 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+}
+
+.h2 {
+	font-size: 32px;
+	line-height: 40px;
+}
+@media (max-width: 500px) {
+	.h2 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+}
+
+.h3 {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.h4, .h5, .h6 {
+	font-size: 15px;
+	line-height: 19px
+}
+
+
 
 @media (max-width: 750px) {
 	.intro{
@@ -84,6 +76,16 @@ nav ul li {
 	line-height: 19px
 }
 
+
+.nav{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 19px
+}
+
+
+
 hgroup,
 .hgroup {
 	font-style: normal;
@@ -96,8 +98,9 @@ table,
 th,
 td,
 p {
-	font-size: 1.05rem;
-	line-height: 1.58rem
+	line-height: 1.7rem;
+	font-weight: 300;
+	font-size: 1.2rem;
 }
 
 footer .flex .unit {
@@ -128,7 +131,7 @@ cite {
 	line-height: 1.28rem;
 }
 
-figcaption{
+.figcaption{
 	font-size: .8rem;
 	line-height: 1.1rem;
 }
@@ -171,10 +174,6 @@ dl.credits dt {
 	}
 }
 
-figure figcaption {
-	text-align: left;
-}
-
 nav ol li a {
 	padding: 3px 0 1px 0;
 }
@@ -184,6 +183,11 @@ cite{
 	font-style: normal;
 	padding-top: 5px;
 }
+
+
+
+
+// ADJUSTMENTS
 
 
 
@@ -242,4 +246,12 @@ nav .scope {
 
 .break {
 	word-break: break-word
+}
+
+
+
+// Adjustments
+
+.h1 {
+	margin-left: -0.045em;
 }

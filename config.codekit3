@@ -479,6 +479,54 @@
       "oAP" : "\/dist\/download\/droom-cv-2024.pdf",
       "oF" : 0
     },
+    "\/dist\/fonts\/HeldaneText-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-Bold.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-BoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-BoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-Medium.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-MediumItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-MediumItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-Regular.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-RegularItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-RegularItalic.woff2",
+      "oF" : 0
+    },
     "\/dist\/img\/components\/.BridgeCache" : {
       "cB" : 0,
       "ft" : 8192,
@@ -12145,6 +12193,14 @@
       "oAP" : "\/src\/partials\/_cards.html",
       "oF" : 0
     },
+    "\/src\/partials\/_credits.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_credits.html",
+      "oF" : 0
+    },
     "\/src\/partials\/_discovery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -12427,19 +12483,6 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_list-projects.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_list-projects.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
     "\/src\/scss\/partials\/_list.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -12449,6 +12492,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_list.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/src\/scss\/partials\/_menu-animation.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_menu-animation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -12618,6 +12674,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_type-breakpoints.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/src\/scss\/partials\/_type-includes.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_type-includes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

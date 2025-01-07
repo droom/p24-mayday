@@ -3,43 +3,49 @@
 --stackB: "Heldane Text Medium", sans-serif;
 --stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
 
+
 }
 
 html,
 body {
-	font-family: var(--stackB);
+	// font-family: var(--stackB);
+	// font-family: 'HeldaneText-Bold';
+	// font-family: 'HeldaneText-MediumItalic';
+	// font-family: 'HeldaneText-Regular';
+	// font-family: 'HeldaneText-RegularItalic';
+	}
+
+.h1,
+.h2,
+.h3,
+.h4, 
+.h5, 
+.h6 {
+	// font-family: var(--stackB);	
+	font-family: 'HeldaneText-Regular', monospace;
+	font-family: 'HeldaneText-RegularItalic', monospace;
+	// font-family: 'HeldaneText-Medium', monospace;
+	// font-family: 'HeldaneText-MediumItalic', monospace;
+	// font-family: 'HeldaneText-Bold', monospace;
+	// font-family: 'HeldaneText-BoldItalic', monospace;
 }
 
-h1, .h1 {
+.intro{
+	font-family: 'HeldaneText-Medium', monospace;
 }
 
-h2, .h2 {
+.nav{
 }
 
-h3, .h3 {
-	font-family: var(--stackB);	
-}
-
-h4, .h4, h5, .h5, h6, .h6 {
-}
-
-
-nav,
-nav ol li,
-nav ul li {
-}
-
-hgroup, .hgroup {
+.hgroup {
 }
 
 table,
 th,
 td,
-p {
-}
-
-ol li,
-ul li,
+p,
+ol,
+ul,
 dl,
 dd,
 dt,
@@ -51,7 +57,7 @@ cite {
 	font-family: var(--stackA);
 }
 
-figcaption, .figcaption{
+.figcaption{
 	font-family: var(--stackA);
 }
 

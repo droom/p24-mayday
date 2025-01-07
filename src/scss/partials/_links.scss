@@ -83,12 +83,12 @@ a.menu-btn-img .unit.rotate .list {
 
 
 html a.inline,
-html figure figcaption a.inline {
+html .figcaption a.inline {
 	border-bottom: #81d3eb solid .14em
 }
 
 html a.inline.dark,
-html figure figcaption a.inline.dark {
+html .figcaption a.inline.dark {
 	border-bottom: rgba(0, 0, 0, 0.8) solid .14em
 }
 
@@ -108,7 +108,7 @@ html.cssgradients a.inline.dark {
 	background-image: -webkit-linear-gradient(transparent 88%, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 97%, transparent 0)
 }
 
-html.cssgradients figure figcaption a.inline {
+html.cssgradients .figcaption a.inline {
 	border: none;
 	background-image: -linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0);
 	background-image: -moz-linear-gradient(top, transparent 85%, #2e4dd2 0, #2e4dd2 95%, transparent 0);
