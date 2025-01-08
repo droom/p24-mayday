@@ -107,11 +107,7 @@ html.flexbox .flex .unit.end {
 
 
 
-@media (max-width: 500px) {
-	nav .segment.type.ghost li{
-		font-size: 13px;
-	}
-}
+
 
 
 img.arrow-back,
@@ -160,13 +156,6 @@ img.blend {
 }
 
 
-.band.elsewhere {
-	background: rgba(0, 0, 0, 0.04)
-}
-
-.band.notice {
-	background: repeating-linear-gradient(-45deg, #2199e7, #2199e7 1px, #f1f1f1 1px, #f1f1f1 20px)
-}
 
 
 #top {
@@ -182,21 +171,6 @@ img.blend {
 	opacity: 1;
 	top: 0
 }
-
-
-
-
-dl.feed {
-	display: block
-}
-
-@media (max-width: 350px) {
-	dl.feed dt,
-	dl.feed dd {
-		display: block
-	}
-}
-
 
 
 figure figcaption {
@@ -561,4 +535,12 @@ body.profile figure img{
 	border-radius: 10px;
 }
 
+
+dt.hide{
+	display: none;
+}
+
+.faint{
+	opacity: 0.5;
+}
 

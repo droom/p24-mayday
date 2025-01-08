@@ -11852,6 +11852,14 @@
       "oAP" : "\/dist\/work-rice.html",
       "oF" : 0
     },
+    "\/src\/about.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/about.html",
+      "oF" : 0
+    },
     "\/src\/bugs\/_css _backdrop _filter\/backdrop-filter-01.jpg" : {
       "ft" : 16384,
       "iS" : 54996,
@@ -12311,6 +12319,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_appendix.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/src\/scss\/partials\/_bands.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_bands.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

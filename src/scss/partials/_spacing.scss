@@ -13,9 +13,10 @@
 --spacer12: 52px;
 // --spacer12: 56px;
 
---spacerC: 56px;
 --spacerA: 28px;
 --spacerB: 14px;
+--spacerC: 56px;
+
 }
 
 
@@ -127,7 +128,6 @@ body main section.diagram.gg.singular .modules {
 
 
 .intro{
-	// padding-bottom: var(--spacer10);
 	padding-bottom: var(--spacer11);
 }
 
@@ -138,7 +138,7 @@ header .h1 + dl.credits{
 
 header {
 	padding-top: var(--spacer5);
-	padding-bottom: var(--spacerA);
+	padding-bottom: var(--spacer5);
 }
 
 @media (max-width: 800px) {
@@ -157,15 +157,20 @@ header {
 
 
 
-nav .segment.type.ghost {
-	padding-top: var(--spacerA);
-	padding-bottom: var(--spacerA);
+
+// NAVIGATION
+
+.nav .segment.type,
+.nav .segment.type.ghost {
+	padding-top: var(--spacer4);
+	padding-bottom: var(--spacer4);
 }
 
 @media (max-width: 500px) {
-	nav .segment.type.ghost {
-		padding-top: 15px !important;
-		padding-bottom: var(--spacerB) !important;
+	.nav .segment.type,
+	.nav .segment.type.ghost {
+		padding-top: var(--spacer3); 
+		padding-bottom: var(--spacer3);
 	}
 }
 
@@ -176,19 +181,9 @@ footer .segment.type {
 	padding-bottom: var(--spacerB);
 }
 
-footer .segment.type dl.feed {
-	padding-top: var(--spacerB);
-	padding-bottom: var(--spacerB);
-}
-
 @media (max-width: 500px) {
 	footer .segment.type {
 		padding-top: var(--spacerB);
-		padding-bottom: var(--spacerB);
-	}
-
-	footer .segment.type dl.feed {
-		padding-top: 0;
 		padding-bottom: var(--spacerB);
 	}
 }

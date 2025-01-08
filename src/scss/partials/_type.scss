@@ -1,21 +1,14 @@
-html,
-body {
-	font-size: 1.05rem;
-	line-height: 1.58rem;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, .intro, .nav {
+.h1, .h2, .h3, .h4, .h5, .h6, 
+.hgroup, .intro, .nav, .citation{
 	font-style: normal;
 	font-weight: normal;
 }
 
 
-.intro{
-	font-size: 35px;
-	line-height: 42px;
-	padding-bottom: 45px;
+.hgroup {
+	font-size: 20px;
+	line-height: 25px
 }
-
 
 
 .h1 {
@@ -51,6 +44,26 @@ body {
 }
 
 
+.menu .date{
+	font-size: 16px;
+}
+
+
+.figcaption{
+	font-size: .8rem;
+	line-height: 1.1rem;
+}
+
+
+
+// intro
+
+.intro{
+	font-size: 35px;
+	line-height: 42px;
+	padding-bottom: 45px;
+}
+
 
 @media (max-width: 750px) {
 	.intro{
@@ -67,46 +80,24 @@ body {
 }
 
 
-nav,
-nav ol li,
-nav ul li {
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 19px
-}
-
-
 .nav{
-	font-style: normal;
-	font-weight: 600;
 	font-size: 15px;
 	line-height: 19px
 }
 
 
 
-hgroup,
-.hgroup {
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 25px
-}
+
+
 
 table,
 th,
 td,
 p {
 	line-height: 1.7rem;
-	font-weight: 300;
 	font-size: 1.2rem;
 }
 
-footer .flex .unit {
-	font-size: .8rem;
-	line-height: 1.28rem
-}
 
 @media (max-width: 500px) {
 	table,
@@ -117,41 +108,15 @@ footer .flex .unit {
 	}
 }
 
-ol li,
-ul li,
 dl,
-dd,
-dt,
 label,
 small,
-label,
 sup,
 cite {
 	font-size: .8rem;
 	line-height: 1.28rem;
 }
 
-.figcaption{
-	font-size: .8rem;
-	line-height: 1.1rem;
-}
-
-
-dl.feed dt {
-	letter-spacing: -0.05em
-}
-
-@media (max-width: 500px) {
-	ul.menu li dl.credits dd.project {
-		font-size: .8rem;
-		line-height: 1.28rem
-	}
-}
-
-ul.menu.tile li .segment.work dl.credits dd.project.h3 {
-	font-size: .8rem;
-	line-height: 1.28rem;
-}
 
 dl,
 dd,
@@ -159,36 +124,23 @@ dt {
 	vertical-align: top;
 }
 
-dl.credits dl {
+.credits dl {
 	font-weight: 400;
 }
 
-dl.credits dt {
+.credits dt {
 	font-weight: 700;
 }
 
-@media (max-width: 500px) {
-	body main h2,
-	body main h3 {
-		text-align: left;
-	}
-}
 
-nav ol li a {
-	padding: 3px 0 1px 0;
-}
 
-cite{
+.citation{
 	display: block;
-	font-style: normal;
-	padding-top: 5px;
 }
-
 
 
 
 // ADJUSTMENTS
-
 
 
 .entity {
@@ -198,7 +150,7 @@ cite{
 }
 
 .slash {
-	padding: 0 .15em
+	padding: 0.15em
 }
 
 .align-l {
@@ -206,7 +158,7 @@ cite{
 }
 
 .align-r {
-	text-align: right
+	text-align: right;
 }
 
 .align-c {
@@ -247,10 +199,6 @@ nav .scope {
 .break {
 	word-break: break-word
 }
-
-
-
-// Adjustments
 
 .h1 {
 	margin-left: -0.045em;

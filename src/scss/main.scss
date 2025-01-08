@@ -12,8 +12,8 @@
 @use "partials/_zindex.scss";
 @use "partials/_swatch.scss";
 @use "partials/_counter.scss";
+@use "partials/_bands.scss";
 @use "partials/_list.scss";
-
 
 @use "partials/_pager.scss";
 @use "partials/_grads.scss";
@@ -35,10 +35,3 @@
 @use "partials/_p-givereceipt";
 @use "v8.scss";
 
-dt.hide{
-	display: none;
-}
-
-.faint{
-	opacity: 0.5;
-}

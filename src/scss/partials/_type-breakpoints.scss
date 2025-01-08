@@ -1,0 +1,10 @@
+.logomark .apple{
+   display: inline;
+}
+
+
+@media (max-width: 500px) {
+.logomark .apple{
+   display: none;
+}
+}

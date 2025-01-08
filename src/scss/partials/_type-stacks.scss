@@ -1,19 +1,32 @@
 :root {
---stackA: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
---stackB: "Heldane Text Medium", sans-serif;
---stackC: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
 
+--mono: "Roboto Mono", "Consolas", "Monaco", "Lucida Console", "Andale Mono", monospace;
+--sans: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+
+--reg:		'HeldaneText-Regular', monospace;
+--regIta:	'HeldaneText-RegularItalic', monospace;
+--med: 		'HeldaneText-Medium', monospace;
+--medIta: 	'HeldaneText-MediumItalic', monospace;
+--bold: 	'HeldaneText-Bold', monospace;
+--boldIta: 	'HeldaneText-BoldItalic', monospace;
 
 }
 
 html,
 body {
-	// font-family: var(--stackB);
-	// font-family: 'HeldaneText-Bold';
-	// font-family: 'HeldaneText-MediumItalic';
-	// font-family: 'HeldaneText-Regular';
-	// font-family: 'HeldaneText-RegularItalic';
 	}
+
+.table,
+.entity,
+.figcaption,
+.hgroup,
+.credits,
+.citation,
+.footer,
+.label{
+	font-family: var(--sans);
+}
+
 
 .h1,
 .h2,
@@ -21,51 +34,63 @@ body {
 .h4, 
 .h5, 
 .h6 {
-	// font-family: var(--stackB);	
-	font-family: 'HeldaneText-Regular', monospace;
-	font-family: 'HeldaneText-RegularItalic', monospace;
-	// font-family: 'HeldaneText-Medium', monospace;
-	// font-family: 'HeldaneText-MediumItalic', monospace;
-	// font-family: 'HeldaneText-Bold', monospace;
-	// font-family: 'HeldaneText-BoldItalic', monospace;
+	font-family: var(--reg);
 }
+
 
 .intro{
-	font-family: 'HeldaneText-Medium', monospace;
+	// font-family: var(--med);
+	font-family: var(--reg);
+	// font-weight: 400;
+
+
 }
+
 
 .nav{
+	font-family: var(--reg);
 }
 
-.hgroup {
-}
-
-table,
-th,
-td,
-p,
-ol,
-ul,
-dl,
-dd,
-dt,
-label,
-small,
-label,
-sup,
-cite {
-	font-family: var(--stackA);
-}
-
-.figcaption{
-	font-family: var(--stackA);
-}
-
-dl.feed dt {
-	font-family: var(--stackB);
+.amp{
+	font-family: var(--regIta);
 }
 
 
-.entity {
-	font-family: Arial, Helvetica, sans-serif;
+
+.logomark{
+	// font-family: var(--med);
+	font-family: var(--reg);
+	// font-weight: 600;
+	font-size: 17px;
+	text-transform: lowercase;
+	font-variant: small-caps;
 }
+
+.logomark .by{
+	font-variant: normal;
+	font-size-adjust: 0.35;
+	font-family: var(--regIta);
+}
+
+.menu .date{
+	font-family: var(--reg);
+	// font-family: var(--regIta);
+
+	// font-variant: normal;
+	// font-style: italic;
+		// text-transform: lowercase;
+	// font-variant: small-caps;
+	font-variant-numeric: oldstyle-nums;
+	// font-family: spectral, monospace;
+}
+
+
+p{
+	font-family: var(--reg);
+}
+
+p em{
+	font-family: var(--regIta);
+}
+
+
