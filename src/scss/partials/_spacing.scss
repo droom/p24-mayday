@@ -20,14 +20,30 @@
 }
 
 
+// body main p,
+// body main h2,
+// body main h3,
+// body main table,
+// body main hgroup,
+// body main figcaption,
+// body main blockquote,
+// body main section.diagram.gg.singular .modules {
+//   padding-left: 28px;
+//   padding-right: 28px;
+// }
+
+
+
 
 body main p,
 body main h2,
 body main h3,
 body main table,
-body main hgroup,
+body main .hgroup,
 body main .figcaption,
-body main blockquote,
+body main .blockquote,
+body main .citation,
+body main .inline-list,
 body main section.diagram.gg.singular .modules {
 	padding-left: var(--spacerA);
 	padding-right: var(--spacerA);
@@ -43,30 +59,26 @@ body main section.diagram.gg.singular .modules {
 .segment.swatch.chart,
 .segment.type.chart,
 .segment.blueprint.pad.chart {
-	// padding-left: 9.3333333333px;
-	// padding-right: 9.3333333333px;
-	padding-left: 10px;
-	padding-left: 10px;
+	padding-left: var(--spacer2);
+	padding-right: var(--spacer2);
 }
 
-.segment.swatch.chart hgroup,
+.segment.swatch.chart .hgroup,
 .segment.swatch.chart .figcaption,
-.segment.type.chart hgroup,
+.segment.type.chart .hgroup,
 .segment.type.chart .figcaption,
-.segment.blueprint.pad.chart hgroup,
+.segment.blueprint.pad.chart .hgroup,
 .segment.blueprint.pad.chart .figcaption {
-	// padding-left: 18.6666666667px;
-	// padding-right: 18.6666666667px;
-	padding-left: 18px;
-	padding-left: 18px;
+	padding-left: var(--spacer4);
+	padding-right: var(--spacer4);
 
 }
 
-.segment.swatch hgroup,
+.segment.swatch .hgroup,
 .segment.swatch .figcaption,
-.segment.type hgroup,
+.segment.type .hgroup,
 .segment.type .figcaption,
-.segment.blueprint.pad hgroup,
+.segment.blueprint.pad .hgroup,
 .segment.blueprint.pad .figcaption {
 	padding-left: 0;
 	padding-right: 0
@@ -79,7 +91,7 @@ body main section.diagram.gg.singular .modules {
 	body main h3,
 	body main p,
 	body main table,
-	body main hgroup,
+	body main .hgroup,
 	body main .figcaption,
 	body main section.diagram.gg.sitemap,
 	body main section.diagram.gg.singular .modules {
@@ -101,21 +113,21 @@ body main section.diagram.gg.singular .modules {
 		padding-right: var(--spacerB);
 	}
 
-	.segment.type.chart hgroup,
+	.segment.type.chart .hgroup,
 	.segment.type.chart .figcaption,
-	.segment.code.chart hgroup,
+	.segment.code.chart .hgroup,
 	.segment.code.chart .figcaption,
-	.segment.blueprint.pad.chart hgroup,
+	.segment.blueprint.pad.chart .hgroup,
 	.segment.blueprint.pad.chart .figcaption {
 		padding-left: 0;
 		padding-right: 0
 	}
 
-	.segment.type hgroup,
+	.segment.type .hgroup,
 	.segment.type .figcaption,
-	.segment.code hgroup,
+	.segment.code .hgroup,
 	.segment.code .figcaption,
-	.segment.blueprint.pad hgroup,
+	.segment.blueprint.pad .hgroup,
 	.segment.blueprint.pad .figcaption {
 		padding: 0
 	}
@@ -124,7 +136,6 @@ body main section.diagram.gg.singular .modules {
 		padding-left: var(--spacerB);
 	}
 }
-
 
 
 .intro{
@@ -327,13 +338,14 @@ ul.menu li .segment.type.work {
 
 
 
-
 .blockquote + .citation{
-	// background: yellow;
 	padding-top: var(--spacer5);
 }
 
 
+a.plain.cta{
+	margin-top: 28px;
+}
 
 
 .band.js.hr {

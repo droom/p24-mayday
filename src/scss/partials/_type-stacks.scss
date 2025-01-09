@@ -16,6 +16,8 @@ html,
 body {
 	}
 
+.ref,
+.cta,
 .table,
 .entity,
 .figcaption,
@@ -39,11 +41,7 @@ body {
 
 
 .intro{
-	// font-family: var(--med);
 	font-family: var(--reg);
-	// font-weight: 400;
-
-
 }
 
 
@@ -55,12 +53,14 @@ body {
 	font-family: var(--regIta);
 }
 
+.inline-list{
+	font-family: var(--reg);
+}
+
 
 
 .logomark{
-	// font-family: var(--med);
 	font-family: var(--reg);
-	// font-weight: 600;
 	font-size: 17px;
 	text-transform: lowercase;
 	font-variant: small-caps;
@@ -74,14 +74,6 @@ body {
 
 .menu .date{
 	font-family: var(--reg);
-	// font-family: var(--regIta);
-
-	// font-variant: normal;
-	// font-style: italic;
-		// text-transform: lowercase;
-	// font-variant: small-caps;
-	font-variant-numeric: oldstyle-nums;
-	// font-family: spectral, monospace;
 }
 
 
@@ -89,7 +81,7 @@ p{
 	font-family: var(--reg);
 }
 
-p em{
+em{
 	font-family: var(--regIta);
 }
 

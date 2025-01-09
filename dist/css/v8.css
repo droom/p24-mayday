@@ -250,8 +250,9 @@ footer ol li:nth-child(2) {
 body main p,
 body main h2,
 body main h3,
-body main blockquote,
-body main cite {
+body main .inline-list,
+body main .blockquote,
+body main .citation {
   margin: auto;
 }
 
@@ -259,22 +260,16 @@ body main p,
 body main h2,
 body main h3,
 body main table,
-body main blockquote,
-body main cite {
+body main .inline-list,
+body main .blockquote,
+body main .citation {
   max-width: 710px;
 }
 
-body main p,
-body main h2,
-body main h3,
-body main table,
-body main hgroup,
-body main figcaption,
-body main blockquote,
-body main section.diagram.gg.singular .modules {
-  padding-left: 28px;
-  padding-right: 28px;
-}
+
+
+
+
 
 .segment {
   margin: auto;

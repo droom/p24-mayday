@@ -17,8 +17,10 @@
 body main p,
 body main h2,
 body main h3,
-body main blockquote,
-body main cite {
+body main table,
+body main .inline-list,
+body main .blockquote,
+body main .citation {
 	margin: auto;
 }
 
@@ -26,8 +28,9 @@ body main p,
 body main h2,
 body main h3,
 body main table,
-body main blockquote,
-body main cite {
+body main .inline-list,
+body main .blockquote,
+body main .citation {
 	max-width: 710px;
 }
 
@@ -415,9 +418,6 @@ figure .flex .unit:nth-child(2) {
 html.js .band.js.hr {
 	display: none
 }
-
-
-
 
 
 /* v9 overrrides to be folded in */

@@ -518,66 +518,6 @@ a.cta:hover {
   background: #fff;
 }
 
-a.plain.cta {
-  margin-top: 28px;
-}
-
-a.move {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  border: none;
-}
-
-a.move.move-left,
-a.move.move-return,
-a.move.move-top {
-  left: 0;
-}
-
-a.move.move-return,
-a.move.move-top {
-  width: 100%;
-}
-
-a.move.move-left,
-a.move.move-right {
-  width: 50%;
-}
-
-a.move.move-left:hover,
-a.move.move-right:hover {
-  background: none;
-}
-
-a.move.move-left:hover {
-  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSIzNy4zMzQiIHZpZXdCb3g9Ijc4LjA2NiA5My41MjEgNDAgMzcuMzM0Ij48cGF0aCBmaWxsPSIjMkMyMjI1IiBkPSJNNzguMDY2IDExMi4xMWwyMC42MDgtMTguNTkuMDQuMDUyLjAyLS4wMi45NyAxLjE5NCAxLjUwNSAxLjc4My0uMDMuMDI3LjAzLjAzNy0xNS4zODQgMTMuNjEyaDMyLjI0djQuMjNIODYuMjJsMTQuOTkgMTMuMi0uMTEyLjEzNy4xMS4wOTctMi41MzQgMi45ODUtMjAuNjA2LTE4LjY3NXYtLjA3Ii8+PC9zdmc+"), w-resize;
-}
-
-a.move.move-right {
-  right: 0;
-}
-
-a.move.move-right:hover {
-  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSIzNy4zMzQiIHZpZXdCb3g9Ijc4LjA2NiA5My41MjIgNDAgMzcuMzM0Ij48cGF0aCBmaWxsPSIjMkMyMjI1IiBkPSJNMTE4LjA2NiAxMTIuMjY3bC0yMC42MDYgMTguNTktLjA0LS4wNS0uMDIuMDE4LS45NzItMS4xOTMtMS41MDQtMS43OC4wMy0uMDI3LS4wMy0uMDQgMTUuMzgzLTEzLjYxaC0zMi4yNHYtNC4yM2gzMS44NDZsLTE0Ljk5LTEzLjIuMTEtLjE0LS4xMS0uMDk4IDIuNTM3LTIuOTg1IDIwLjYwNCAxOC42Nzd2LjA2OCIvPjwvc3ZnPg=="), e-resize;
-}
-
-a.move.move-return {
-  right: 0;
-}
-
-a.move.move-return:hover {
-  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOS41MDEiIGhlaWdodD0iMjcuMjY1IiB2aWV3Qm94PSIwIDAgMjkuNTAxIDI3LjI2NSI+PHBhdGggZmlsbD0iIzJDMjIyNSIgZD0iTTEwLjAyNSAyNS4yOFY4LjYzN2w2LjYxIDcuMjEuMDE3LS4wMTUuMDEzLjAxNS44NjYtLjcwNC41OC0uNDU0LS4wMDgtLjAxLjAyNC0uMDJMOS4xMDIgNWgtLjAzNkwwIDE0LjY1NmwxLjQ1IDEuMTg4LjA0OC0uMDUuMDY2LjA1IDYuNDEtNy4wMjJ2MTguNDQzaDIuMDUiLz48L3N2Zz4="), n-resize;
-}
-
-a.move.move-top {
-  right: 0;
-}
-
-a.move.move-top:hover {
-  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOC4xMjUiIGhlaWdodD0iMjUuODU5IiB2aWV3Qm94PSIwIDEuNDA2IDE4LjEyNSAyNS44NTkiPjxwYXRoIGZpbGw9IiMyQzIyMjUiIGQ9Ik0xMC4wMjUgMjUuMjhWOC42MzZsNi42MSA3LjIxLjAxNy0uMDE0LjAxMy4wMTQuODY3LS43MDMuNTgtLjQ1NC0uMDEtLjAxLjAyMy0uMDJMOS4xMDIgNWgtLjAzNkwwIDE0LjY1NmwxLjQ1IDEuMTg4LjA0OC0uMDUuMDY2LjA1IDYuNDEtNy4wMjJ2MTguNDQzaDIuMDVtOC4xLTIzLjgwN1YxLjQwNkgwdjIuMDUyIi8+PC9zdmc+"), n-resize;
-}
-
 .band.hr.relative.pager .segment.type a:hover {
   background: linear-gradient(90deg, rgba(124, 203, 150, 0.5) 0%, rgba(173, 235, 151, 0.4) 100%);
 }
@@ -639,15 +579,12 @@ pre ::selection {
   opacity: 0.4;
 }
 
-.segment.surface label,
-.segment.surface ul,
-.segment.surface ol,
-.segment.surface li {
+.segment.surface label {
   color: #2e4dd2;
 }
 
-.segment.blueprint hgroup,
 .segment.blueprint label,
+.segment.blueprint .hgroup,
 .segment.blueprint .figcaption,
 .segment.blueprint .figcaption a,
 .segment.blueprint ul li,
@@ -695,6 +632,8 @@ body.work.iso .band.head {
   --boldIta:	"HeldaneText-BoldItalic", monospace;
 }
 
+.ref,
+.cta,
 .table,
 .entity,
 .figcaption,
@@ -727,6 +666,10 @@ body.work.iso .band.head {
   font-family: var(--regIta);
 }
 
+.inline-list {
+  font-family: var(--reg);
+}
+
 .logomark {
   font-family: var(--reg);
   font-size: 17px;
@@ -742,142 +685,27 @@ body.work.iso .band.head {
 
 .menu .date {
   font-family: var(--reg);
-  font-variant-numeric: oldstyle-nums;
 }
 
 p {
   font-family: var(--reg);
 }
 
-p em {
+em {
   font-family: var(--regIta);
 }
 
-.logomark .apple {
-  display: inline;
+body {
+  font-variant-numeric: oldstyle-nums slashed-zero stacked-fractions;
 }
 
-@media (max-width: 500px) {
-  .logomark .apple {
-    display: none;
-  }
-}
-.h1, .h2, .h3, .h4, .h5, .h6,
-.hgroup, .intro, .nav, .citation {
-  font-style: normal;
-  font-weight: normal;
-}
-
-.hgroup {
-  font-size: 20px;
-  line-height: 25px;
+.sc {
+  text-transform: lowercase;
+  font-variant: small-caps;
 }
 
 .h1 {
-  font-size: 44px;
-  line-height: 48px;
-}
-
-@media (max-width: 500px) {
-  .h1 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-}
-.h2 {
-  font-size: 32px;
-  line-height: 40px;
-}
-
-@media (max-width: 500px) {
-  .h2 {
-    font-size: 22px;
-    line-height: 28px;
-  }
-}
-.h3 {
-  font-size: 22px;
-  line-height: 28px;
-}
-
-.h4, .h5, .h6 {
-  font-size: 15px;
-  line-height: 19px;
-}
-
-.menu .date {
-  font-size: 16px;
-}
-
-.figcaption {
-  font-size: 0.8rem;
-  line-height: 1.1rem;
-}
-
-.intro {
-  font-size: 35px;
-  line-height: 42px;
-  padding-bottom: 45px;
-}
-
-@media (max-width: 750px) {
-  .intro {
-    font-size: 30px;
-    line-height: 36px;
-  }
-}
-@media (max-width: 500px) {
-  .intro {
-    font-size: 26px;
-    line-height: 32px;
-  }
-}
-.nav {
-  font-size: 15px;
-  line-height: 19px;
-}
-
-table,
-th,
-td,
-p {
-  line-height: 1.7rem;
-  font-size: 1.2rem;
-}
-
-@media (max-width: 500px) {
-  table,
-  th,
-  td {
-    font-size: 0.8rem;
-    line-height: 1.28rem;
-  }
-}
-dl,
-label,
-small,
-sup,
-cite {
-  font-size: 0.8rem;
-  line-height: 1.28rem;
-}
-
-dl,
-dd,
-dt {
-  vertical-align: top;
-}
-
-.credits dl {
-  font-weight: 400;
-}
-
-.credits dt {
-  font-weight: 700;
-}
-
-.citation {
-  display: block;
+  margin-left: -0.045em;
 }
 
 .entity {
@@ -937,8 +765,151 @@ nav .scope {
   word-break: break-word;
 }
 
+.blockquote::before {
+  content: "“";
+}
+
+.blockquote.hang {
+  position: relative;
+}
+
+.blockquote.hang::before {
+  position: absolute;
+  content: "“";
+  margin-left: -0.5em;
+}
+
+.blockquote::after {
+  content: "”";
+}
+
+.logomark .apple {
+  display: inline;
+}
+
+@media (max-width: 500px) {
+  .logomark .apple {
+    display: none;
+  }
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+.hgroup, .intro, .nav, .citation {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.hgroup {
+  font-size: 20px;
+  line-height: 25px;
+}
+
 .h1 {
-  margin-left: -0.045em;
+  font-size: 44px;
+  line-height: 48px;
+}
+
+@media (max-width: 500px) {
+  .h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media (max-width: 500px) {
+  .h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.h4, .h5, .h6 {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.menu .date {
+  font-size: 16px;
+}
+
+.ref,
+.figcaption {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+
+.intro {
+  font-size: 35px;
+  line-height: 42px;
+  padding-bottom: 45px;
+}
+
+@media (max-width: 750px) {
+  .intro {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 500px) {
+  .intro {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+.nav {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+table,
+th,
+td,
+p,
+.inline-list {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+  table,
+  th,
+  td {
+    font-size: 0.8rem;
+    line-height: 1.28rem;
+  }
+}
+dl,
+label,
+small,
+sup,
+cite {
+  font-size: 0.8rem;
+  line-height: 1.28rem;
+}
+
+dl,
+dd,
+dt {
+  vertical-align: top;
+}
+
+.credits dl {
+  font-weight: 400;
+}
+
+.credits dt {
+  font-weight: 700;
+}
+
+.citation {
+  display: block;
 }
 
 :root {
@@ -963,9 +934,11 @@ body main p,
 body main h2,
 body main h3,
 body main table,
-body main hgroup,
+body main .hgroup,
 body main .figcaption,
-body main blockquote,
+body main .blockquote,
+body main .citation,
+body main .inline-list,
 body main section.diagram.gg.singular .modules {
   padding-left: var(--spacerA);
   padding-right: var(--spacerA);
@@ -981,25 +954,25 @@ body main section.diagram.gg.singular .modules {
 .segment.swatch.chart,
 .segment.type.chart,
 .segment.blueprint.pad.chart {
-  padding-left: 10px;
-  padding-left: 10px;
+  padding-left: var(--spacer2);
+  padding-right: var(--spacer2);
 }
 
-.segment.swatch.chart hgroup,
+.segment.swatch.chart .hgroup,
 .segment.swatch.chart .figcaption,
-.segment.type.chart hgroup,
+.segment.type.chart .hgroup,
 .segment.type.chart .figcaption,
-.segment.blueprint.pad.chart hgroup,
+.segment.blueprint.pad.chart .hgroup,
 .segment.blueprint.pad.chart .figcaption {
-  padding-left: 18px;
-  padding-left: 18px;
+  padding-left: var(--spacer4);
+  padding-right: var(--spacer4);
 }
 
-.segment.swatch hgroup,
+.segment.swatch .hgroup,
 .segment.swatch .figcaption,
-.segment.type hgroup,
+.segment.type .hgroup,
 .segment.type .figcaption,
-.segment.blueprint.pad hgroup,
+.segment.blueprint.pad .hgroup,
 .segment.blueprint.pad .figcaption {
   padding-left: 0;
   padding-right: 0;
@@ -1010,7 +983,7 @@ body main section.diagram.gg.singular .modules {
   body main h3,
   body main p,
   body main table,
-  body main hgroup,
+  body main .hgroup,
   body main .figcaption,
   body main section.diagram.gg.sitemap,
   body main section.diagram.gg.singular .modules {
@@ -1029,20 +1002,20 @@ body main section.diagram.gg.singular .modules {
     padding-left: var(--spacerB);
     padding-right: var(--spacerB);
   }
-  .segment.type.chart hgroup,
+  .segment.type.chart .hgroup,
   .segment.type.chart .figcaption,
-  .segment.code.chart hgroup,
+  .segment.code.chart .hgroup,
   .segment.code.chart .figcaption,
-  .segment.blueprint.pad.chart hgroup,
+  .segment.blueprint.pad.chart .hgroup,
   .segment.blueprint.pad.chart .figcaption {
     padding-left: 0;
     padding-right: 0;
   }
-  .segment.type hgroup,
+  .segment.type .hgroup,
   .segment.type .figcaption,
-  .segment.code hgroup,
+  .segment.code .hgroup,
   .segment.code .figcaption,
-  .segment.blueprint.pad hgroup,
+  .segment.blueprint.pad .hgroup,
   .segment.blueprint.pad .figcaption {
     padding: 0;
   }
@@ -1222,6 +1195,10 @@ ul.menu li .segment.type.work {
 }
 .blockquote + .citation {
   padding-top: var(--spacer5);
+}
+
+a.plain.cta {
+  margin-top: 28px;
 }
 
 .band.js.hr {
@@ -1559,6 +1536,10 @@ ul.menu li:last-child {
   border-top: 1px solid rgba(0, 0, 0, 0.14);
 }
 
+.hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
 .pager {
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
 }
@@ -1581,6 +1562,10 @@ ul.menu li:last-child {
 
 .soft {
   border-radius: 0.15em;
+}
+
+.profile main {
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
 }
 
 .multiply {
@@ -1610,14 +1595,14 @@ ul.menu li {
 
 ul.menu li a.plain:focus > .segment.type.work,
 ul.menu li a.plain:hover > .segment.type.work {
-  background-position: 98% 17px;
+  background-position: 98% 22px;
 }
 
 ul.menu li a.plain .segment.work {
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjBweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSI2OC4wNjYgNzQuODU1IDYwIDU2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDY4LjA2NiA3NC44NTUgNjAgNTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBvbHlnb24gZmlsbD0iIzJDMjIyNSIgcG9pbnRzPSIxMjguMDY2LDEwMi45NzEgOTcuMTU3LDEzMC44NTUgOTcuMDk1LDEzMC43ODEgOTcuMDY1LDEzMC44MDggOTUuNjA5LDEyOS4wMTkgOTMuMzUzLDEyNi4zNDUgDQoJCTkzLjM5NywxMjYuMzA1IDkzLjM1MywxMjYuMjQ4IDExNi40MjcsMTA1LjgyOSA2OC4wNjYsMTA1LjgyOSA2OC4wNjYsOTkuNDg2IDExNS44MzQsOTkuNDg2IDkzLjM1Myw3OS42ODggOTMuNTIsNzkuNDc4IA0KCQk5My4zNTMsNzkuMzMzIDk3LjE1Nyw3NC44NTUgMTI4LjA2NCwxMDIuODY5IDEyOC4wNjQsMTAyLjk3MSAxMjguMDY2LDEwMi45NzEgCSIvPg0KPC9nPg0KPC9zdmc+DQo=");
+  background-image: url(../img/components/arrow-nav-next-03.svg);
   background-repeat: no-repeat;
   background-size: 25px;
-  background-position: 95% 17px;
+  background-position: 95% 22px;
   transition: 300ms background-position ease, 300ms opacity ease;
 }
 
@@ -1890,19 +1875,75 @@ a {
     animation-delay: 250ms;
   }
 }
-nav ol {
+.nav ol {
   display: block;
   width: 100%;
 }
 
-nav ol li {
+.nav ol li {
   width: 50%;
   vertical-align: top;
   display: inline-block;
 }
 
-nav ol li:nth-child(2) {
+.nav ol li:nth-child(2) {
   float: right;
+}
+
+a.move {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border: none;
+}
+
+a.move.move-left,
+a.move.move-return,
+a.move.move-top {
+  left: 0;
+}
+
+a.move.move-return,
+a.move.move-top {
+  width: 100%;
+}
+
+a.move.move-left,
+a.move.move-right {
+  width: 50%;
+}
+
+a.move.move-left:hover,
+a.move.move-right:hover {
+  background: none;
+}
+
+a.move.move-left:hover {
+  cursor: w-resize;
+}
+
+a.move.move-right {
+  right: 0;
+}
+
+a.move.move-right:hover {
+  cursor: e-resize;
+}
+
+a.move.move-return {
+  right: 0;
+}
+
+a.move.move-return:hover {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOS41MDEiIGhlaWdodD0iMjcuMjY1IiB2aWV3Qm94PSIwIDAgMjkuNTAxIDI3LjI2NSI+PHBhdGggZmlsbD0iIzJDMjIyNSIgZD0iTTEwLjAyNSAyNS4yOFY4LjYzN2w2LjYxIDcuMjEuMDE3LS4wMTUuMDEzLjAxNS44NjYtLjcwNC41OC0uNDU0LS4wMDgtLjAxLjAyNC0uMDJMOS4xMDIgNWgtLjAzNkwwIDE0LjY1NmwxLjQ1IDEuMTg4LjA0OC0uMDUuMDY2LjA1IDYuNDEtNy4wMjJ2MTguNDQzaDIuMDUiLz48L3N2Zz4="), n-resize;
+}
+
+a.move.move-top {
+  right: 0;
+}
+
+a.move.move-top:hover {
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOC4xMjUiIGhlaWdodD0iMjUuODU5IiB2aWV3Qm94PSIwIDEuNDA2IDE4LjEyNSAyNS44NTkiPjxwYXRoIGZpbGw9IiMyQzIyMjUiIGQ9Ik0xMC4wMjUgMjUuMjhWOC42MzZsNi42MSA3LjIxLjAxNy0uMDE0LjAxMy4wMTQuODY3LS43MDMuNTgtLjQ1NC0uMDEtLjAxLjAyMy0uMDJMOS4xMDIgNWgtLjAzNkwwIDE0LjY1NmwxLjQ1IDEuMTg4LjA0OC0uMDUuMDY2LjA1IDYuNDEtNy4wMjJ2MTguNDQzaDIuMDVtOC4xLTIzLjgwN1YxLjQwNkgwdjIuMDUyIi8+PC9zdmc+"), n-resize;
 }
 
 #top nav .flex li.unit:nth-child(1) {
@@ -5011,8 +5052,10 @@ section.breadcrumb hr {
 body main p,
 body main h2,
 body main h3,
-body main blockquote,
-body main cite {
+body main table,
+body main .inline-list,
+body main .blockquote,
+body main .citation {
   margin: auto;
 }
 
@@ -5020,8 +5063,9 @@ body main p,
 body main h2,
 body main h3,
 body main table,
-body main blockquote,
-body main cite {
+body main .inline-list,
+body main .blockquote,
+body main .citation {
   max-width: 710px;
 }
 

@@ -48,7 +48,7 @@
 	font-size: 16px;
 }
 
-
+.ref,
 .figcaption{
 	font-size: .8rem;
 	line-height: 1.1rem;
@@ -93,7 +93,9 @@
 table,
 th,
 td,
-p {
+p,
+.inline-list
+ {
 	line-height: 1.7rem;
 	font-size: 1.2rem;
 }
@@ -136,70 +138,4 @@ dt {
 
 .citation{
 	display: block;
-}
-
-
-
-// ADJUSTMENTS
-
-
-.entity {
-	font-weight: 400;
-	vertical-align: bottom;
-	text-rendering: optimizeLegibility;
-}
-
-.slash {
-	padding: 0.15em
-}
-
-.align-l {
-	text-align: left
-}
-
-.align-r {
-	text-align: right;
-}
-
-.align-c {
-	text-align: center;
-	margin: auto;
-}
-
-.ndash {
-	position: relative;
-	top: -0.09em;
-	padding: 0 .1em
-}
-
-nav .scope {
-	display: inline
-}
-
-.scope {
-	display: block
-}
-
-.br {
-	display: block
-}
-
-.prise {
-	letter-spacing: .055em
-}
-
-.prise-small {
-	letter-spacing: .03em
-}
-
-.caps {
-	text-transform: uppercase
-}
-
-.break {
-	word-break: break-word
-}
-
-.h1 {
-	margin-left: -0.045em;
 }

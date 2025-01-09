@@ -43,15 +43,16 @@ pre ::selection {
 	opacity: .4
 }
 
-.segment.surface label,
-.segment.surface ul,
-.segment.surface ol,
-.segment.surface li {
+.segment.surface label
+// .segment.surface ul,
+// .segment.surface ol,
+// .segment.surface li 
+{
 	color: #2e4dd2
 }
 
-.segment.blueprint hgroup,
 .segment.blueprint label,
+.segment.blueprint .hgroup,
 .segment.blueprint .figcaption,
 .segment.blueprint .figcaption a,
 .segment.blueprint ul li,
