@@ -1,0 +1,621 @@
+/**
+ * Made by Chris Droom / Portfolio 2010
+ * http://www.chrisdroom.com
+ *
+ * chrisdroom.css
+ * 02.10.10
+ * Version 1.5
+ * Transitional
+ *
+ */
+/** GLOBALS & RESETS **/
+
+
+@charset "UTF-8";
+
+
+
+body {
+    font-size: 62.5%;
+    background: #F5F5F5 url(../img/assets/background/noise.png);
+}
+body,
+h1,
+hr,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: none;
+}
+p,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    color: #333333;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+td,
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.55em;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+h1 {
+    font-size: 2em;
+    color: #333;
+    font-weight: lighter;
+}
+h2 {
+    padding: 0 0 14px 0;
+    font-size: 5.8em;
+    font-style: italic;
+    letter-spacing: -0.04em;
+    font-weight: lighter;
+}
+h3 {
+    font-size: 2.7em;
+    font-weight: lighter;
+    padding: 8px 0 3px 8px;
+}
+h4 {
+    font-size: 1.7em;
+    font-weight: 400;
+    padding: 2px 0 10px 0;
+}
+h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0 0 9px 0;
+    margin: -10px -2px;
+    letter-spacing: 0em;
+}
+h6 {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+ul {
+    text-decoration: none;
+    display: inline;
+}
+
+
+
+.lowercase {
+    text-transform: lowercase;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.logoBy {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+.infoContact {
+    line-height: 0.4em;
+}
+/** DIVISIONS **/
+
+#main {
+    margin: 10% 0;
+}
+#topBar {
+    height: 100px;
+    width: 100%;
+    margin-top: -14px;
+}
+#tophr {
+    border: none;
+    height: 14px;
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+}
+#infoContact {
+    margin: 0px;
+    padding: 35px 0 0 0;
+    float: right;
+    text-align: right;
+}
+#infoContact a {
+    color: #333333;
+    text-decoration: none
+}
+#infoContact a:hover {
+    color: #999900;
+    text-decoration: underline;
+}
+#naviMenu {
+    margin: 0;
+    padding: 0;
+}
+#badge {
+    float: right;
+    clear: none;
+}
+#badge img {
+    border: none;
+    padding: 5px 10px 0 0;
+}
+#badge a {
+    text-decoration: none;
+}
+
+
+/* DIVISIONS > COLUMNS */
+
+#colWrap {
+    margin: 0 105px;
+    width: 800px;
+}
+.colLeft {
+    width: 227px;
+    float: left;
+    margin: 0px;
+}
+.colLeft h2 {
+    line-height: 1em;
+}
+.indexStrap {
+    padding: 0 0 0 0px;
+}
+.indexStrap h2 {
+    line-height: 1em;
+}
+#colMiddleIndex {
+    float: left;
+    width: 230px;
+    padding: 25px 0 0 0;
+    margin: 0 0 0 288px;
+}
+#colMiddleIndex p {
+    line-height: 1.7em;
+}
+#colRightIndex {
+    float: right;
+    width: 230px;
+    padding: 25px 0 0 0;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+#colHero {
+    width: 100%;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+#colHero .small {
+    padding: 5px 0 0 228px;
+}
+#colMiddle {
+    float: left;
+    width: 230px;
+    padding: 0px 0 45px 0;
+    margin-left: 63px;
+    margin-top: 50px;
+    clear: right;
+}
+#colMiddle p {
+    padding: 0 0 20px 0;
+    margin: 0;
+    line-height: 1.7em;
+    text-align: left;
+}
+#colRight {
+    float: right;
+    width: 230px;
+    padding: 26px 0 45px 0;
+    margin-top: 0px;
+    text-align: left;
+    vertical-align: top;
+    clear: none;
+}
+#colRight p {
+    padding: 0 0 20px 0;
+    margin: 0;
+    vertical-align: top;
+    line-height: 1.7em;
+    text-align: left;
+    font-size: 1.1em;
+}
+#colRight hr {
+    background-color: #999999;
+    height: 1px;
+}
+#colRight h4 {
+    padding: 10px 0 3px 0;
+    margin: 0;
+    border-bottom: #333 1px solid;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+#colRight li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+    font-size: 1em;
+    list-style: circle;
+}
+#colRight li.lastEntry {
+    padding: 0 0 12px 0;
+}
+.colWork {
+    float: right;
+    width: 514px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+.colWork img {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.colEditorial {
+    float: right;
+    width: 526px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    clear: both;
+}
+.colEditorial img {
+    margin: 0;
+    float: left;
+}
+.colWorkLeader {
+    float: right;
+    width: 728px;
+    margin: 0;
+    padding: 0;
+}
+.colWorkIndex {
+    float: right;
+    clear: none;
+    width: 514px;
+    margin: 0;
+    padding: 37px 0 50px 0;
+    text-align: left;
+}
+.colAboutImg {
+    float: right;
+    clear: both;
+    width: 514px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.colAboutImg img {
+    margin-left: -13px;
+}
+.colWorkMPU {
+    float: right;
+    clear: both;
+    width: 514px;
+    margin: 0;
+    padding: 0;
+}
+.colWorkShadow {
+    float: right;
+    clear: both;
+    width: 514px;
+    padding: 0;
+    clear: both;
+}
+.colWorkShadow img {
+    margin-left: -16px;
+}
+.colWorkInfo {
+    float: left;
+    text-align: left;
+    width: 230px;
+    margin: 0 0 0 290px;
+    padding: 8px 0 50px 0;
+    vertical-align: top;
+}
+.colWorkInfo p {
+    margin: 0;
+    padding: 0;
+}
+.colWorkInfo h6 {
+    margin: 0;
+    padding: 6px 0 4px 0;
+    line-height: 1em;
+}
+.colWorkFurther {
+    float: right;
+    width: 230px;
+    margin: 0;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 32px 0 50px 0;
+}
+.colWorkFurther li {
+    line-height: 1.2em;
+    list-style: circle;
+}
+.colWorkBanner {
+    width: 514px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+/* HANGING PUNCTUATION */
+
+.quoteBlock {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+.quoteOpen {
+    margin-left: -0.5em;
+    padding: 2px 2px 0 0;
+    font-size: 1.4em;
+}
+.quoteByline {
+    font-size: 0.9em;
+    color: #666666;
+    text-align: right;
+    display: block;
+    padding: 4px 0 16px 0;
+    margin: -16px 0;
+    line-height: 1.5em;
+}
+.quoteReference {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.4em;
+    line-height: 1.35em;
+    margin: 0;
+    padding: 0;
+}
+.bracketOpen {
+    margin-left: -4px;
+    padding: 0;
+}
+/* LINKS */
+
+a {
+    text-decoration: underline;
+}
+a:link {
+    color: #333333;
+}
+a:visited {
+    color: #333333;
+}
+a:hover {
+    text-decoration: underline;
+    color: #999900;
+}
+#contact {
+    padding: 0;
+    position: absolute;
+    top: 14px;
+    left: 799px;
+    width: 200px;
+}
+/* MENU */
+
+ul.menu,
+ul.menu li,
+ul.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu {
+    float: left;
+}
+.menuNum {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 26px;
+    vertical-align: baseline;
+    display: block;
+}
+.menuReduce {
+    font-size: 17px;
+    vertical-align: baseline;
+}
+.georgia {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 26px;
+    vertical-align: baseline;
+    display: block;
+    margin: -23px 12px;
+    padding: 0 0 20px 0;
+}
+.reduce {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-shadow: 1px -1px 0px #cccccc;
+    font-size: 18px;
+    font-style: italic;
+    vertical-align: super;
+    vertical-align: middle;
+}
+ul.menu {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+ul.menu li {
+    float: left;
+    line-height: 1.2em;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 70px 0 10px 5px;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: #333;
+    color: #333;
+    width: 72px;
+}
+ul.menu a {
+    color: #333;
+    text-decoration: none;
+}
+ul.menu a:hover {
+    color: #999900;
+    text-decoration: none;
+}
+li.active {
+    background-image: url(../img/assets/navigation/active.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+/* RUNNERS */
+
+#infoRunner {
+    width: 800px;
+    clear: both;
+    padding: 60px 0 30px 0;
+}
+#infoRunner p {
+    line-height: 1.6em;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+#infoRunner li {
+    line-height: 1.6em;
+    font-size: 1em;
+}
+.infoFloat {
+    float: right;
+    width: 230px;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+.infoFloat a {
+    text-decoration: none;
+}
+.infoFloatPad {
+    padding: 15px 52px 90px 0;
+    margin: 0;
+}
+.infoFloat ul {
+    padding: 0;
+    margin: 0px;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333333;
+}
+
+/* FEATURED CONTENT */
+
+.feature {
+    float: right;
+    margin: 40px 0 20px 0;
+    width: 514px;
+    height: 300px;
+    text-align: left;
+}
+.feature h4 {
+    padding: 0 0 0 8px;
+}
+
+/* Work */
+
+.featureBeggars {
+    background: url(../img/covers/beggars.png);
+}
+.featureVM {
+    background: url(../img/covers/vm.png);
+}
+.featureBee {
+    background: url(../img/covers/bee.png);
+}
+
+/* School */
+
+.featureSSGB {
+    background: url(../img/covers/ssgb.png);
+}
+.featureGrammar {
+    background: url(../img/covers/grammar.png);
+}
+.featureBeadwork {
+    background: url(../img/covers/beadwork.png);
+}
+.featurePolitics {
+    background: url(../img/covers/politics.png);
+}
+
+.viewHolder {
+    width: 80px;
+    margin-top: 60px;
+    margin: auto;
+    padding-top: 50px;
+}
+/* MISC CLASSES */
+
+.strike {
+    text-decoration: line-through;
+}
+.grey {
+    color: #999999;
+}
+.archive {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 6px 0;
+    line-height: 1.4em;
+}
+.small {
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+.padright {
+    padding-right: 8px;
+}
+.smallgrey {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    line-height: 1em;
+}
+.copyOpen {
+    margin-left: -11px;
+    padding: 0;
+}

@@ -1,0 +1,54 @@
+/*@font-face {
+    font-family: 'GillSansMTRegular';
+    	src: url('../fonts/gillsansmt-webfont.eot');
+    	src: local('☺'), 
+    	url('../fonts/gillsansmt-webfont.woff') format('woff'), 
+    	url('../fonts/gillsansmt-webfont.ttf') format('truetype'), 
+    	url('../fonts/gillsansmt-webfont.svg#webfont57brE1ng') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+@font-face {
+    font-family: 'GillSansStdRegular';
+    src: url('../fonts/gillsansstd-webfont.eot');
+    src: local('☺'), url('../fonts/gillsansstd-webfont.woff') format('woff'), url('../fonts/gillsansstd-webfont.ttf') format('truetype'), url('../fonts/gillsansstd-webfont.svg#webfontQWWlf0CZ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DidotLTStdItalic';
+    	src: url('../fonts/didotltstd-italic-webfont.eot');
+    	src: local('☺'), 
+    	url('../fonts/didotltstd-italic-webfont.woff') format('woff'), 
+    	url('../fonts/didotltstd-italic-webfont.ttf') format('truetype'), 
+    	url('../fonts/didotltstd-italic-webfont.svg#webfontcJGAaXN9') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.GillSansMT {
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'GillSansMTRegular', sans-serif;
+    font-size-adjust: 0.45;
+}
+
+.GillSansStd {
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'GillSansStdRegular', sans-serif;
+    text-transform: uppercase;
+}
+
+.DidotLTStdItalic {
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'DidotLTStdItalic', sans-serif;
+    font-size-adjust: 0.44;
+}
+
