@@ -2,13 +2,19 @@ ul.menu li {
 	transition: background ease-out 50ms;
 }
 
-ul.menu li a.plain:focus>.segment.type.work,
-ul.menu li a.plain:hover>.segment.type.work {
+
+
+
+
+// Arrow
+
+
+ul.menu.arrow li a.plain:focus>.segment.type.work,
+ul.menu.arrow li a.plain:hover>.segment.type.work {
 	background-position: 98% 22px;
 }
 
-ul.menu li a.plain .segment.work {
-	// background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNjBweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSI2OC4wNjYgNzQuODU1IDYwIDU2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDY4LjA2NiA3NC44NTUgNjAgNTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBvbHlnb24gZmlsbD0iIzJDMjIyNSIgcG9pbnRzPSIxMjguMDY2LDEwMi45NzEgOTcuMTU3LDEzMC44NTUgOTcuMDk1LDEzMC43ODEgOTcuMDY1LDEzMC44MDggOTUuNjA5LDEyOS4wMTkgOTMuMzUzLDEyNi4zNDUgDQoJCTkzLjM5NywxMjYuMzA1IDkzLjM1MywxMjYuMjQ4IDExNi40MjcsMTA1LjgyOSA2OC4wNjYsMTA1LjgyOSA2OC4wNjYsOTkuNDg2IDExNS44MzQsOTkuNDg2IDkzLjM1Myw3OS42ODggOTMuNTIsNzkuNDc4IA0KCQk5My4zNTMsNzkuMzMzIDk3LjE1Nyw3NC44NTUgMTI4LjA2NCwxMDIuODY5IDEyOC4wNjQsMTAyLjk3MSAxMjguMDY2LDEwMi45NzEgCSIvPg0KPC9nPg0KPC9zdmc+DQo=");
+ul.menu.arrow li a.plain .segment.work {
 	background-image: url(../img/components/arrow-nav-next-03.svg);
 	background-repeat: no-repeat;
 	background-size: 25px;
@@ -52,19 +58,27 @@ ul.menu li a.plain .segment.work {
 
 
 
-ul.menu li .segment.work.grid{
+
+
+.segment.work.grid{
 	display: grid;
 	grid-gap: 7px;
 	grid-template-columns: 60px 1fr 1fr 1fr;
 	grid-template-rows: auto;
 }
 
-ul.menu li .segment.work.grid img{
+.segment.work.grid img{
 	width: 100%;
 	border-radius: 8px;
 }
 
-ul.menu li .segment.work.grid .thumb-1{
+.segment.work.grid small{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	margin-left: 10px;
+}
+
+.segment.work.grid .thumb-1{
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 2;
@@ -72,7 +86,7 @@ ul.menu li .segment.work.grid .thumb-1{
 	margin-top: 20px;
 }
 
-ul.menu li .segment.work.grid .thumb-2{
+.segment.work.grid .thumb-2{
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 2;
@@ -81,7 +95,7 @@ ul.menu li .segment.work.grid .thumb-2{
 }
 
 
-ul.menu li .segment.work.grid dl.project{
+.segment.work.grid dl.project{
 	grid-column-start: 2;
 	grid-column-end: 5;
 	grid-row-start: 1;
@@ -90,6 +104,6 @@ ul.menu li .segment.work.grid dl.project{
 
 }
 
-ul.menu li dd.date{
+dd.date{
 	margin-top: 5px;	
 }

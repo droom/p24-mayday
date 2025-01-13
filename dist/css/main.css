@@ -687,7 +687,7 @@ body.work.iso .band.head {
   font-family: var(--reg);
 }
 
-p {
+p, small {
   font-family: var(--reg);
 }
 
@@ -887,11 +887,15 @@ p,
 }
 dl,
 label,
-small,
 sup,
 cite {
   font-size: 0.8rem;
   line-height: 1.28rem;
+}
+
+small {
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 dl,
@@ -1193,6 +1197,10 @@ ul.menu li .segment.type.work {
     padding-bottom: 42px;
   }
 }
+.blurb {
+  margin-bottom: var(--spacer8);
+}
+
 .blockquote + .citation {
   padding-top: var(--spacer5);
 }
@@ -1593,12 +1601,12 @@ ul.menu li {
   transition: background ease-out 50ms;
 }
 
-ul.menu li a.plain:focus > .segment.type.work,
-ul.menu li a.plain:hover > .segment.type.work {
+ul.menu.arrow li a.plain:focus > .segment.type.work,
+ul.menu.arrow li a.plain:hover > .segment.type.work {
   background-position: 98% 22px;
 }
 
-ul.menu li a.plain .segment.work {
+ul.menu.arrow li a.plain .segment.work {
   background-image: url(../img/components/arrow-nav-next-03.svg);
   background-repeat: no-repeat;
   background-size: 25px;
@@ -1629,19 +1637,25 @@ ul.menu li a.plain .segment.work {
     display: inline;
   }
 }
-ul.menu li .segment.work.grid {
+.segment.work.grid {
   display: grid;
   grid-gap: 7px;
   grid-template-columns: 60px 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 
-ul.menu li .segment.work.grid img {
+.segment.work.grid img {
   width: 100%;
   border-radius: 8px;
 }
 
-ul.menu li .segment.work.grid .thumb-1 {
+.segment.work.grid small {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-left: 10px;
+}
+
+.segment.work.grid .thumb-1 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -1649,7 +1663,7 @@ ul.menu li .segment.work.grid .thumb-1 {
   margin-top: 20px;
 }
 
-ul.menu li .segment.work.grid .thumb-2 {
+.segment.work.grid .thumb-2 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -1657,14 +1671,14 @@ ul.menu li .segment.work.grid .thumb-2 {
   margin-top: 20px;
 }
 
-ul.menu li .segment.work.grid dl.project {
+.segment.work.grid dl.project {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
-ul.menu li dd.date {
+dd.date {
   margin-top: 5px;
 }
 

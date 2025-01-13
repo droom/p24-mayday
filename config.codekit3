@@ -17,6 +17,14 @@
       "oAP" : "\/dist\/about.html",
       "oF" : 0
     },
+    "\/dist\/archive.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/archive.html",
+      "oF" : 0
+    },
     "\/dist\/archive\/v6\/404.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4274,11 +4282,102 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v1.png" : {
+    "\/dist\/img\/portfolio\/atease-01.png" : {
+      "ft" : 32768,
+      "iS" : 1252508,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/atease-01.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/atease-02.png" : {
+      "ft" : 32768,
+      "iS" : 87307,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/atease-02.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/atease-03.png" : {
+      "ft" : 32768,
+      "iS" : 107757,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/atease-03.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/atease-04.png" : {
+      "ft" : 32768,
+      "iS" : 107757,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/atease-04.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/burst-01.png" : {
+      "ft" : 32768,
+      "iS" : 1405175,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/burst-01.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/burst-02.png" : {
+      "ft" : 32768,
+      "iS" : 15943,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/burst-02.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/chime.png" : {
+      "ft" : 32768,
+      "iS" : 263856,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/chime.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/icons\/v1.png" : {
       "ft" : 32768,
       "iS" : 641,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v1.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4287,11 +4386,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v2.png" : {
+    "\/dist\/img\/portfolio\/icons\/v2.png" : {
       "ft" : 32768,
       "iS" : 349,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v2.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4300,11 +4399,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v3.png" : {
+    "\/dist\/img\/portfolio\/icons\/v3.png" : {
       "ft" : 32768,
       "iS" : 463,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v3.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4313,11 +4412,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v4.png" : {
+    "\/dist\/img\/portfolio\/icons\/v4.png" : {
       "ft" : 32768,
       "iS" : 159,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v4.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4326,11 +4425,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v5.png" : {
+    "\/dist\/img\/portfolio\/icons\/v5.png" : {
       "ft" : 32768,
       "iS" : 456,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v5.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4339,11 +4438,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v6.png" : {
+    "\/dist\/img\/portfolio\/icons\/v6.png" : {
       "ft" : 32768,
       "iS" : 447,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v6.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4352,11 +4451,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v7.png" : {
+    "\/dist\/img\/portfolio\/icons\/v7.png" : {
       "ft" : 32768,
       "iS" : 332,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v7.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4365,14 +4464,66 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/portfolios\/v8.png" : {
+    "\/dist\/img\/portfolio\/icons\/v8.png" : {
       "ft" : 32768,
       "iS" : 452,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/portfolios\/v8.png",
+      "oAP" : "\/dist\/img\/portfolio\/icons\/v8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/knotty-01.png" : {
+      "ft" : 32768,
+      "iS" : 696051,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/knotty-01.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/knotty-03.png" : {
+      "ft" : 32768,
+      "iS" : 638620,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/knotty-03.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/mayday.png" : {
+      "ft" : 32768,
+      "iS" : 861639,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/mayday.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/portfolio\/survived.png" : {
+      "ft" : 32768,
+      "iS" : 1204071,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/portfolio\/survived.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -14072,21 +14223,13 @@
       "oAP" : "\/dist\/work-rice.html",
       "oF" : 0
     },
-    "\/src\/archive.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/archive.html",
-      "oF" : 0
-    },
     "\/src\/archive.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/archive.html",
-      "oF" : 0
+      "oAP" : "\/dist\/archive.html",
+      "oF" : 3
     },
     "\/src\/bugs\/_css _backdrop _filter\/backdrop-filter-01.jpg" : {
       "ft" : 16384,
@@ -14515,22 +14658,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/src\/partials\/_typesheet.html",
-      "oF" : 0
-    },
-    "\/src\/profile-backup.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/profile-backup.html",
-      "oF" : 0
-    },
-    "\/src\/profile-backup.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/profile-backup.html",
       "oF" : 0
     },
     "\/src\/profile.kit" : {
@@ -15017,19 +15144,6 @@
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_zindex.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/v8-print.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/css\/v8-print.css",
-      "oF" : 2,
       "oS" : 0,
       "pg" : 0
     },
